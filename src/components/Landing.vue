@@ -1,5 +1,5 @@
 <template>
-  <div class="hello">
+  <main role="main" property="mainContentOfPage" class="container">
     <h1 id="wb-cont" property="name">Content page</h1>
     <section>
     <h2>Heading&#32;2&#32;(<code>h2</code>)</h2>
@@ -111,7 +111,7 @@
     <dt>Date modified:&#32;</dt>
     <dd><time property="dateModified">2014-02-24</time></dd>
     </dl>
-  </div>
+  </main>
 </template>
 
 <script>
