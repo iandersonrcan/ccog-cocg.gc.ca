@@ -15,7 +15,7 @@
       li 
         a(href="static/logo.pdf") Logo Design
       li
-        a(href="https://github.com/hatfieldconsultants/ccog") Source Code on Github
+        a(href="https://github.com/hatfieldconsultants/ccog-cocg.gc.ca") Source Code on Github
     h2 Meeting Actions Log
     table.table.table-striped
       thead
