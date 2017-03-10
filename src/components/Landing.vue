@@ -1,147 +1,88 @@
-<template>
-  <main role="main" property="mainContentOfPage" class="container">
-    <h1 id="wb-cont" property="name">Content page</h1>
-    <section>
-    <h2>Heading&#32;2&#32;(<code>h2</code>)</h2>
-    <section>
-    <h3>Heading&#32;3&#32;(<code>h3</code>)</h3>
-    <section>
-    <h4>Heading&#32;4&#32;(<code>h4</code>)</h4>
-    <section>
-    <h5>Heading&#32;5&#32;(<code>h5</code>)</h5>
-    <section>
-    <h6>Heading&#32;6&#32;(<code>h6</code>)</h6>
-    <p>Paragraph - default appearance</p>
-    </section>
-    </section>
-    </section>
-    </section>
-    </section>
-    <p><a href="#">Link</a></p>
-    <ul>
-    <li>unordered list&#32;(<code>ul</code>) - level&#32;1
-    <ul>
-    <li>unordered list&#32;(<code>ul</code>) - level&#32;2
-    <ul>
-    <li>unordered list&#32;(<code>ul</code>) - level&#32;3</li>
-    </ul>
-    </li>
-    </ul>
-    </li>
-    </ul>
-    <ol>
-    <li>ordered list&#32;(<code>ol</code>) - level&#32;1</li>
-    <li>ordered list&#32;(<code>ol</code>) - level&#32;1
-    <ol>
-    <li>ordered list&#32;(<code>ol</code>) - level&#32;2</li>
-    <li>ordered list&#32;(<code>ol</code>) - level&#32;2
-    <ol>
-    <li>ordered list&#32;(<code>ol</code>) - level&#32;3</li>
-    <li>ordered list&#32;(<code>ol</code>) - level&#32;3</li>
-    </ol>
-    </li>
-    </ol>
-    </li>
-    </ol>
-    <table class="table table-striped">
-    <caption>Table caption</caption>
-    <thead>
-    <tr>
-    <th scope="col">Table header&#32;(<code>th</code>)</th>
-    <th scope="col">Table header&#32;(<code>th</code>)</th>
-    <th scope="col">Table header&#32;(<code>th</code>)</th>
-    <th scope="col">Table header&#32;(<code>th</code>)</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr>
-    <td>Table data&#32;(<code>td</code>)</td>
-    <td>Table data&#32;(<code>td</code>)</td>
-    <td>Table data&#32;(<code>td</code>)</td>
-    <td>Table data&#32;(<code>td</code>)</td>
-    </tr>
-    <tr>
-    <td>Table data&#32;(<code>td</code>)</td>
-    <td>Table data&#32;(<code>td</code>)</td>
-    <td>Table data&#32;(<code>td</code>)</td>
-    <td>Table data&#32;(<code>td</code>)</td>
-    </tr>
-    <tr>
-    <td>Table data&#32;(<code>td</code>)</td>
-    <td>Table data&#32;(<code>td</code>)</td>
-    <td>Table data&#32;(<code>td</code>)</td>
-    <td>Table data&#32;(<code>td</code>)</td>
-    </tr>
-    </tbody>
-    </table>
-    <form method="post" action="#" class="form-horizontal">
-    <div class="form-group">
-    <label for="data1" class="col-sm-3 control-label">Form&#32;<code>input</code></label>
-    <div class="col-sm-9">
-    <input type="text" id="data1" name="data1" class="form-control">
-    </div>
-    </div>
-    <div class="form-group">
-    <label for="data2" class="col-sm-3 control-label">Form&#32;<code>textarea</code></label>
-    <div class="col-sm-9">
-    <textarea id="data2" rows="3" cols="15" name="data2" class="form-control"></textarea>
-    </div>
-    </div>
-    <div class="form-group">
-    <label for="data4" class="col-sm-3 control-label">Form&#32;<code>select</code></label>
-    <div class="col-sm-9">
-    <select name="data4" id="data4" class="form-control">
-    <option value="1">Option&#32;1</option>
-    <option value="2">Option&#32;2</option>
-    <option value="3">Option&#32;3</option>
-    <option value="4">Option&#32;4</option>
-    </select>
-    </div>
-    </div>
-    <div class="form-group">
-    <div class="col-sm-offset-3 col-sm-9">
-    <button type="submit" class="btn btn-primary">Submit</button>
-    </div>
-    </div>
-    </form>
-    <blockquote>
-    <p>"<code>blockquote</code>"</p>
-    </blockquote>
-    <dl id="wb-dtmd">
-    <dt>Date modified:&#32;</dt>
-    <dd><time property="dateModified">2014-02-24</time></dd>
-    </dl>
-  </main>
+<template lang="pug">
+  main.container(role='main', property='mainContentOfPage')
+    h1 Canadian Council on Geomatics Website Redesign
+    ul
+      li
+        router-link(to="splash") Development Site Splash Page
+    h2 Links
+    ul
+      li 
+        a(href="static/war.pdf") Website Assessment Report
+      li 
+        a(href="static/ia.pdf") Information Architecture
+      li 
+        a(href="static/template.pdf") Template Design
+      li 
+        a(href="static/logo.pdf") Logo Design
+      li
+        a(href="https://github.com/hatfieldconsultants/ccog") Source Code on Github
+    h2 Meeting Actions Log
+    table.table.table-striped
+      thead
+        tr
+          th Open Date 
+          th Description
+          th Assigned To 
+          th Due Date 
+          th Completion
+      tbody
+        tr
+          td Mar 8
+          td review the catalogues of geomatics images that ST sent out and select candidates for inclusion on the website. Notify ST of the selections so she can provide appropriate citations. 
+          td AS 
+          td Mar 14
+          td OPEN
+        tr
+          td Mar 8
+          td setup a landing page with links to pertinent project documents and a link into the working copy of the development website 
+          td AS 
+          td Mar 14 
+          td Mar 10
+        tr
+          td Mar 8 
+          td provide a list of issues that are of interest to CCOG and descriptions that can be featured on the website 
+          td ST 
+          td Mar 14 
+          td Mar 10
+        tr
+          td Feb 15 
+          td provide a listing of organizational members for the membership page 
+          td ST 
+          td Mar 14 
+          td Mar 10
+        tr
+          td Feb 15
+          td provide a starting list of links for the datasets/resources directory 
+          td MB/ST 
+          td Feb 21 
+          td Feb 16
+        tr
+          td Feb 15 
+          td provide up to date Terms of Reference documents 
+          td ST 
+          td Feb 21
+          td Feb 15
+        tr
+          td Feb 15 
+          td provide any interesting images and media that we can incorporate into the site design, potentially from EO and Lidar sources 
+          td ST 
+          td Feb 21 
+          td Feb 24
+        tr
+          td Feb 15
+          td provide additional content like interesting case studies and partnerships to be featured 
+          td MB
+          td Feb 21 
+          td OPEN
+        tr
+          td Feb 15
+          td produce the website assessment report 
+          td AS 
+          td Feb 21 
+          td Feb 21 st
 </template>
 
-<script>
-export default {
-  name: 'hello',
-  data () {
-    return {
-      msg: 'Welcome to Your Vue.js App'
-    }
-  }
-}
-</script>
-
-<!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
-h1, h2 {
-  font-weight: normal;
-}
-
-ul {
-  list-style-type: none;
-  padding: 0;
-}
-
-li {
-  display: inline-block;
-  margin: 0 10px;
-}
-
-a {
-  color: #42b983;
-}
+<style lang="stylus">
+  td
+    max-width 200px
 </style>
