@@ -4,11 +4,13 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import App from './App'
 import Landing from './components/Landing'
+import Splash from './components/Splash'
 
 Vue.config.productionTip = false
 
 const routes = [
-  { path: '/', component: Landing }
+  { path: '/', component: Landing },
+  { path: '/splash', component: Splash }
 ]
 
 const router = new VueRouter({
