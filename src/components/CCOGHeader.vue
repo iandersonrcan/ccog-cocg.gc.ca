@@ -2,7 +2,7 @@
 header(role='banner')
   #wb-bnr
     #wb-bar
-      .container
+      .container-fluid
         .row
           section#wb-lng.visible-md.visible-lg
             h2 Language selection
@@ -21,7 +21,7 @@ header(role='banner')
                     span.glyphicon.glyphicon-th-list
                       span.wb-inv Search and menus
             #mb-pnl
-    .container
+    .container-fluid
       .row
         #wb-sttl.col-md-8
           img(src='/static/logo.png')
@@ -37,7 +37,7 @@ header(role='banner')
             |  
             button#wb-srch-sub.btn.btn-default(type='submit') Search
   nav#wb-sm.wb-menu.visible-md.visible-lg(role='navigation', data-ajax-replace='./ajax/sitemenu-en.html', data-trgt='mb-pnl', typeof='SiteNavigationElement')
-    .container.nvbar
+    .container-fluid.nvbar
       h2 Topics menu
       .row
         ul.list-inline.menu
@@ -66,7 +66,7 @@ export default {
     height 100px
     width 120px
 
-  #wb-bnr>.container
+  #wb-bnr>.container-fluid
     background white
 
   #wb-srch

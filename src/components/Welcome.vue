@@ -1,11 +1,8 @@
 <template lang="pug">
   div
     CCOGHeader
-    main.container(role='main', property='mainContentOfPage')
-      h1 Canadian Council on Geomatics Website Redesign
-      ul
-        li
-          router-link(to="splash") Development Site Splash Page
+    main.container-fluid(role='main', property='mainContentOfPage')
+      img#splash(src='/static/img/bg2.jpg')
     CCOGFooter
 </template>
 
@@ -25,6 +22,13 @@ export default {
 <style lang="stylus">
   body
     background none
+
+  main.container-fluid
+    padding 0
+
+  img#splash
+    width 100%
+    height 500px
 
   td
     max-width 200px
