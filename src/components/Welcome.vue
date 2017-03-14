@@ -3,7 +3,9 @@
     CCOGHeader
     main.container-fluid(role='main', property='mainContentOfPage')
       .welcome
-        div
+        .mask.top
+        .mask.bottom
+        .well 
           h1 Welcome to CCOG
           p The Canadian Council on Geomatics is the major federal-provincial-territorial consultative government body for geomatics. The council’s key objective is to advance geomatics activities between jurisdictions.  Council members come from the governments of Canada, the provinces and the territories. Council members usually represent their government’s major geomatics organizations.  
       h2 Vision
@@ -31,13 +33,29 @@ export default {
   main.container-fluid
     padding 0
 
-  .welcome
+  .mask
     width 100%
-    height 500px
+    background white
+    height 60px
+    border-radius 100% 100%
+    position relative
+
+  .top
+    top -71px
+    clip-path inset(50% 0% 0% 0%)
+
+  .bottom
+    top 521px
+    background white
+    clip-path inset(0% 0% 50% 0%)
+
+  .welcome
+    padding-top 40px
+    width 100%
+    height 650px
     background-image url('/static/img/bg2.jpg')
-    background-size 100% 500px
-    padding-top 100px
-    div 
+    background-size 100% 650px
+    .well
       padding 20px
       margin auto
       height 300px
@@ -46,4 +64,9 @@ export default {
 
   td
     max-width 200px
+
+  #wb-sm .nvbar
+    background black
+    ul.menu>li
+      border none
 </style>
