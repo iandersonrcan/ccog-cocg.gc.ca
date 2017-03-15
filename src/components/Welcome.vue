@@ -24,13 +24,20 @@
 
     main#partners.container-fluid
       .container
-        h1 Objectives
-        p The council’s key objective is to advance geomatics activities between jurisdictions.  Council members come from the governments of Canada, the provinces and the territories. Council members usually represent their government’s major geomatics organizations.  
-
-        h2 Vision
-        p Our vision is that Canadians and governments can access the best available geographic information to support informed decision making through interoperable systems and data that are maintained in an efficient and effective manner by all Canadian jurisdictions. 
-    CCOGFooter
-    
+        .row
+          .col-md-4
+            img(src='/static/img/bg4.png')
+            h3 Geomatics Accord
+            p The Canadian Geomatics Accord enables intergovernmental collaboration and cooperation on geospatial data sharing, setting of common geographical data standards, and sharing of costs for core national datasets. 
+          .col-md-4
+            img(src='/static/img/bg.jpg')
+            h3 Geomatics Accord
+            p The Canadian Geomatics Accord enables intergovernmental collaboration and cooperation on geospatial data sharing, setting of common geographical data standards, and sharing of costs for core national datasets. 
+          .col-md-4
+            img(src='/static/img/bg5.png')
+            h3 Geomatics Accord
+            p The Canadian Geomatics Accord enables intergovernmental collaboration and cooperation on geospatial data sharing, setting of common geographical data standards, and sharing of costs for core national datasets. 
+        
     main#publications.container-fluid
       .container
         .row
@@ -42,6 +49,8 @@
             .well
               h3 Environmental scan on the operational use of Remotely Piloted Aircraft Systems (RPAS) for geomatics applications in Canada
               a http://geoscan.nrcan.gc.ca/starweb/geoscan/servlet.starweb?path=geoscan/fulle.web&search1=R=299120
+
+    CCOGFooter
 </template>
 
 <script>
@@ -103,14 +112,20 @@ export default {
 
   #publications
     margin 0
+    height 400px
     background-image url('/static/img/foxe_basin.jpg')
     background-size 100% 700px
     color white
 
     .well
-      margin-top 20px
+      margin-top 120px
       color black
-      background-color rgba(255,255,255,0.7)
+      background-color rgba(242,182,50,0.8)
+
+  #partners
+    img
+      width 300px
+      height 200px
 
   td
     max-width 200px
