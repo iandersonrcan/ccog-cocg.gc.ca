@@ -5,8 +5,8 @@
       h1 Canadian Council on Geomatics Website Redesign
       ul
         li
-          router-link(to="splash") Development Site Splash Page
-      h2 Links
+          router-link(to="splash") Development Site
+      h2 Design Documents
       ul
         li 
           a(href="static/war.pdf") Website Assessment Report

@@ -17,12 +17,19 @@
         h2 Vision
         p Our vision is that Canadians and governments can access the best available geographic information to support informed decision making through interoperable systems and data that are maintained in an efficient and effective manner by all Canadian jurisdictions. 
 
-    main#members.container-fluid
-      .container
-        h1 Members
-        img(src='/static/img/partners.jpeg')
 
-    main#partners.container-fluid
+    main#vision.container-fluid
+      .container
+        blockquote 
+          h3 Canada is a leader in integrating geospatial data and making it publicly available for decision makers. This renewed Accord will continue to ensure we have the highest level of intergovernmental collaboration to maximize efficiency while bringing benefits to nearly every sector of the economy.
+        .text-right
+          | Greg Rickford
+          br
+          |  
+          cite Canada’s Minister of Natural Resources and Minister for the Federal
+          cite Economic Development Initiative for Northern Ontario 
+
+    main#accord.container-fluid
       .container
         .row
           .col-md-4
@@ -49,6 +56,11 @@
             .well
               h3 Environmental scan on the operational use of Remotely Piloted Aircraft Systems (RPAS) for geomatics applications in Canada
               a http://geoscan.nrcan.gc.ca/starweb/geoscan/servlet.starweb?path=geoscan/fulle.web&search1=R=299120
+
+    main#members.container-fluid
+      .container
+        h1 Members
+        img(src='/static/img/partners.jpeg')
 
     CCOGFooter
 </template>
@@ -102,8 +114,9 @@ export default {
       width 600px
       background-color rgba(255,255,255,0.7)
 
-  #about
+  #vision
     background #E9AF30
+    height 300px
 
   #members
     margin 0
@@ -122,7 +135,7 @@ export default {
       color black
       background-color rgba(242,182,50,0.8)
 
-  #partners
+  #accord
     img
       width 300px
       height 200px
@@ -134,4 +147,10 @@ export default {
     background black
     ul.menu>li
       border none
+
+  blockquote 
+    border none
+    font-family Georgia, "Times New Roman", Times, serif
+    quotes "\201C""\201D""\2018""\2019"
+
 </style>
