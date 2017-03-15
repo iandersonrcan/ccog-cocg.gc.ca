@@ -4,10 +4,6 @@
     main.container(role='main', property='mainContentOfPage')
       h1 Publications
 
-      h2 National Mapping Strategy
-      p The National Mapping Strategy, a long-term approach to the planning and coordination of mapping in Canada, was developed to ensure that mapping continues to support the nation’s initiatives while recognizing the increasingly rapid social and technological advances that are taking place in this field.  The Strategy is designed to take advantage of future changes in technology and mapping requirements.  The Strategy provides direction to the nation’s mapping programs through a set of distinct yet related elements. Elements of the Strategy are: Consultative and Inclusive Governance; National Approach, Regional and Local Decision Making; Common Technological Foundation; Current and Available Data; Geographical Data as a Public Asset; Outreach and Communications; a Vibrant Geomatics Industry; and, an Available Educated Labour Force.  
-      a http://www.ccog-cocg.ca/strategy-strategie_e.pdf
-
       h2 Canadian Geomatics Environmental Scan and Value Study
       p The Canadian Geomatics Environmental Scan and Value Study report is meant to provide a new perspective on the value of geospatial information in Canada, including the state of the geomatics sector in Canada, global trends involving geospatial information and Canada’s position relative to those trends, the significance and value of the geomatics sector and of geospatial information to the Canadian economy, and current and emerging roles of government, industry and academia in supporting and using
       geospatial information.

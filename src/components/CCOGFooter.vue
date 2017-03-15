@@ -8,3 +8,6 @@ export default {
   name: 'HatfieldHeader'
 }
 </script>
+
+<style lang="stylus">
+</style>

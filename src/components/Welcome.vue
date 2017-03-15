@@ -7,10 +7,41 @@
         .mask.bottom
         .well 
           h1 Welcome to CCOG
-          p The Canadian Council on Geomatics is the major federal-provincial-territorial consultative government body for geomatics. The council’s key objective is to advance geomatics activities between jurisdictions.  Council members come from the governments of Canada, the provinces and the territories. Council members usually represent their government’s major geomatics organizations.  
-      h2 Vision
-      p Our vision is that Canadians and governments can access the best available geographic information to support informed decision making through interoperable systems and data that are maintained in an efficient and effective manner by all Canadian jurisdictions. 
+          p The Canadian Council on Geomatics is the major federal-provincial-territorial consultative body for geomatics.
+
+    main#about.container-fluid
+      .container
+        h1 Who We Are
+        p Council members come from the governments of Canada, the provinces and the territories. Council members usually represent their government’s major geomatics organizations.  The council’s key objective is to advance geomatics activities between jurisdictions.
+
+        h2 Vision
+        p Our vision is that Canadians and governments can access the best available geographic information to support informed decision making through interoperable systems and data that are maintained in an efficient and effective manner by all Canadian jurisdictions. 
+
+    main#members.container-fluid
+      .container
+        h1 Members
+        img(src='/static/img/partners.jpeg')
+
+    main#partners.container-fluid
+      .container
+        h1 Objectives
+        p The council’s key objective is to advance geomatics activities between jurisdictions.  Council members come from the governments of Canada, the provinces and the territories. Council members usually represent their government’s major geomatics organizations.  
+
+        h2 Vision
+        p Our vision is that Canadians and governments can access the best available geographic information to support informed decision making through interoperable systems and data that are maintained in an efficient and effective manner by all Canadian jurisdictions. 
     CCOGFooter
+    
+    main#publications.container-fluid
+      .container
+        .row
+          .col-md-6
+            .well
+              h3 Canadian Geomatics Environmental Scan and Value Study
+              a http://geoscan.nrcan.gc.ca/starweb/geoscan/servlet.starweb?path=geoscan/downloade.web&search1=R=296426
+          .col-md-6
+            .well
+              h3 Environmental scan on the operational use of Remotely Piloted Aircraft Systems (RPAS) for geomatics applications in Canada
+              a http://geoscan.nrcan.gc.ca/starweb/geoscan/servlet.starweb?path=geoscan/fulle.web&search1=R=299120
 </template>
 
 <script>
@@ -60,6 +91,25 @@ export default {
       margin auto
       height 300px
       width 600px
+      background-color rgba(255,255,255,0.7)
+
+  #about
+    background #E9AF30
+
+  #members
+    margin 0
+    background #F2F2F2
+    height 300px
+
+  #publications
+    margin 0
+    background-image url('/static/img/foxe_basin.jpg')
+    background-size 100% 700px
+    color white
+
+    .well
+      margin-top 20px
+      color black
       background-color rgba(255,255,255,0.7)
 
   td
