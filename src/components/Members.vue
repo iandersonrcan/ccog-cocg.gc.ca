@@ -3,6 +3,9 @@
     CCOGHeader
     main.container(role='main', property='mainContentOfPage')
       h1 Member Organizations
+
+      img#canada(src='/static/img/canada.jpg')
+
       ul
         li Agriculture and Agrifood Canada
         li Canada Space Agency
@@ -36,4 +39,11 @@ export default {
 
   td
     max-width 200px
+
+  #canada
+    float right
+    width 700px
+    height 500px
+    padding-bottom 20px
+
 </style>

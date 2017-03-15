@@ -75,7 +75,7 @@
             td provide additional content like interesting case studies and partnerships to be featured 
             td MB
             td Feb 21 
-            td OPEN
+            td Feb 21
           tr
             td Feb 15
             td produce the website assessment report 

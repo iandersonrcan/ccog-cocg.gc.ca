@@ -3,6 +3,9 @@
     CCOGHeader
     main.container(role='main', property='mainContentOfPage')
       h1 Issues of Interest
+
+      img#clearwater(src='/static/img/clearwater.jpg')
+
       ul
         li High Resolution optical imagery acquisition
         li Elevation and LiDAR data acquisition
@@ -44,4 +47,8 @@ export default {
 
   td
     max-width 200px
+
+  #clearwater
+    float right
+    padding-bottom 20px
 </style>

@@ -4,6 +4,8 @@
     main.container(role='main', property='mainContentOfPage')
       h1 What We Do
 
+      img#montreal(src='/static/img/radarsat_montreal.jpg')
+
       p A key objective of the Canadian Council on Geomatics is to advance geomatics activities of common interest between jurisdictions to reduce duplication of effort and facilitate easy access and use of geospatial information by public sector agencies and Canadians.
 
       p Annual meetings are held to discuss common operational issues, proposed legislation relevant to geomatics, the development and promotion of national geomatics standards, and to investigate potential collaborative opportunities.
@@ -44,4 +46,10 @@ export default {
 
   td
     max-width 200px
+
+  #montreal
+    float right
+    padding 30px
+    height 400px
+    width 700px
 </style>

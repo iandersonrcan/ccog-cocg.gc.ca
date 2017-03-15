@@ -6,8 +6,7 @@
         .mask.top
         .mask.bottom
         .well 
-          h1 Welcome to CCOG
-          p The Canadian Council on Geomatics is the major federal-provincial-territorial consultative body for geomatics.
+          h2 The Canadian Council on Geomatics is the major federal-provincial-territorial consultative body for geomatics.
 
     main#about.container-fluid
       .container
@@ -118,6 +117,9 @@ export default {
     h1
       font-size 48px
     .well
+      h2
+        font-size 36px
+        line-height 45px
       padding 20px
       margin auto
       height 300px

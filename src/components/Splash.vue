@@ -15,7 +15,7 @@ html
               li
                 a.btn.btn-lg.btn-default.btn-block.mrgn-tp-sm(href='../../License-en.html', rel='license') Terms and conditions of use
           section.col-md-6(lang='fr')
-            h2.h3.text-center Conseil Canadien de Geomatiques
+            h2.h3.text-center Conseil canadien de g&eacute;omatiques
             ul.list-unstyled
               li
                 router-link(to='welcome').btn.btn-lg.btn-primary.btn-block Fran&ccedil;ais
