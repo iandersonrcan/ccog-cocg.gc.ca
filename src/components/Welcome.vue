@@ -59,7 +59,7 @@
 
     main#members.container-fluid
       .container
-        h1 Members
+        h1 Member Organizations
         img(src='/static/img/partners.jpeg')
 
     CCOGFooter
@@ -79,6 +79,13 @@ export default {
 </script>
 
 <style lang="stylus">
+  @font-face 
+    font-family Bitter
+    src url("/static/fonts/Bitter-Regular.otf") format("opentype")
+
+  h1,h2,h3
+    font-family Bitter
+
   body
     background none
 
@@ -102,11 +109,14 @@ export default {
     clip-path inset(0% 0% 50% 0%)
 
   .welcome
+    text-align center
     padding-top 40px
     width 100%
     height 650px
     background-image url('/static/img/bg2.jpg')
     background-size 100% 650px
+    h1
+      font-size 48px
     .well
       padding 20px
       margin auto
@@ -149,6 +159,8 @@ export default {
       border none
 
   blockquote 
+    h3
+      font-family Georgia
     border none
     font-family Georgia, "Times New Roman", Times, serif
     quotes "\201C""\201D""\2018""\2019"

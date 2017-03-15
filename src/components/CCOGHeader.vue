@@ -5,6 +5,9 @@ header(role='banner')
       .row
         #wb-sttl.col-md-8
           img#ccog(src='/static/logo.png')
+          .title
+            h1 Canadian Council on Geomatics
+            h1 Conseil canadien de g&eacute;omatiques
         section#wb-lng.visible-md.visible-lg.col-md-4
           h2 Language selection
           ul.text-right
@@ -41,6 +44,14 @@ export default {
     height 160px
     width 200px
     clip-path inset(0% 0% 25px 0%)
+    float left
+
+  .title
+    margin-top 50px
+    h1
+      font-family Helvetica
+      margin 0
+      margin-left 150px
 
   #wb-bnr>.container-fluid
     background white
