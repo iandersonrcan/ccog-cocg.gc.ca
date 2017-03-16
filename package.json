@@ -2,7 +2,7 @@
   "name": "ccog",
   "version": "1.0.0",
   "description": "Canadian Council on Geomatics",
-  "author": "Adam Soltys <asoltys@gmail.com>",
+  "author": "Adam Soltys <asoltys@hatfieldgroup.com>",
   "private": true,
   "scripts": {
     "dev": "node build/dev-server.js",
