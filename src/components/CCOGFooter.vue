@@ -17,7 +17,7 @@
           p Conseil de Geomatiques Canadien
       .row
         p
-          | CCOG · COGC © 2017. All Rights Reserved | Terms and conditions  | Privacy
+          | 
 </template>
 
 <script>
