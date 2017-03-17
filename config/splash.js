@@ -4,7 +4,7 @@ var path = require('path')
 module.exports = {
   build: {
     env: require('./prod.env'),
-    hatfield: path.resolve(__dirname, '../dist/hatfield.html'),
+    hatfield: path.resolve(__dirname, '../dist/index.html'),
     ccog: path.resolve(__dirname, '../dist/ccog.html'),
     splash: path.resolve(__dirname, '../dist/splash.html'),
     assetsRoot: path.resolve(__dirname, '../dist'),

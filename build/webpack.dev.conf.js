@@ -26,8 +26,8 @@ module.exports = merge(baseWebpackConfig, {
     new webpack.NoEmitOnErrorsPlugin(),
     // https://github.com/ampedandwired/html-webpack-plugin
     new HtmlWebpackPlugin({
-      filename: 'hatfield.html',
-      template: 'hatfield.html',
+      filename: 'index.html',
+      template: 'index.html',
       inject: true,
       chunks: ['hatfield']
     }),
