@@ -6,14 +6,28 @@
 
       img#montreal(src='/static/img/radarsat_montreal.jpg')
 
-      p A key objective of the Canadian Council on Geomatics is to advance geomatics activities of common interest between jurisdictions to reduce duplication of effort and facilitate easy access and use of geospatial information by public sector agencies and Canadians.
+      p The Canadian Council on Geomatics works to advance geomatics activities between federal, provincial and territorial governments. The council’s goal is to reduce duplication of effort between government bodies and to facilitate easy access of geospatial information for the benefit of Canadians. 
+      
+      h2 We are a consultative inter-governmental forum
+      p The council provides a consultative forum for federal, provincial and territorial governments to discuss items such as:
+      ul
+        li current and future geomatics programs
+        li proposed legislation 
+        li collaboration opportunities
+        li national geomatics standards
+        li achievements, new ideas, technologies and procedures that could benefit other jurisdictions.
+      
+      h2 We promote the cooperation and the exchange of geomatics data
+      p The council promotes cooperation and the exchange of geomatics data to reduce duplication of effort and to facilitate easy access to and use of geographical information by all Canadians. This is done through the promotion of standards and the development of Canada’s geospatial data infrastructure.
+      p The council develops, promotes and spreads national and international geomatics standards. Standards are necessary to facilitate open sharing of spatial data between platforms, especially in a varied network of computers that are managing a diverse range of spatial data stores and data types. 
+      p The council works to support Canada’s geospatial data infrastructure (CGDI), a web-based knowledge infrastructure that improves the efficient access, sharing and use of geospatial data. The CGDI consists of:
+      ul
+        li Operational policies, covering areas such as intellectual property, data sharing and privacy, governing the use and re-use of the geospatial data
+        li Technology tools to enable the search, discovery, viewing, downloading and transformation of geospatial data;
+        li Standards for the geospatial data and for the technology tools to ensure that all elements function seamlessly and efficiently with each other; and
+        li Geospatial data itself
 
-      p Annual meetings are held to discuss common operational issues, proposed legislation relevant to geomatics, the development and promotion of national geomatics standards, and to investigate potential collaborative opportunities.
-
-      p The council aims to provide a consultative forum for the consideration and discussion of important common issues and concerns such as the exchange of information on current and future programs, the discussion of proposed legislation of general interest, and the presentation and discussion of reports on achievements, organizational changes, new ideas, technology and procedures developed during the preceding year or to be developed in future.
-
-      p The council also aims to develop, promote and promulgate national and international geomatics standards; work together to support a Canadian geospatial data infrastructure; promote cooperation and the exchange of geomatics data to reduce duplication of effort and to facilitate easy access to and use of geographical information by all Canadians. 
-
+      h2 We support government decision making and service delivery
       p The council supports government decision making, and service delivery to citizens in many areas including:
 
       ul
@@ -24,6 +38,9 @@
         li physical and critical infrastructure planning
         li water-use and management
         li social service planning and delivery
+      
+      h2 Explore our Issues of Interest
+      p TODO: put blocks of issues of interest here.
     CCOGFooter
 </template>
 
