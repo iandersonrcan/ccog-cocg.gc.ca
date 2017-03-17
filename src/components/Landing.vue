@@ -20,6 +20,16 @@
           a(href="static/logo.pdf") Logo Design (February 28)
         li 
           a(href="static/war.pdf") Website Assessment Report (February 21)
+
+      h2 Meeting Minutes
+      ul
+        li 
+          a(href="static/minutes3.pdf") Second Progress Meeting (March 16)
+        li 
+          a(href="static/minutes2.pdf") First Progress Meeting (March 8)
+        li 
+          a(href="static/minutes1.pdf") Kick-off Meeting (March 2)
+        
       h2 Meeting Actions Log
       table.table.table-striped
         thead
