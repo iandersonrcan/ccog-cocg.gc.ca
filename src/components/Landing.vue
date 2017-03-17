@@ -5,7 +5,7 @@
       h1 Canadian Council on Geomatics Website Redesign
       ul
         li
-          router-link(to="splash") Development Site (Last Update {{ last }})
+          a(href="splash.html") Development Site (Last Update {{ last }})
         li
           a(href="https://github.com/hatfieldconsultants/ccog-cocg.gc.ca") Source Code on Github
       h2 Design Documents

@@ -9,7 +9,9 @@ function resolve (dir) {
 
 module.exports = {
   entry: {
-    app: './src/main.js'
+    hatfield: './src/hatfield.js',
+    splash: './src/splash.js',
+    ccog: './src/ccog.js'
   },
   output: {
     path: config.build.assetsRoot,

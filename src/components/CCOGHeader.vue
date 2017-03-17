@@ -1,18 +1,4 @@
 <template lang="pug">
-header(role='banner')
-  #wb-bnr
-    .container-fluid
-      .row
-        #wb-sttl.col-md-8
-          img#ccog(src='/static/logo.png')
-          .title
-            h1 Canadian Council on Geomatics
-            h1 Conseil canadien de g&eacute;omatiques
-        section#wb-lng.visible-md.visible-lg.col-md-4
-          h2 Language selection
-          ul.text-right
-            li
-              a(lang='fr', hreflang='fr', href='index-fr.html') Fran&ccedil;ais
   nav#wb-sm.wb-menu.visible-md.visible-lg(role='navigation', data-ajax-replace='./ajax/sitemenu-en.html', data-trgt='mb-pnl', typeof='SiteNavigationElement')
     .container-fluid.nvbar
       h2 Topics menu

@@ -26,9 +26,22 @@ module.exports = merge(baseWebpackConfig, {
     new webpack.NoEmitOnErrorsPlugin(),
     // https://github.com/ampedandwired/html-webpack-plugin
     new HtmlWebpackPlugin({
-      filename: 'index.html',
-      template: 'index.html',
-      inject: true
+      filename: 'hatfield.html',
+      template: 'hatfield.html',
+      inject: true,
+      chunks: ['hatfield']
+    }),
+    new HtmlWebpackPlugin({
+      filename: 'splash.html',
+      template: 'splash.html',
+      inject: true,
+      chunks: ['splash']
+    }),
+    new HtmlWebpackPlugin({
+      filename: 'ccog.html',
+      template: 'ccog.html',
+      inject: true,
+      chunks: ['ccog']
     }),
     new FriendlyErrorsPlugin()
   ]

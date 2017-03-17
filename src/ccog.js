@@ -3,9 +3,7 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import VueResource from 'vue-resource'
-import App from './App'
-import Landing from './components/Landing'
-import Splash from './components/Splash'
+import CCOG from './CCOG'
 import Welcome from './components/Welcome'
 import About from './components/About'
 import Issues from './components/Issues'
@@ -16,14 +14,13 @@ import Publications from './components/Publications'
 Vue.config.productionTip = false
 
 const routes = [
-  { path: '/', component: Landing },
+  { path: '/', component: Welcome },
   { path: '/welcome', component: Welcome },
   { path: '/about', component: About },
   { path: '/issues', component: Issues },
   { path: '/members', component: Members },
   { path: '/accord', component: Accord },
-  { path: '/publications', component: Publications },
-  { path: '/splash', component: Splash }
+  { path: '/publications', component: Publications }
 ]
 
 const router = new VueRouter({
@@ -35,8 +32,8 @@ Vue.use(VueResource)
 
 /* eslint-disable no-new */
 new Vue({
-  el: '#app',
+  el: '#ccog',
   router,
-  template: '<App/>',
-  components: { App }
+  template: '<CCOG/>',
+  components: { CCOG }
 })
