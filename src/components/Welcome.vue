@@ -8,59 +8,67 @@
         .well 
           h2 The Canadian Council on Geomatics is the major federal-provincial-territorial consultative body for geomatics.
 
-    main#about.container-fluid
-      .container
-        h1 Who We Are
-        p Council members come from the governments of Canada, the provinces and the territories. Council members usually represent their government’s major geomatics organizations.  The council’s key objective is to advance geomatics activities between jurisdictions.
-
-        h2 Vision
-        p Our vision is that Canadians and governments can access the best available geographic information to support informed decision making through interoperable systems and data that are maintained in an efficient and effective manner by all Canadian jurisdictions. 
-
-
     main#vision.container-fluid
       .container
-        blockquote 
-          h3 Canada is a leader in integrating geospatial data and making it publicly available for decision makers. This renewed Accord will continue to ensure we have the highest level of intergovernmental collaboration to maximize efficiency while bringing benefits to nearly every sector of the economy.
-        .text-right
-          | Greg Rickford
-          br
-          |  
-          cite Canada’s Minister of Natural Resources and Minister for the Federal
-          cite Economic Development Initiative for Northern Ontario 
+        h1 Our Vision
+        p Our vision is that Canadians can 
+            strong access the best available geographic information 
+            | to support 
+            strong informed decision making 
+            | through 
+            strong interoperable systems 
+            | that are efficiently maintained. 
+        p 
+          a.btn.btn-primary(href='#/about') what we do
 
+    main#accord.container-fluid
+      .container
+        .row
+          .col-md-4.col-md-offset-2
+            img(src='/static/img/bg4.png')
+            h3 Members
+            p 
+              a.btn.btn-primary(href='#/members') council members
+			 
+          .col-md-4
+            img(src='/static/img/bg.jpg')
+            h3 What we do
+            p 
+              a.btn.btn-primary(href='#/about') About the council	          
+
+        
+    main#publications.container-fluid
+      .container
+        .row
+          .col-md-12
+            .well.didyouknow
+              h3 Did you know?
+              strong GIS (Geographic Information Systems) was invented in Canada in the 1960s, 
+              | leading to rapid innovation in the use and application of geospatial data
+          
     main#accord.container-fluid
       .container
         .row
           .col-md-4
             img(src='/static/img/bg4.png')
             h3 Geomatics Accord
-            p The Canadian Geomatics Accord enables intergovernmental collaboration and cooperation on geospatial data sharing, setting of common geographical data standards, and sharing of costs for core national datasets. 
+            p 
+              a.btn.btn-primary(href='#/accord') read about the Canadian Geomatics Accord
+			 
           .col-md-4
             img(src='/static/img/bg.jpg')
-            h3 Geomatics Accord
-            p The Canadian Geomatics Accord enables intergovernmental collaboration and cooperation on geospatial data sharing, setting of common geographical data standards, and sharing of costs for core national datasets. 
+            h3 Publications
+            p 
+              a.btn.btn-primary(href='#/publications') publications from the council			
           .col-md-4
             img(src='/static/img/bg5.png')
-            h3 Geomatics Accord
-            p The Canadian Geomatics Accord enables intergovernmental collaboration and cooperation on geospatial data sharing, setting of common geographical data standards, and sharing of costs for core national datasets. 
-        
-    main#publications.container-fluid
-      .container
-        .row
-          .col-md-6
-            .well
-              h3 Canadian Geomatics Environmental Scan and Value Study
-              a http://geoscan.nrcan.gc.ca/starweb/geoscan/servlet.starweb?path=geoscan/downloade.web&search1=R=296426
-          .col-md-6
-            .well
-              h3 Environmental scan on the operational use of Remotely Piloted Aircraft Systems (RPAS) for geomatics applications in Canada
-              a http://geoscan.nrcan.gc.ca/starweb/geoscan/servlet.starweb?path=geoscan/fulle.web&search1=R=299120
-
-    main#members.container-fluid
-      .container
-        h1 Member Organizations
-        img(src='/static/img/partners.jpeg')
-
+            h3 Issues of Interest
+            p
+              a.btn.btn-primary(href='#/issues') explore issues of interest 
+              
+		
+         
+          
     CCOGFooter
 </template>
 
@@ -126,9 +134,13 @@ export default {
       width 600px
       background-color rgba(255,255,255,0.7)
 
+    .didyouknow
+      h3
+        margin-top 0px
+        
   #vision
     background #E9AF30
-    height 300px
+    padding-bottom 20px
 
   #members
     margin 0
