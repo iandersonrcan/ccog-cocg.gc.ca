@@ -68,7 +68,6 @@ var webpackConfig = merge(baseWebpackConfig, {
         ? 'splash.html'
         : config.build.splash,
       template: 'splash.html',
-      inject: true,
       minify: {
         removeComments: true,
         collapseWhitespace: true,

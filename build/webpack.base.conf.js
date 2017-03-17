@@ -10,7 +10,6 @@ function resolve (dir) {
 module.exports = {
   entry: {
     hatfield: './src/hatfield.js',
-    splash: './src/splash.js',
     ccog: './src/ccog.js'
   },
   output: {
