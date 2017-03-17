@@ -41,6 +41,24 @@
             th Completion
         tbody
           tr
+            td Mar 15 
+            td draft new content and send to ST for review
+            td AS 
+            td Mar 20
+            td OPEN
+          tr
+            td Mar 15
+            td setup a CCOG organization on github and upload the website code there
+            td AS 
+            td Mar 22
+            td OPEN
+          tr
+            td Mar 15
+            td ensure the website is responsive, has appropriate meta tags and adheres to WCAG
+            td AS 
+            td Mar 22
+            td OPEN
+          tr
             td Mar 8
             td review the catalogues of geomatics images that ST sent out and select candidates for inclusion on the website. Notify ST of the selections so she can provide appropriate citations. 
             td AS 
