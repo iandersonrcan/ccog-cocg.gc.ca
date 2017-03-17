@@ -5,19 +5,21 @@
       h1 Canadian Council on Geomatics Website Redesign
       ul
         li
-          router-link(to="splash") Development Site
+          router-link(to="splash") Development Site (Last Update {{ last }})
+        li
+          a(href="https://github.com/hatfieldconsultants/ccog-cocg.gc.ca") Source Code on Github
       h2 Design Documents
       ul
         li 
-          a(href="static/war.pdf") Website Assessment Report
+          a(href="static/template2.pdf") Second Template Design (March 16)
         li 
-          a(href="static/ia.pdf") Information Architecture
+          a(href="static/ia.pdf") Information Architecture (March 8)
         li 
-          a(href="static/template.pdf") Template Design
+          a(href="static/template.pdf") Template Design (March 2)
         li 
-          a(href="static/logo.pdf") Logo Design
-        li
-          a(href="https://github.com/hatfieldconsultants/ccog-cocg.gc.ca") Source Code on Github
+          a(href="static/logo.pdf") Logo Design (February 28)
+        li 
+          a(href="static/war.pdf") Website Assessment Report (February 21)
       h2 Meeting Actions Log
       table.table.table-striped
         thead
@@ -94,6 +96,17 @@ export default {
   components: {
     HatfieldHeader,
     HatfieldFooter
+  },
+  data: function () {
+    return {
+      last: ''
+    }
+  },
+  mounted () {
+    this.$http.get('https://api.github.com/repos/HatfieldConsultants/ccog-cocg.gc.ca/commits').then(response => {
+      const date = new Date(response.body[0].commit.committer.date)
+      this.last = date.toDateString() + ' ' + date.toTimeString()
+    })
   }
 }
 </script>
