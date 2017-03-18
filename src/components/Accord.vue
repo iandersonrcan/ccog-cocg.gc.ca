@@ -6,9 +6,7 @@
 
       .row
         .col-md-12
-          img#terra(src='/static/img/terra_modis.png')
-
-          The Canadian Geomatics Accord enables federal-provincial-territorial collaboration in geomatics. It also sets common geographical data standards and shares the cost of national data bases. The purpose of the Accord is to provide a framework for intergovernmental collaboration in geomatics, by outlining roles and responsibilities and overarching principles for intergovernmental collaboration on geomatics activities in Canada.
+          p The Canadian Geomatics Accord enables federal-provincial-territorial collaboration in geomatics. It also sets common geographical data standards and shares the cost of national data bases. The purpose of the Accord is to provide a framework for intergovernmental collaboration in geomatics, by outlining roles and responsibilities and overarching principles for intergovernmental collaboration on geomatics activities in Canada.
           p The current accord is in effect between 2014 and the end of 2019.
           h2 History
           p The 2014 - 2019 Canadian Geomatics Accord is the third such Accord. Prior Accords include the:
@@ -22,6 +20,10 @@
             li Changes in Canadian demographics and in the nature and structure of business stakeholders; and
             li Budgetary constraints at every level of government.
 
+    .banner(style='background-image:url(/static/img/foxe_basin.jpg)')
+    .container
+      .row
+        .col-md-12
           h2 Benefits of the Accord 
           p Authoritative, accessible geographical information is important to Canadian citizens, businesses and researchers. Geospatial information has proven to accelerate innovation and productivity. Accurate, definitive, science based, geographical knowledge of the Canadian landmass, marine extent and air space is critical to fact based decision and policy making. 
           p Collaborative efforts conducted under the Accord have resulted in core, nationally standardized datasets and a reduction of duplication between governments. These datasets are used in both private and public sector applications, including for agriculture, natural resource development, transportation, environmental assessment, land claims, boundary discussions, and emergency management.
@@ -30,21 +32,28 @@
             li facilitated dispatch of snow removal vehicles in the Yukon; 
             li enabled Department of National Defence planning for managing emergencies; and 
             li assisted election planning and logistics across all jurisdictions.
-          h2 Principles of Collaboration 
-          p In order to provide the highest quality of geographical information the federal, provincial and territorial Accord signatories agree to work within these principles: 
-          ul To provide effective leadership and governance within the geomatics community in order to contribute to a vital Canadian geomatics sector;
-            li To promote and contribute to the development of best practices, pan-Canadian and international standards and policies to support geospatial information sharing and integration;
-            li To support the efficient use of resources by collaborating to reduce management and maintenance costs through the development of harmonized collection strategies and shared infrastructure for geomatics;
-            li To promote the benefits of integrating geographic information in business processes to enrich analysis and decision making;
-            li To enhance the availability and usability of geographic information in an open government context.
+
+    .well
+      .container
+        .row
+          .col-md-12
+            h2 Principles of Collaboration 
+            p In order to provide the highest quality of geographical information the federal, provincial and territorial Accord signatories agree to work within these principles: 
+          .col-md-6
+            ul To provide effective leadership and governance within the geomatics community in order to contribute to a vital Canadian geomatics sector;
+              li To promote and contribute to the development of best practices, pan-Canadian and international standards and policies to support geospatial information sharing and integration;
+              li To support the efficient use of resources by collaborating to reduce management and maintenance costs through the development of harmonized collection strategies and shared infrastructure for geomatics;
+          .col-md-6
+            ul
+              li To promote the benefits of integrating geographic information in business processes to enrich analysis and decision making;
+              li To enhance the availability and usability of geographic information in an open government context.
+    .container
+      .row
+        .col-md-6
           h2 Read the Full Accord
           p 
           a(href='') Download the 2014-2019 Canadian Geomatics Accord 
           | (PDF, XXXMB)
-
-
-      .row
-        .col-md-6
           img#wildfires(src='/static/img/wildfires.jpg')
         .col-md-6
           .points.pull-right
@@ -77,8 +86,8 @@ export default {
     max-width 200px
 
   #terra
-    width 600px
-    height 600px
+    width 400px
+    height 200px
     float right
     padding-left 20px
 

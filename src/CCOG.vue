@@ -195,8 +195,12 @@ export default {
       .row
         background transparent
 
+  @media screen and (min-width: 768px) 
+    footer>.container
+      background $color-primary
 
   footer
+    min-height 400px
     .row
       margin 45px -15px
     color white

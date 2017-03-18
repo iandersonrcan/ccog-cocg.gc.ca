@@ -1,23 +1,23 @@
 <template lang="pug">
-  footer.visible-sm.visible-md.visible-lg.wb-navcurr(role="contentinfo")
+  footer
     .container
       .row
-        .col-md-6
+        .col-md-12
           h2 Contact Us
-          p 
-            | 06A-646Q 615 Booth Street
+        .col-md-8
+          p
+            | 06A-646Q 615 Booth Street,
             br
-            | Telephone: (613) 947-7653
+            |  Ottawa, ON
             br
-            | Fax: (613) 947-2410
-            a(href='mailto:info@ccog-cocg.gc.ca')
-        .col-md-6.text-right
-          h2 &nbsp;
-          p Canadian Council on Geomatics
-          p Conseil de Geomatiques Canadien
-      .row
-        p
-          | 
+            |  Telephone: (613) 947-7653
+            br
+            |  Fax: (613) 947-2410
+            br
+          |  
+          a(href='mailto:info@ccog-cocg.ca') info@ccog-cocg.ca
+        .col-md-4
+          img.img-responsive(src='/static/img/ccog-ccdg.png')
 </template>
 
 <script>
@@ -27,14 +27,4 @@ export default {
 </script>
 
 <style lang="stylus">
-  footer
-    height 400px
-    background #252839
-    >.container
-      background inherit
-    .col-md-6
-      padding 15px
-    h2,p
-      color #F2B632
-    
 </style>
