@@ -9,7 +9,7 @@ function resolve (dir) {
 
 module.exports = {
   entry: {
-    hatfield: './src/hatfield.js',
+    index: './src/index.js',
     ccog: './src/ccog.js'
   },
   output: {

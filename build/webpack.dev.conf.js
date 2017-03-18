@@ -29,7 +29,7 @@ module.exports = merge(baseWebpackConfig, {
       filename: 'index.html',
       template: 'index.html',
       inject: true,
-      chunks: ['hatfield']
+      chunks: ['index']
     }),
     new HtmlWebpackPlugin({
       filename: 'splash.html',
