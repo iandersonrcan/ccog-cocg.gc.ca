@@ -1,8 +1,12 @@
 <template lang="pug">
-  nav#wb-sm.wb-menu.visible-md.visible-lg(role='navigation', data-ajax-replace='./ajax/sitemenu-en.html', data-trgt='mb-pnl', typeof='SiteNavigationElement')
-    .container-fluid.nvbar
-      h2 Topics menu
-      .row
+  header
+    .header-top
+      .container
+        img.logo(src='/static/img/ccog-ccdg.png', alt='Canadian Council on Geomatics - Conseil canadien de geomatique')
+        |  
+        a(lang='fr', href='home-fr.html') Fran&ccedil;ais
+    nav
+      .container
         ul.list-inline.menu
           li
             router-link(to='welcome') Welcome
@@ -25,42 +29,5 @@ export default {
 </script>
 
 <style lang="stylus">
-  img#ccog
-    margin-top 20px
-    height 160px
-    width 200px
-    clip-path inset(0% 0% 25px 0%)
-    float left
 
-  .title
-    margin-top 50px
-    h1
-      font-family Helvetica
-      margin 0
-      margin-left 150px
-
-  #wb-bnr>.container-fluid
-    background white
-
-  #wb-sm .nvbar ul.menu
-    padding-left 250px
-    >li
-      font-family Helvetica
-      font-size 14px
-      font-weight normal
-      padding-right 30px
-
-  #wb-bar
-    background white
-    .container
-      background white
-
-  a
-    color black
-
-  li.curr
-    display none
-
-  #wb-srch
-    display none !important
 </style>

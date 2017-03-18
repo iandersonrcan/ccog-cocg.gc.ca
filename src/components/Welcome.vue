@@ -25,13 +25,13 @@
       .container
         .row
           .col-md-4.col-md-offset-2
-            img(src='/static/img/bg4.png')
+            img(src='/static/img/montreal_point_cloud.png')
             h3 Members
             p 
               a.btn.btn-primary(href='#/members') council members
 			 
           .col-md-4
-            img(src='/static/img/bg.jpg')
+            img(src='/static/img/vancouver_lidar.png')
             h3 What we do
             p 
               a.btn.btn-primary(href='#/about') About the council	          
