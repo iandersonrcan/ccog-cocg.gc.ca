@@ -20,6 +20,20 @@
             li Changes in Canadian demographics and in the nature and structure of business stakeholders; and
             li Budgetary constraints at every level of government.
 
+
+    .container
+      .row.quote
+        .col-md-8
+          blockquote
+            p
+              | Canada is a leader in integrating geospatial data and making it publicly available for decision makers. This renewed Accord will continue to ensure we have the highest level of intergovernmental collaboration to maximize efficiency while bringing benefits to nearly every sector of the economy.
+            |  
+            strong Greg Rickford
+            |  
+            em
+              | Canada&rsquo;s Minister of Natural Resources and Minister for the Federal Economic Development Initiative for Northern Ontario
+        .col-md-4
+          img.img-responsive(src='/static/img/headshot.jpg')
     .banner(style='background-image:url(/static/img/foxe_basin.jpg)')
     .container
       .row

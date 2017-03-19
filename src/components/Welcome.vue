@@ -18,36 +18,6 @@
             | Our vision is that Canadians and governments can access the best available geographic information to support informed decision making through interoperable systems and data that are maintained in an efficient and effective manner by all Canadian jurisdictions.
     .banner(style='background-image:url(/static/img/banner_02.jpg)')
     .container
-      .row.quote
-        .col-md-8
-          blockquote
-            p
-              | Canada is a leader in integrating geospatial data and making it publicly available for decision makers. This renewed Accord will continue to ensure we have the highest level of intergovernmental collaboration to maximize efficiency while bringing benefits to nearly every sector of the economy.
-            |  
-            strong Greg Rickford
-            |  
-            em
-              | Canada&rsquo;s Minister of Natural Resources and Minister for the Federal Economic Development Initiative for Northern Ontario
-        .col-md-4
-          img.img-responsive(src='/static/img/headshot.jpg')
-    .well.bg-topography
-      .container
-        .row
-          .col-md-12
-            h2 Well with Topography background
-          .col-md-6
-            ul
-              li
-                | The use of geospatial information contributed $20.7 billion of Canada&rsquo;s national Gross Domestic Product and generated approximately 19,000 jobs within Canada&rsquo;s economy in 2013.
-              li
-                | Natural Resources Canada connects producers and users of geospatial information via the GeoConnections program, housed within the Canada Centre for Mapping and Earth Observation.
-          .col-md-6
-            ul
-              li
-                | Geomatics is the modern discipline of gathering, storing, processing, and delivering geographic information.
-              li
-                | Geographic Information System technology, or GIS, was invented in Canada in the 1960s, leading to rapid innovation in the use and application of geospatial data.
-    .container
       .row
         .col-md-6
           h2 Who We Are
@@ -58,53 +28,48 @@
           p
             | Our vision is that Canadians and governments can access the best available geographic information to support informed decision making through interoperable systems and data that are maintained in an efficient and effective manner by all Canadian jurisdictions.
 
-    main#vision.container-fluid
-      .container
-
-    main#accord.container-fluid
-      .container
-        .row
-          .col-md-4.col-md-offset-2
-            img(src='/static/img/montreal_point_cloud.png')
-            h3 Members
-            p 
-              a.btn.btn-primary(href='#/members') council members
-			 
-          .col-md-4
-            img(src='/static/img/vancouver_lidar.png')
-            h3 What we do
-            p 
-              a.btn.btn-primary(href='#/about') About the council	          
-
-        
-    main#publications.container-fluid
+    .well.bg-topography
       .container
         .row
           .col-md-12
-            .well.didyouknow
-              h3 Did you know?
-              strong GIS (Geographic Information Systems) was invented in Canada in the 1960s, 
-              | leading to rapid innovation in the use and application of geospatial data
-          
+            h3 Did you know?
+            strong GIS (Geographic Information Systems) was invented in Canada in the 1960s, 
+            | leading to rapid innovation in the use and application of geospatial data.
     main#accord.container-fluid
       .container
         .row
+          .col-md-4
+            img(src='/static/img/vancouver_lidar.png')
+            h3 What We Do 
+            p 
+              a.btn.btn-primary(href='#/about') About The Council	          
+
+          .col-md-4
+            img(src='/static/img/radarsat_vancouver.jpg')
+            h3 Issues of Interest
+            p
+              a.btn.btn-primary(href='#/issues') Explore Issues of Interest 
+
+    main#accord.container-fluid
+      .container
+        .row
+          .col-md-4
+            img(src='/static/img/montreal_point_cloud.png')
+            h3 Member Organizations
+            p 
+              a.btn.btn-primary(href='#/members') Council Members
+			 
           .col-md-4
             img(src='/static/img/montreal_point_cloud.png')
             h3 Geomatics Accord
             p 
-              a.btn.btn-primary(href='#/accord') read about the Canadian Geomatics Accord
+              a.btn.btn-primary(href='#/accord') Read About the Canadian Geomatics Accord
 			 
           .col-md-4
             img(src='/static/img/bg.jpg')
             h3 Publications
             p 
-              a.btn.btn-primary(href='#/publications') publications from the council			
-          .col-md-4
-            img(src='/static/img/radarsat_vancouver.jpg')
-            h3 Issues of Interest
-            p
-              a.btn.btn-primary(href='#/issues') explore issues of interest 
+              a.btn.btn-primary(href='#/publications') Publications from the Council			
     CCOGFooter
 </template>
 
@@ -151,10 +116,6 @@ export default {
     background white
     clip-path inset(0% 0% 50% 0%)
 
-    .didyouknow
-      h3
-        margin-top 0px
-        
   #vision
     background #E9AF30
     padding-bottom 20px
@@ -196,4 +157,16 @@ export default {
     font-family Georgia, "Times New Roman", Times, serif
     quotes "\201C""\201D""\2018""\2019"
 
+  .bg-topography
+    h3
+      font-size 40px
+    font-size 22px
+    height 220px
+
+  .btn-primary
+    background-color #00afd8
+
+  #accord
+    text-align center
 </style>
+
