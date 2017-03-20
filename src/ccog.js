@@ -5,6 +5,7 @@ import VueRouter from 'vue-router'
 import VueResource from 'vue-resource'
 import CCOG from './CCOG'
 import Welcome from './components/Welcome'
+import Bienvenue from './components/Bienvenue'
 import About from './components/About'
 import Issues from './components/Issues'
 import Members from './components/Members'
@@ -16,6 +17,7 @@ Vue.config.productionTip = false
 const routes = [
   { path: '/', component: Welcome },
   { path: '/welcome', component: Welcome },
+  { path: '/bienvenue', component: Bienvenue },
   { path: '/about', component: About },
   { path: '/issues', component: Issues },
   { path: '/members', component: Members },

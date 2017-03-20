@@ -1,4 +1,4 @@
-<template lang="pug">
+{<template lang="pug">
   header
     .header-top
       .container
@@ -9,7 +9,7 @@
       .container
         ul.list-inline.menu
           li
-            router-link(to='welcome') Welcome
+            router-link(to='welcome') {{Welcome}}
           li
             router-link(to='about') What We Do
           li
@@ -24,8 +24,14 @@
 
 <script>
 export default {
-  name: 'CCOGHeader'
+  name: 'CCOGHeader',
+  data () {
+    return {
+      Welcome: 'Welcome'
+    }
+  }
 }
+
 </script>
 
 <style lang="stylus">
