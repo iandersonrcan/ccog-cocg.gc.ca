@@ -4,7 +4,7 @@
 
 <script>
 export default {
-  name: 'ccog'
+  name: 'App'
 }
 </script>
 

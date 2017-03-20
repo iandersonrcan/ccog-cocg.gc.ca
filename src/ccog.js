@@ -3,7 +3,7 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import VueResource from 'vue-resource'
-import CCOG from './CCOG'
+import App from './App'
 import Welcome from './components/Welcome'
 import Bienvenue from './components/Bienvenue'
 import About from './components/About'
@@ -34,8 +34,8 @@ Vue.use(VueResource)
 
 /* eslint-disable no-new */
 new Vue({
-  el: '#ccog',
+  el: '#app',
   router,
-  template: '<CCOG/>',
-  components: { CCOG }
+  template: '<App/>',
+  components: { App }
 })
