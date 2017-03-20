@@ -106,7 +106,7 @@ export default {
       padding 16px
 
   .banner
-    background $color-primary url('/static/img/banner_01.jpg') no-repeat center center
+    background $color-primary url('/static/img/akimiski_island.jpg') no-repeat center center
     background-size cover
     position relative
     overflow hidden

@@ -22,6 +22,23 @@ wet-boew.github.io/wet-boew/License-en.html / wet-boew.github.io/wet-boew/Licenc
 <script src="/static/wet-boew/js/ie8-wet-boew.min.js"></script>
 <![endif]-->
 <noscript><link rel="stylesheet" href="/static/wet-boew/css/noscript.min.css" /></noscript>
+<style>
+  body {
+    /* background-image: url('/static/img/foxe_basin.jpg'); */
+    background-image: url('/static/img/akimiski_island.jpg');
+    background-size: 100% 100%;
+  }
+
+  main {
+    margin-top: 200px;
+  }
+
+  .btn-primary {
+    border: 1px solid #666;
+    background-color: #00afd8;
+    box-shadow: 0 4px #ddd;
+  }
+</style>
 </head>
 <body vocab="http://schema.org/" typeof="WebPage">
 <ul id="wb-tphp">
@@ -34,6 +51,9 @@ wet-boew.github.io/wet-boew/License-en.html / wet-boew.github.io/wet-boew/Licenc
 </ul>
 <div id="splash">
   <main role="main" property="mainContentOfPage" class="container">
+    <div class="row" style="background: black; padding: 30px">
+      <img src="/static/img/ccog-ccdg.png" />
+    </div>
     <div class="row mrgn-tp-lg">
       <div class="col-md-12">
         <h1 class="wb-inv">
@@ -43,9 +63,6 @@ wet-boew.github.io/wet-boew/License-en.html / wet-boew.github.io/wet-boew/Licenc
           </span>
         </h1>
         <section class="col-md-6">
-          <h2 class="h3 text-center">
-            Canadian Council on Geomatics
-          </h2>
           <ul class="list-unstyled">
             <li>
               <a href="ccog.html" class="btn btn-lg btn-primary btn-block">
@@ -55,14 +72,11 @@ wet-boew.github.io/wet-boew/License-en.html / wet-boew.github.io/wet-boew/Licenc
           </ul>
         </section>
         <section lang="fr" class="col-md-6">
-          <h2 class="h3 text-center">
-            Conseil canadien de géomatiques
-          </h2>
           <ul class="list-unstyled">
             <li>
-              <router-link to="welcome" class="btn btn-lg btn-primary btn-block">
+              <a href="welcome" class="btn btn-lg btn-primary btn-block">
                 Français
-              </router-link>
+              </a>
             </li>
           </ul>
         </section>

@@ -16,7 +16,7 @@
           h2 Vision
           p
             | Our vision is that Canadians and governments can access the best available geographic information to support informed decision making through interoperable systems and data that are maintained in an efficient and effective manner by all Canadian jurisdictions.
-    .banner(style='background-image:url(/static/img/banner_02.jpg)')
+    .banner(style='background-image:url(/static/img/la_tuque.jpg)')
     .container
       .row
         .col-md-6
@@ -39,7 +39,7 @@
       .container
         .row
           .col-md-4
-            img(src='/static/img/vancouver_lidar.png')
+            img(src='/static/img/radarsat_montreal.jpg')
             h3 What We Do 
             p 
               a.btn.btn-primary(href='#/about') About The Council	          
@@ -54,19 +54,19 @@
       .container
         .row
           .col-md-4
-            img(src='/static/img/montreal_point_cloud.png')
+            img(src='/static/img/clearwater.jpg')
             h3 Member Organizations
             p 
               a.btn.btn-primary(href='#/members') Council Members
 			 
           .col-md-4
-            img(src='/static/img/montreal_point_cloud.png')
+            img(src='/static/img/mistastin_lake.jpg')
             h3 Geomatics Accord
             p 
               a.btn.btn-primary(href='#/accord') Read About the Canadian Geomatics Accord
 			 
           .col-md-4
-            img(src='/static/img/bg.jpg')
+            img(src='/static/img/ellesmere_island.jpg')
             h3 Publications
             p 
               a.btn.btn-primary(href='#/publications') Publications from the Council			

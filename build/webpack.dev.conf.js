@@ -33,7 +33,8 @@ module.exports = merge(baseWebpackConfig, {
     }),
     new HtmlWebpackPlugin({
       filename: 'splash.html',
-      template: 'splash.html'
+      template: 'splash.html',
+      chunks: []
     }),
     new HtmlWebpackPlugin({
       filename: 'ccog.html',

@@ -111,7 +111,93 @@
             td produce the website assessment report 
             td AS 
             td Feb 21 
-            td Feb 21 st
+            td Feb 21
+
+      h2 Photo Credits
+        table.photos.table.table-striped
+          thead
+            tr
+              th Image Name
+              th CCOG Page
+              th Source
+              th Thumbnail
+              th Citation Text
+          tbody
+            tr
+              td Akimiski Island
+              td 
+                a(href='splash.html') Splash
+                br
+                a(href='ccog.html#/welcome') Welcome
+              td
+                a(href='http://earthobservatory.nasa.gov/IOTD/view.php?id=8657') NASA
+              td
+                img(src='/static/img/akimiski_island.jpg')
+              td TBD
+            tr
+              td RADARSAT-2 image of Vancouver
+              td 
+                a(href='ccog.html#/welcome') Welcome
+              td
+                a(href='http://www.asc-csa.gc.ca/eng/search/images/watch.asp?id=5948&search=north') CSA
+              td
+                img(src='/static/img/radarsat_vancouver.jpg')
+              td TBD
+            tr
+              td Clearwater Crater
+              td 
+                a(href='ccog.html#/issues') Issues
+              td
+                a(href='http://www.asc-csa.gc.ca/eng/search/images/watch.asp?id=169&search=radar') NASA
+              td
+                img(src='/static/img/clearwater.jpg')
+              td TBD
+            tr
+              td Foxe Basin
+              td 
+                a(href='ccog.html#/accord') Geomatics Accord
+              td
+                a(href='http://www.esa.int/spaceinimages/Images/2008/07/Foxe_Basin_Canada') ESA
+              td
+                img(src='/static/img/foxe_basin.jpg')
+              td TBD
+            tr
+              td Mosaic of Canada
+              td 
+                a(href='ccog.html#/members') Members
+              td
+                a(href='http://www.asc-csa.gc.ca/eng/search/images/watch.asp?id=6551&search=radar') CSA
+              td
+                img(src='/static/img/canada.jpg')
+              td TBD
+            tr
+              td RADARSAT-1 Mosaic of Montreal
+              td 
+                a(href='ccog.html#/about') What We Do
+              td
+                a(href='http://www.esa.int/spaceinimages/Images/2008/07/Foxe_Basin_Canada') CSA
+              td
+                img(src='/static/img/radarsat_montreal.jpg')
+              td TBD
+            tr
+              td Canada Wildfires
+              td 
+                a(href='ccog.html#/accord') Publications
+              td
+                a(href='https://earthobservatory.nasa.gov/IOTD/view.php?id=78527') NASA
+              td
+                img(src='/static/img/nunavut.jpg')
+              td TBD
+            tr
+              td Canadian Land of Lakes
+              td 
+                a(href='ccog.html#/publications') Publications
+              td
+                a(href='https://earthobservatory.nasa.gov/IOTD/view.php?id=78527') NASA
+              td
+                img(src='/static/img/nunavut.jpg')
+              td TBD
+
     HatfieldFooter
 </template>
 
@@ -140,6 +226,10 @@ export default {
 </script>
 
 <style lang="stylus">
+  .photos
+    img
+      width 200px
+      height 150px
   td
     max-width 200px
 </style>

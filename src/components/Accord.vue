@@ -23,7 +23,7 @@
 
     .container
       .row.quote
-        .col-md-8
+        .col-md-12
           blockquote
             p
               | Canada is a leader in integrating geospatial data and making it publicly available for decision makers. This renewed Accord will continue to ensure we have the highest level of intergovernmental collaboration to maximize efficiency while bringing benefits to nearly every sector of the economy.
@@ -32,8 +32,6 @@
             |  
             em
               | Canada&rsquo;s Minister of Natural Resources and Minister for the Federal Economic Development Initiative for Northern Ontario
-        .col-md-4
-          img.img-responsive(src='/static/img/headshot.jpg')
     .banner(style='background-image:url(/static/img/foxe_basin.jpg)')
     .container
       .row
@@ -68,7 +66,6 @@
           p 
           a(href='') Download the 2014-2019 Canadian Geomatics Accord 
           | (PDF, XXXMB)
-          img#wildfires(src='/static/img/wildfires.jpg')
         .col-md-6
           .points.pull-right
             h2 To Add to this page:
