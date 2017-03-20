@@ -61,7 +61,8 @@ var webpackConfig = merge(baseWebpackConfig, {
         // https://github.com/kangax/html-minifier#options-quick-reference
       },
       // necessary to consistently work with multiple chunks via CommonsChunkPlugin
-      chunksSortMode: 'dependency'
+      chunksSortMode: 'dependency',
+      excludeChunks: ['ccog']
     }),
     new HtmlWebpackPlugin({
       filename: process.env.NODE_ENV === 'testing'
@@ -76,7 +77,8 @@ var webpackConfig = merge(baseWebpackConfig, {
         // https://github.com/kangax/html-minifier#options-quick-reference
       },
       // necessary to consistently work with multiple chunks via CommonsChunkPlugin
-      chunksSortMode: 'dependency'
+      chunksSortMode: 'dependency',
+      excludeChunks: ['ccog', 'index']
     }),
     new HtmlWebpackPlugin({
       filename: process.env.NODE_ENV === 'testing'
@@ -92,7 +94,8 @@ var webpackConfig = merge(baseWebpackConfig, {
         // https://github.com/kangax/html-minifier#options-quick-reference
       },
       // necessary to consistently work with multiple chunks via CommonsChunkPlugin
-      chunksSortMode: 'dependency'
+      chunksSortMode: 'dependency',
+      excludeChunks: ['index']
     }),
     // split vendor js into its own file
     new webpack.optimize.CommonsChunkPlugin({
