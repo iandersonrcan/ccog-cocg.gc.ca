@@ -41,10 +41,8 @@ const router = new VueRouter({
   routes: routes,
   scrollBehavior: function (to, from, savedPosition) {
     if (savedPosition) {
-      console.log(savedPosition)
       return savedPosition
     } else {
-      console.log('banana')
       return { x: 0, y: 0 }
     }
   }

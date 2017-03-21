@@ -1,18 +1,21 @@
 <template lang="pug">
   div
     CCOGHeader
-    .banner.welcome
-      .well
-        h1 Welcome
-        p.lead
-          | The Canadian Council on Geomatics is the major federal-provincial-territorial consultative body for geomatics.
-      .credit
-        span.bold Photo Credit
-        br
-        | Akimiski Island
-        br
-        | &copy; 
-        a(href='https://earthobservatory.nasa.gov/IOTD/view.php?id=8657') NASA Earth Observatory
+    .container-fluid
+      .row
+        .col-xs-12
+          .banner.welcome
+            .well
+              h1 Welcome
+              p.lead
+                | The Canadian Council on Geomatics is the major federal-provincial-territorial consultative body for geomatics.
+            .credit
+              span.bold Photo Credit
+              br
+              | Akimiski Island
+              br
+              | &copy; 
+              a(href='https://earthobservatory.nasa.gov/IOTD/view.php?id=8657') NASA Earth Observatory
     .container
       .row
         .col-md-6
@@ -23,13 +26,16 @@
           h2 Vision
           p
             | Our vision is that Canadians and governments can access the best available geographic information to support informed decision making through interoperable systems and data that are maintained in an efficient and effective manner by all Canadian jurisdictions.
-    .banner(style='background-image:url(/static/img/la_tuque.jpg)')
-      .credit
-        span.bold Photo Credit
-        br
-        | La Tuque Point Cloud
-        br
-        | &copy; Natural Resources Canada
+    .container-fluid
+      .row
+        .col-md-12
+          .banner(style='background-image:url(/static/img/la_tuque.jpg)')
+            .credit
+              span.bold Photo Credit
+              br
+              | La Tuque Point Cloud
+              br
+              | &copy; Natural Resources Canada
     main#accord.container-fluid
       .container
         .row

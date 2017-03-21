@@ -20,21 +20,21 @@
             li Changes in Canadian demographics and in the nature and structure of business stakeholders; and
             li Budgetary constraints at every level of government.
 
-
     .container
       .row.quote
         .col-md-12
           blockquote
             p
               | The use of geospatial information contributed $20.7 billion of Canada’s national Gross Domestic Product and generated approximately 19,000 jobs within Canada’s economy in 2013.
-    .banner(style='background-image:url(/static/img/foxe_basin.jpg)')
-      .credit-right
-        span.bold Photo Credit
-        br
-        | Foxe Basin
-        br
-        | &copy;
-        a(href='http://www.esa.int/spaceinimages/Images/2008/07/Foxe_Basin_Canada') ESA
+    .container-fluid
+      .banner(style='background-image:url(/static/img/foxe_basin.jpg)')
+        .credit-right
+          span.bold Photo Credit
+          br
+          | Foxe Basin
+          br
+          | &copy;
+          a(href='http://www.esa.int/spaceinimages/Images/2008/07/Foxe_Basin_Canada') ESA
 
     .container
       .row
