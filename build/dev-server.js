@@ -27,6 +27,7 @@ var compiler = webpack(webpackConfig)
 
 var devMiddleware = require('webpack-dev-middleware')(compiler, {
   publicPath: webpackConfig.output.publicPath,
+  index: 'ccog.html',
   quiet: true
 })
 
@@ -51,7 +52,9 @@ Object.keys(proxyTable).forEach(function (context) {
 })
 
 // handle fallback for HTML5 history API
-app.use(require('connect-history-api-fallback')())
+app.use(require('connect-history-api-fallback')({
+  index: '/ccog.html'
+}))
 
 // serve webpack bundle output
 app.use(devMiddleware)

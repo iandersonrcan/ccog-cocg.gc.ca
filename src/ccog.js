@@ -15,18 +15,39 @@ import Publications from './components/Publications'
 Vue.config.productionTip = false
 
 const routes = [
-  { path: '/', component: Welcome },
-  { path: '/welcome', component: Welcome },
-  { path: '/bienvenue', component: Bienvenue },
-  { path: '/about', component: About },
-  { path: '/issues', component: Issues },
-  { path: '/members', component: Members },
-  { path: '/accord', component: Accord },
-  { path: '/publications', component: Publications }
+  { path: '/', redirect: '/en/welcome' },
+  { path: '/welcome', redirect: '/en/welcome' },
+  { path: '/about', redirect: '/en/about' },
+  { path: '/issues', redirect: '/en/issues' },
+  { path: '/members', redirect: '/en/members' },
+  { path: '/accord', redirect: '/en/accord' },
+  { path: '/publications', component: Publications },
+  { path: '/en/welcome', component: Welcome },
+  { path: '/en/about', component: About },
+  { path: '/en/issues', component: Issues },
+  { path: '/en/members', component: Members },
+  { path: '/en/accord', component: Accord },
+  { path: '/en/publications', component: Publications },
+  { path: '/fr/bienvenue', component: Bienvenue },
+  { path: '/fr/faisons', component: About },
+  { path: '/fr/questions', component: Issues },
+  { path: '/fr/membres', component: Members },
+  { path: '/fr/accord', component: Accord },
+  { path: '/fr/publications', component: Publications }
 ]
 
 const router = new VueRouter({
-  routes // short for routes: routes
+  mode: 'history',
+  routes: routes,
+  scrollBehavior: function (to, from, savedPosition) {
+    if (savedPosition) {
+      console.log(savedPosition)
+      return savedPosition
+    } else {
+      console.log('banana')
+      return { x: 0, y: 0 }
+    }
+  }
 })
 
 Vue.use(VueRouter)
