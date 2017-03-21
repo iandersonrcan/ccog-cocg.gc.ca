@@ -230,4 +230,10 @@ export default {
 
   ul li
     padding-bottom 15px
+
+  .btn-primary
+    &:link, &:visited
+      background $color-primary
+    &:hover, &:active
+      background #333
 </style>

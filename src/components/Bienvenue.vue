@@ -163,9 +163,6 @@ export default {
     font-size 22px
     height 220px
 
-  .btn-primary
-    background-color #00afd8
-
   #accord
     text-align center
 </style>
