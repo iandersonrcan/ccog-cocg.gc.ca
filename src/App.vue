@@ -33,17 +33,12 @@ export default {
 
   p
     margin 0 0 15px
-
-  ul.menu
-    a
-      color black
-      text-decoration none
     
   .img-responsive
     width 100%
 
   .container, .row
-    &:after, &:before
+    &::after, &::before
       content " "
       display table
       box-sizing border-box
@@ -82,10 +77,25 @@ export default {
       .logo
         margin 20px 0
         height 60px
-      a
-        float right
-        color white
+      ul
         margin-top 40px
+        float right
+        li
+          color white
+          padding 0
+          display inline
+          margin 0 10px
+          &::before
+            content "|"
+            padding-right 5px
+            margin-left -10px
+            display inline-block
+          &:first-child::before
+            content ""
+        a
+          color white
+          &:hover
+            color $color-secondary
 
   .list-inline
     padding-left 0
@@ -113,12 +123,14 @@ export default {
         &:hover
           color $color-secondary
 
+
   .banner
     background $color-primary url('/static/img/akimiski_island.jpg') no-repeat center center
     background-size cover
     position relative
     overflow hidden
     padding-bottom 20%
+    margin-top -15px
     &::before, &::after
       content ""
       border-radius 50%
@@ -145,16 +157,17 @@ export default {
         position absolute
         width 50%
         margin 13% 25%
-        padding 15px
         text-align center
         h1
           font-size 68px
           font-family $sans-serif
           font-weight 300
-          margin 0
+          margin 0 30px
         p.lead
-          font-size 34px
+          font-size 28px
           font-family $serif
+          margin-left 30px
+          margin-right 30px
 
 
   .quote
@@ -203,18 +216,17 @@ export default {
       .row
         background transparent
 
-  @media screen and (min-width: 768px) 
-    footer>.container
-      background $color-primary
-
   footer
-    min-height 400px
+    >.container 
+      background $color-primary
     .row
       margin 45px -15px
     color white
     background $color-primary
     a
       color white
+      &:hover
+        color $color-secondary
 
   ul li
     padding-bottom 15px

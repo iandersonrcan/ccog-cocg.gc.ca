@@ -3,9 +3,11 @@
     .header-top
       .container
         img.logo(src='/static/img/ccog-ccdg.png', alt='Canadian Council on Geomatics - Conseil canadien de geomatique')
-        ul.list-inline.menu
-          a(lang='fr', href='home-fr.html') Sign In
-          a(lang='fr', href='fr') Fran&ccedil;ais
+        ul.list-inline
+          li
+            a(lang='fr', href='home-fr.html') Sign In
+          li
+            a(lang='fr', href='fr') Fran&ccedil;ais
     nav
       .container
         ul.list-inline.menu
