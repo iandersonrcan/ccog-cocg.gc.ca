@@ -4,6 +4,8 @@
     main.container(role='main', property='mainContentOfPage')
       h1 Publications
 
+      p The Canadian Council on Geomatics has supported the development of a number of publications on topics in the field of Geomatics.
+
       .row
         .col-md-4
           img#nunavut(src='/static/img/mistastin_lake.jpg')

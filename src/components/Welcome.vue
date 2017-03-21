@@ -30,17 +30,30 @@
         | La Tuque Point Cloud
         br
         | &copy; Natural Resources Canada
-    .container
-      .row
-        .col-md-6
-          h2 Who We Are
-          p
-            | Council members come from the governments of Canada, the provinces and the territories. Council members usually represent their government&rsquo;s major geomatics organizations. The council&rsquo;s key objective is to advance geomatics activities between jurisdictions.
-        .col-md-6
-          h2 Vision
-          p
-            | Our vision is that Canadians and governments can access the best available geographic information to support informed decision making through interoperable systems and data that are maintained in an efficient and effective manner by all Canadian jurisdictions.
+    main#accord.container-fluid
+      .container
+        .row
+          .col-md-4(v-on:click='go("about")')
+            img(src='/static/img/radarsat_montreal.jpg')
+            h3 What We Do 
+            p The Canadian Council on Geomatics works to advance geomatics activities between federal, provincial and territorial governments.
+            p 
+              a.btn.btn-primary(href='#/about') About The Council	          
 
+          .col-md-4(v-on:click='go("issues")')
+            img(src='/static/img/radarsat_vancouver.jpg')
+            h3 Issues of Interest
+            p The Canadian Council on Geomatics is involved with all aspects of geomatics in Canada.
+            p
+              a.btn.btn-primary(href='#/issues') Explore Issues of Interest 
+
+          .col-md-4(v-on:click='go("members")')
+            img(src='/static/img/clearwater.jpg')
+            h3 Member Organizations
+            p Canadian Council on Geomatics members come from the Provinces, Territories and Federal Government Departments.
+            p 
+              a.btn.btn-primary(href='#/members') Council Members
+			 
     .well.bg-topography
       .container
         .row
@@ -51,36 +64,17 @@
     main#accord.container-fluid
       .container
         .row
-          .col-md-4
-            img(src='/static/img/radarsat_montreal.jpg')
-            h3 What We Do 
-            p 
-              a.btn.btn-primary(href='#/about') About The Council	          
-
-          .col-md-4
-            img(src='/static/img/radarsat_vancouver.jpg')
-            h3 Issues of Interest
-            p
-              a.btn.btn-primary(href='#/issues') Explore Issues of Interest 
-
-    main#accord.container-fluid
-      .container
-        .row
-          .col-md-4
-            img(src='/static/img/clearwater.jpg')
-            h3 Member Organizations
-            p 
-              a.btn.btn-primary(href='#/members') Council Members
-			 
-          .col-md-4
+          .col-md-6(v-on:click='go("accord")')
             img(src='/static/img/mistastin_lake.jpg')
             h3 Geomatics Accord
+            p The Canadian Geomatics Accord enables federal-provincial-territorial collaboration in geomatics.
             p 
               a.btn.btn-primary(href='#/accord') Read About the Canadian Geomatics Accord
 			 
-          .col-md-4
+          .col-md-6(v-on:click='go("publications")')
             img(src='/static/img/ellesmere_island.jpg')
             h3 Publications
+            p The Canadian Council on Geomatics has supported the development of a number of publications on topics in the field of Geomatics.
             p 
               a.btn.btn-primary(href='#/publications') Publications from the Council			
     CCOGFooter
@@ -95,6 +89,11 @@ export default {
   components: {
     CCOGHeader,
     CCOGFooter
+  },
+  methods: {
+    go (route) {
+      this.$router.push(route)
+    }
   }
 }
 </script>
