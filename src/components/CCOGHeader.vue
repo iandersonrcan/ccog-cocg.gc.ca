@@ -2,7 +2,8 @@
   header
     .header-top
       .container
-        img.logo(src='/static/img/ccog-ccdg.png', alt='Canadian Council on Geomatics - Conseil canadien de geomatique')
+        router-link(to='welcome')
+          img.logo(src='/static/img/ccog-ccdg.png', alt='Canadian Council on Geomatics - Conseil canadien de geomatique')
         ul.list-inline
           li
             a(lang='fr', href='home-fr.html') Sign In

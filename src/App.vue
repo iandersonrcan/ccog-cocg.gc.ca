@@ -26,6 +26,9 @@ export default {
     font-family $serif
     font-weight normal
 
+  h1
+    font-size 42px
+
   h2
     font-size 34px
     color $color-secondary
