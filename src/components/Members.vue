@@ -26,7 +26,7 @@
             a(href='http://mli2.gov.mb.ca/' target='_blank') Manitoba Land Initiative
 
           details
-            summary New Brunsick	
+            summary New Brunswick	
             a(href='http://www.snb.ca/geonb1/' target='_blank') GeoNB
 
           details

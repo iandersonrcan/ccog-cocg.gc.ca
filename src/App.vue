@@ -102,8 +102,16 @@ export default {
     li
       display table-cell
       float none
-      font-weight bold
-      padding 16px
+      padding 0
+      a
+        text-align center
+        text-decoration none
+        color $color-primary
+        display block
+        font-weight 700
+        padding 1em
+        &:hover
+          color $color-secondary
 
   .banner
     background $color-primary url('/static/img/akimiski_island.jpg') no-repeat center center
