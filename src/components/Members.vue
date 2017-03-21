@@ -4,19 +4,27 @@
     main.container(role='main', property='mainContentOfPage')
       h1 Member Organizations
 
-      img#canada(src='/static/img/canada.jpg')
+      .row
+        .col-md-6
+          ul
+            li Agriculture and Agrifood Canada
+            li Canada Space Agency
+            li Fisheries and Ocean
+            li National Defence
+            li Elections Canada
+            li Environment Canada
+            li Polar Knowledge Canada
+            li Public Safety Canada
+            li Statistics Canada
+            li Public Works and Government Services Canada
+        .col-md-6
+          img#canada(src='/static/img/canada.jpg')
+          .caption
+            | Mosaic of Canada
+            br
+            | &copy; 
+            a(href='http://www.asc-csa.gc.ca/eng/search/images/watch.asp?id=2603&search=radar') Canadian Space Agency
 
-      ul
-        li Agriculture and Agrifood Canada
-        li Canada Space Agency
-        li Fisheries and Ocean
-        li National Defence
-        li Elections Canada
-        li Environment Canada
-        li Polar Knowledge Canada
-        li Public Safety Canada
-        li Statistics Canada
-        li Public Works and Government Services Canada
     CCOGFooter
 </template>
 

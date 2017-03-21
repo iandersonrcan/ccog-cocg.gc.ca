@@ -135,11 +135,11 @@
                 img(src='/static/img/akimiski_island.jpg')
               td TBD
             tr
-              td RADARSAT-2 image of Vancouver
+              td Vancouver
               td 
                 a(href='ccog.html#/welcome') Welcome
               td
-                a(href='http://www.asc-csa.gc.ca/eng/search/images/watch.asp?id=5948&search=north') CSA
+                a(href='http://www.asc-csa.gc.ca/eng/search/images/watch.asp?id=6551&search=radar') CSA
               td
                 img(src='/static/img/radarsat_vancouver.jpg')
               td TBD
@@ -148,7 +148,7 @@
               td 
                 a(href='ccog.html#/issues') Issues
               td
-                a(href='http://www.asc-csa.gc.ca/eng/search/images/watch.asp?id=169&search=radar') NASA
+                a(href='http://www.asc-csa.gc.ca/eng/search/images/watch.asp?id=5948&search=north') CSA
               td
                 img(src='/static/img/clearwater.jpg')
               td TBD
@@ -166,27 +166,34 @@
               td 
                 a(href='ccog.html#/members') Members
               td
-                a(href='http://www.asc-csa.gc.ca/eng/search/images/watch.asp?id=6551&search=radar') CSA
+                a(href='http://www.asc-csa.gc.ca/eng/search/images/watch.asp?id=2603&search=radar') CSA
               td
                 img(src='/static/img/canada.jpg')
               td TBD
             tr
-              td RADARSAT-1 Mosaic of Montreal
+              td Mosaic of Montreal
               td 
                 a(href='ccog.html#/about') What We Do
               td
-                a(href='http://www.esa.int/spaceinimages/Images/2008/07/Foxe_Basin_Canada') CSA
+                a(href='http://www.asc-csa.gc.ca/eng/search/images/watch.asp?id=785&search=radar') CSA
               td
                 img(src='/static/img/radarsat_montreal.jpg')
               td TBD
             tr
-              td Canada Wildfires
+              td La Tuque Point Cloud
               td 
-                a(href='ccog.html#/accord') Publications
+                a(href='ccog.html#/welcome') Welcome
+              td TBD
               td
-                a(href='https://earthobservatory.nasa.gov/IOTD/view.php?id=78527') NASA
+                img(src='/static/img/la_tuque.jpg')
+              td TBD
+            tr
+              td Mistastin Lake
+              td 
+                a(href='ccog.html#/publications') Publications
+              td USGS
               td
-                img(src='/static/img/nunavut.jpg')
+                img(src='/static/img/mistastin_lake.jpg')
               td TBD
             tr
               td Canadian Land of Lakes

@@ -33,6 +33,14 @@
             em
               | Canada&rsquo;s Minister of Natural Resources and Minister for the Federal Economic Development Initiative for Northern Ontario
     .banner(style='background-image:url(/static/img/foxe_basin.jpg)')
+      .credit-right
+        span.bold Photo Credit
+        br
+        | Foxe Basin
+        br
+        | &copy;
+        a(href='http://www.esa.int/spaceinimages/Images/2008/07/Foxe_Basin_Canada') ESA
+
     .container
       .row
         .col-md-12
@@ -106,4 +114,12 @@ export default {
     width 500px
     height 600px
     padding-bottom 20px
+
+  .credit-right
+    position absolute
+    right 2%
+    bottom 10%
+    color white
+    a
+      color white
 </style>

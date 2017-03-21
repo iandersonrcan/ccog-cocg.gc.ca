@@ -4,18 +4,27 @@
     main.container(role='main', property='mainContentOfPage')
       h1 What We Do
 
-      img#montreal(src='/static/img/radarsat_montreal.jpg')
 
-      p The Canadian Council on Geomatics works to advance geomatics activities between federal, provincial and territorial governments. The council’s goal is to reduce duplication of effort between government bodies and to facilitate easy access of geospatial information for the benefit of Canadians. 
-      
-      h2 We are a consultative inter-governmental forum
-      p The council provides a consultative forum for federal, provincial and territorial governments to discuss items such as:
-      ul
-        li current and future geomatics programs
-        li proposed legislation 
-        li collaboration opportunities
-        li national geomatics standards
-        li achievements, new ideas, technologies and procedures that could benefit other jurisdictions.
+
+      .row
+        .col-md-6
+          p The Canadian Council on Geomatics works to advance geomatics activities between federal, provincial and territorial governments. The council’s goal is to reduce duplication of effort between government bodies and to facilitate easy access of geospatial information for the benefit of Canadians. 
+          
+          h2 We are a consultative inter-governmental forum
+          p The council provides a consultative forum for federal, provincial and territorial governments to discuss items such as:
+          ul
+            li current and future geomatics programs
+            li proposed legislation 
+            li collaboration opportunities
+            li national geomatics standards
+            li achievements, new ideas, technologies and procedures that could benefit other jurisdictions.
+        .col-md-6
+          img#montreal(src='/static/img/radarsat_montreal.jpg')
+          .caption
+            | Lidar Point Cloud of Montreal
+            br
+            | &copy; 
+            a(href='http://www.asc-csa.gc.ca/eng/search/images/watch.asp?id=785&search=radar') Canadian Space Agency
       
       h2 We promote the cooperation and the exchange of geomatics data
       p The council promotes cooperation and the exchange of geomatics data to reduce duplication of effort and to facilitate easy access to and use of geographical information by all Canadians. This is done through the promotion of standards and the development of Canada’s geospatial data infrastructure.
@@ -64,9 +73,18 @@ export default {
   td
     max-width 200px
 
-  #montreal
+  .photo
     float right
-    padding 30px
-    height 400px
-    width 700px
+
+  #montreal
+    height 20em
+    width 35em
+
+  .caption
+    font-style italic
+    text-align right
+    a
+      text-decoration none
+      color black
+
 </style>
