@@ -36,13 +36,12 @@
           p Content to be determined.
 
       .row
-        .col-md-12
-          section.panel.panel-primary
-            header.panel-heading
-              h2.panel-title Other Publications
-            .panel-body
-              p The CGDI Resource Centre summarizes potentially relevant publications that are available on GeoScan: 
-              a https://www.nrcan.gc.ca/earth-sciences/geomatics/canadas-spatial-data-infrastructure/8904 
+        h2 Other Publications
+        p 
+          | The 
+          a(href='https://www.nrcan.gc.ca/earth-sciences/geomatics/canadas-spatial-data-infrastructure/8904') CGDI Resource Centre 
+          | summarizes potentially relevant publications that are available on GeoScan.
+        a 
     CCOGFooter
 </template>
 
