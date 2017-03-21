@@ -26,12 +26,7 @@
         .col-md-12
           blockquote
             p
-              | Canada is a leader in integrating geospatial data and making it publicly available for decision makers. This renewed Accord will continue to ensure we have the highest level of intergovernmental collaboration to maximize efficiency while bringing benefits to nearly every sector of the economy.
-            |  
-            strong Greg Rickford
-            |  
-            em
-              | Canada&rsquo;s Minister of Natural Resources and Minister for the Federal Economic Development Initiative for Northern Ontario
+              | The use of geospatial information contributed $20.7 billion of Canada’s national Gross Domestic Product and generated approximately 19,000 jobs within Canada’s economy in 2013.
     .banner(style='background-image:url(/static/img/foxe_basin.jpg)')
       .credit-right
         span.bold Photo Credit
@@ -60,7 +55,8 @@
             h2 Principles of Collaboration 
             p In order to provide the highest quality of geographical information the federal, provincial and territorial Accord signatories agree to work within these principles: 
           .col-md-6
-            ul To provide effective leadership and governance within the geomatics community in order to contribute to a vital Canadian geomatics sector;
+            ul
+              li To provide effective leadership and governance within the geomatics community in order to contribute to a vital Canadian geomatics sector;
               li To promote and contribute to the development of best practices, pan-Canadian and international standards and policies to support geospatial information sharing and integration;
               li To support the efficient use of resources by collaborating to reduce management and maintenance costs through the development of harmonized collection strategies and shared infrastructure for geomatics;
           .col-md-6

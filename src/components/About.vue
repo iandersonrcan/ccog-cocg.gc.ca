@@ -4,8 +4,6 @@
     main.container(role='main', property='mainContentOfPage')
       h1 What We Do
 
-
-
       .row
         .col-md-6
           p The Canadian Council on Geomatics works to advance geomatics activities between federal, provincial and territorial governments. The council’s goal is to reduce duplication of effort between government bodies and to facilitate easy access of geospatial information for the benefit of Canadians. 
@@ -26,16 +24,24 @@
             | &copy; 
             a(href='http://www.asc-csa.gc.ca/eng/search/images/watch.asp?id=785&search=radar') Canadian Space Agency
       
-      h2 We promote the cooperation and the exchange of geomatics data
-      p The council promotes cooperation and the exchange of geomatics data to reduce duplication of effort and to facilitate easy access to and use of geographical information by all Canadians. This is done through the promotion of standards and the development of Canada’s geospatial data infrastructure.
-      p The council develops, promotes and spreads national and international geomatics standards. Standards are necessary to facilitate open sharing of spatial data between platforms, especially in a varied network of computers that are managing a diverse range of spatial data stores and data types. 
-      p The council works to support Canada’s geospatial data infrastructure (CGDI), a web-based knowledge infrastructure that improves the efficient access, sharing and use of geospatial data. The CGDI consists of:
-      ul
-        li Operational policies, covering areas such as intellectual property, data sharing and privacy, governing the use and re-use of the geospatial data
-        li Technology tools to enable the search, discovery, viewing, downloading and transformation of geospatial data;
-        li Standards for the geospatial data and for the technology tools to ensure that all elements function seamlessly and efficiently with each other; and
-        li Geospatial data itself
+    .well
+      .container
+        .row
+          .col-md-12
+            h2 We promote cooperation and the exchange of geomatics data
+            p The council promotes cooperation and the exchange of geomatics data to reduce duplication of effort and to facilitate easy access to and use of geographical information by all Canadians. This is done through the promotion of standards and the development of Canada’s geospatial data infrastructure.
+            p The council develops, promotes and spreads national and international geomatics standards. Standards are necessary to facilitate open sharing of spatial data between platforms, especially in a varied network of computers that are managing a diverse range of spatial data stores and data types. 
+            p The council works to support Canada’s geospatial data infrastructure (CGDI), a web-based knowledge infrastructure that improves the efficient access, sharing and use of geospatial data. The CGDI consists of:
+          .col-md-6
+            ul
+              li Operational policies, covering areas such as intellectual property, data sharing and privacy, governing the use and re-use of the geospatial data
+              li Technology tools to enable the search, discovery, viewing, downloading and transformation of geospatial data;
+          .col-md-6
+            ul
+              li Standards for the geospatial data and for the technology tools to ensure that all elements function seamlessly and efficiently with each other; and
+              li Geospatial data itself
 
+    .container
       h2 We support government decision making and service delivery
       p The council supports government decision making, and service delivery to citizens in many areas including:
 
@@ -47,9 +53,6 @@
         li physical and critical infrastructure planning
         li water-use and management
         li social service planning and delivery
-      
-      h2 Explore our Issues of Interest
-      p TODO: put blocks of issues of interest here.
     CCOGFooter
 </template>
 
