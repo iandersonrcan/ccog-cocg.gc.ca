@@ -38,21 +38,21 @@
             h3 What We Do 
             p The Canadian Council on Geomatics works to advance geomatics activities between federal, provincial and territorial governments.
             p 
-              a.btn.btn-primary(href='#/about') About The Council	          
+              router-link.btn.btn-primary(to='about') About The Council	          
 
           .col-md-4(v-on:click='go("issues")')
             img(src='/static/img/radarsat_vancouver.jpg')
             h3 Issues of Interest
             p The Canadian Council on Geomatics is involved with all aspects of geomatics in Canada.
             p
-              a.btn.btn-primary(href='#/issues') Explore Issues of Interest 
+              router-link.btn.btn-primary(to='issues') Explore Issues of Interest 
 
           .col-md-4(v-on:click='go("members")')
             img(src='/static/img/clearwater.jpg')
             h3 Member Organizations
             p Canadian Council on Geomatics members come from the Provinces, Territories and Federal Government Departments.
             p 
-              a.btn.btn-primary(href='#/members') Council Members
+              router-link.btn.btn-primary(to='members') Council Members
 			 
     .well.bg-topography
       .container
@@ -69,14 +69,14 @@
             h3 Geomatics Accord
             p The Canadian Geomatics Accord enables federal-provincial-territorial collaboration in geomatics.
             p 
-              a.btn.btn-primary(href='#/accord') Read About the Canadian Geomatics Accord
+              router-link.btn.btn-primary(to='accord') Read About the Canadian Geomatics Accord
 			 
           .col-md-6(v-on:click='go("publications")')
             img(src='/static/img/ellesmere_island.jpg')
             h3 Publications
             p The Canadian Council on Geomatics has supported the development of a number of publications on topics in the field of Geomatics.
             p 
-              a.btn.btn-primary(href='#/publications') Publications from the Council			
+              router-link.btn.btn-primary(to='publications') Publications from the Council			
     CCOGFooter
 </template>
 
