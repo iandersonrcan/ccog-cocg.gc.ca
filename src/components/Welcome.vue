@@ -190,7 +190,7 @@ export default {
       font-weight bold
     z-index 1
     position absolute
-    bottom 50px
+    bottom 25px
     left 20px
     color white
     a

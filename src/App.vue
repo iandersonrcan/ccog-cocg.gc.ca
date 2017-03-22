@@ -62,6 +62,7 @@ export default {
     overflow hidden
     padding-bottom 20%
     margin-top -15px
+    min-height 200px
     &::before, &::after
       content ""
       border-radius 50%
@@ -86,20 +87,18 @@ export default {
         color $color-primary
         z-index 9999
         position absolute
-        width 50%
-        margin 13% 25%
+        min-width 50%
+        max-width 80%
+        margin 10% 10%
         text-align center
         h1
-          font-size 68px
+          font-size 3em
           font-family $sans-serif
           font-weight 300
-          margin 0 30px
+          margin-top 0
         p.lead
-          font-size 28px
+          font-size 2em
           font-family $serif
-          margin-left 30px
-          margin-right 30px
-
 
   .quote
     .col-md-4,.col-md-8
