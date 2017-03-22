@@ -4,86 +4,165 @@
     main.container(role='main', property='mainContentOfPage')
       h1 Member Organizations
 
-      img#canada.hidden(src='/static/img/canada.jpg')
-
-      
       p Canadian Council on Geomatics members come from the Provinces, Territories and Federal Government Departments:
       
       h2 Provincial and Territorial Members
-      p.small Expand to find links to each member's geospatial or open data portal.
       .row
         .col-md-6
-          details
-            summary Alberta	
-            a(href='http://open.alberta.ca/' target='_blank') Alberta Open Government Portal
+          strong Alberta
+          ul
+            li
+              | Open Data Portal: 
+              a(href='http://open.alberta.ca/' target='_blank') Alberta Open Government Portal
                    
-          details
-            summary British Columbia	
-            a(href='https://data.gov.bc.ca/' target='_blank') DataBC
+          strong British Columbia	
+          ul
+            li
+              | Open Data Portal: 
+              a(href='https://data.gov.bc.ca/' target='_blank') DataBC
              
-          details
-            summary Manitoba	            
-            a(href='http://mli2.gov.mb.ca/' target='_blank') Manitoba Land Initiative
+          strong Manitoba	            
+          ul
+            li
+              | Geospatial Data Portal: 
+              a(href='http://mli2.gov.mb.ca/' target='_blank') Manitoba Land Initiative
 
-          details
-            summary New Brunswick	
-            a(href='http://www.snb.ca/geonb1/' target='_blank') GeoNB
+          strong New Brunswick	
+          ul
+            li
+              | Geospatial Data Portal: 
+              a(href='http://www.snb.ca/geonb1/' target='_blank') GeoNB
 
-          details
-            summary Newfoundland and Labrador	
-            a(href='http://opendata.gov.nl.ca/' target='_blank') Newfoundland and Labrador Open Data
-            
-          details
-            summary North West Territories	
-            a(href='http://www.geomatics.gov.nt.ca/' target='_blank') Northwest Territories Centre for Geomatics
-            br
-            a(href='http://nwtdiscoveryportal.enr.gov.nt.ca/' target='_blank') NWT Discovery Portal
+          strong Newfoundland and Labrador	
+          ul
+            li
+              | Open Data Portal: 
+              a(href='http://opendata.gov.nl.ca/' target='_blank') Newfoundland and Labrador Open Data
+          strong Northwest Territories	
+          ul
+            li
+              | Geospatial Data Portal: 
+              a(href='http://www.geomatics.gov.nt.ca/' target='_blank') Northwest Territories Centre for Geomatics
+            li
+              | Open Data Portal: 
+              a(href='http://nwtdiscoveryportal.enr.gov.nt.ca/' target='_blank') NWT Discovery Portal
 
-          details
-            summary Nova Scotia		
-            a(href='https://data.novascotia.ca/' target='_blank') Nova Scotia Open Data Portal
-            br
-            a(href='http://gov.ns.ca/geonova/home/default.asp' target='_blank') GeoNova
+          strong Nova Scotia		
+          ul
+            li
+              | Open Data Portal: 
+              a(href='https://data.novascotia.ca/' target='_blank') Nova Scotia Open Data Portal
+            li
+              | Geospatial Data Portal: 
+              a(href='http://gov.ns.ca/geonova/home/default.asp' target='_blank') GeoNova
         .col-md-6
-          details
-            summary Nunavut
-            a(href='http://cngo.ca/' target='_blank') Canada-Nunavut Geoscience Office
+          strong Nunavut
+          ul
+            li
+              | Geospatial Data Portal: 
+              a(href='http://cngo.ca/' target='_blank') Canada-Nunavut Geoscience Office
           
-          details
-            summary Ontario
-            a(href='http://www.ontario.ca/government/government-ontario-open-data' target='_blank') Ontario open data website
+          strong Ontario
+          ul
+            li
+              | Open Data Portal: 
+              a(href='http://www.ontario.ca/government/government-ontario-open-data' target='_blank') Ontario open data website
 
-          details
-            summary Prince Edward Island	
-            a(href='http://www.gov.pe.ca/gis/' target='_blank') GIS Data Layers: Geographic Information for PEI
+          strong Prince Edward Island	
+          ul
+            li
+              | GIS Data Portal: 
+              a(href='http://www.gov.pe.ca/gis/' target='_blank') GIS Data Layers
           
-          details
-            summary Quebec	
-            a(href='http://www.quebecgeographique.gouv.qc.ca/' target='_blank') Québec géographique
+          strong Quebec
+          ul
+            li
+              | Geospatial Data Portal: 
+              a(href='http://www.quebecgeographique.gouv.qc.ca/' target='_blank') Québec géographique
+            li
+              | Open Data Portal: 
+              a(href='https://www.donneesquebec.ca/fr/' target='_blank') Données ouvertes
+          
+          strong Saskatchewan
+          ul
+            li
+              | Open Data Portal: 
+              a(href='http://gis.saskatchewan.ca') GIS.saskatchewan.ca
+          
+          strong Yukon
+          ul
+            li
+              | Geospatial Data Portal: 
+              a(href='http://www.geomaticsyukon.ca/') Geomatics Yukon
+    .container-fluid
+      .row
+        .col-xs-12
+          .banner(style='background-image:url(/static/img/radarsat_vancouver.jpg)')
+          .credit-right
+            span.bold Photo Credit
             br
-            a(href='https://www.donneesquebec.ca/fr/' target='_blank') Données ouvertes
-          
-          details
-            summary Saskatchewan
-            a(href='http://gis.saskatchewan.ca') GIS.saskatchewan.ca
-          
-          details
-            summary Yukon
-            a(href='http://www.geomaticsyukon.ca/') Geomatics Yukon
+            | RADARSAT 2 Image of Vancouver
+            br
+            | &copy;
+            a(href='http://www.asc-csa.gc.ca/eng/search/images/watch.asp?id=6551&search=radar') CSA
             
-      
+    .container
       h2 Federal Government Members:
-      ul
-        li Agriculture and Agrifood Canada
-        li Canada Space Agency
-        li Elections Canada
-        li Environment Canada        
-        li Fisheries and Ocean
-        li National Defence
-        li Polar Knowledge Canada
-        li Public Works and Government Services Canada        
-        li Public Safety Canada
-        li Statistics Canada
+      .row
+        .col-md-5
+          strong Agriculture and Agri-Food Canada
+          ul
+            li
+              | 
+              a(href='http://www.agr.gc.ca/') http://www.agr.gc.ca/
+          strong Canadian Space Agency
+          ul
+            li
+              | 
+              a(href='http://www.asc-csa.gc.ca/') http://www.asc-csa.gc.ca/
+          strong Elections Canada
+          ul
+            li
+              | 
+              a(href='http://www.elections.ca/') http://www.elections.ca/
+          strong Environment and Climate Change Canada        
+          ul
+            li
+              | 
+              a(href='https://www.ec.gc.ca/') https://www.ec.gc.ca/
+          strong Fisheries and Oceans
+          ul
+            li
+              | 
+              a(href='http://www.dfo-mpo.gc.ca/') http://www.dfo-mpo.gc.ca/
+        .col-md-5
+          strong National Defence and the Canadian Armed Forces
+          ul
+            li
+              | 
+              a(href='http://www.forces.gc.ca/') http://www.forces.gc.ca/
+          strong Polar Knowledge Canada
+          ul
+            li
+              | 
+              a(href='https://www.canada.ca/en/polar-knowledge.html') https://www.canada.ca/en/polar-knowledge.html
+          strong Public Services and Procurement Canada
+          ul
+            li
+              | 
+              a(href='http://www.pspc-spac.gc.ca/') http://www.pspc-spac.gc.ca/
+          strong Public Safety Canada
+          ul
+            li
+              | 
+              a(href='https://www.publicsafety.gc.ca/') https://www.publicsafety.gc.ca/
+          strong Statistics Canada
+          ul
+            li
+              | 
+              a(href='http://www.statcan.gc.ca/') http://www.statcan.gc.ca/
+        .col-md-2
+          img#canada(src='/static/img/canada.jpg')
 
     CCOGFooter
 </template>
@@ -108,10 +187,14 @@ export default {
   td
     max-width 200px
 
+  #radarsat
+    width 350px
+    height 300px
+    padding-bottom 20px
+
   #canada
-    float right
-    width 700px
-    height 500px
+    width 350px
+    height 300px
     padding-bottom 20px
 
 </style>

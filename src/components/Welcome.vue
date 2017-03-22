@@ -47,14 +47,14 @@
               router-link.btn.btn-primary(to='about') About The Council	          
 
           .col-md-4(v-on:click='go("issues")')
-            img(src='/static/img/radarsat_vancouver.jpg')
+            img(src='/static/img/clearwater.jpg')
             h3 Issues of Interest
             p The Canadian Council on Geomatics is involved with all aspects of geomatics in Canada.
             p
               router-link.btn.btn-primary(to='issues') Explore Issues of Interest 
 
           .col-md-4(v-on:click='go("members")')
-            img(src='/static/img/clearwater.jpg')
+            img(src='/static/img/radarsat_vancouver.jpg')
             h3 Member Organizations
             p Canadian Council on Geomatics members come from the Provinces, Territories and Federal Government Departments.
             p 
@@ -71,14 +71,14 @@
       .container
         .row
           .col-md-6(v-on:click='go("accord")')
-            img(src='/static/img/mistastin_lake.jpg')
+            img(src='/static/img/foxe_basin.jpg')
             h3 Geomatics Accord
             p The Canadian Geomatics Accord enables federal-provincial-territorial collaboration in geomatics.
             p 
               router-link.btn.btn-primary(to='accord') Read About the Canadian Geomatics Accord
 			 
           .col-md-6(v-on:click='go("publications")')
-            img(src='/static/img/ellesmere_island.jpg')
+            img(src='/static/img/mistastin_lake.jpg')
             h3 Publications
             p The Canadian Council on Geomatics has supported the development of a number of publications on topics in the field of Geomatics.
             p 
