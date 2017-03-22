@@ -3,10 +3,10 @@
     .header-top
       .container
         .row
-          .col-xs-6.col-md-6
-            router-link(to='welcome')
-              img.logo(src='/static/img/ccog-ccdg.png', alt='Canadian Council on Geomatics - Conseil canadien de geomatique')
-          .col-xs-6
+          .brand.col-xs-8.col-md-6
+            router-link(to='/splash.html')
+              img(src='/static/img/ccog-ccdg.png', alt='Canadian Council on Geomatics - Conseil canadien de geomatique')
+          .col-xs-4
             #wb-glb-mn.wb-mb-links.visible-sm.visible-xs
               h2 Search and menus
               ul.pnl-btn.list-inline.text-right
@@ -18,9 +18,9 @@
           .col-md-6
             ul.list-inline
               li
-                a(lang='fr', href='home-fr.html') Sign In
+                a(lang='fr', href='https://fileexchange.nrcan.gc.ca') Sign In
               li
-                a(lang='fr', href='fr') Fran&ccedil;ais
+                router-link(to='/fr/bienvenue') Fran&ccedil;ais
 
     nav.visible-md.visible-lg(role='navigation')
       .container
@@ -63,12 +63,18 @@ export default {
 
 
   header
+    .brand
+      img
+        width auto
+        @media screen and (max-width: 767px), screen and (max-device-width: 767px)
+          max-height 40px
+          margin-top 25px
+        @media screen and (min-width: 768px) and (min-device-width: 768px)
+          max-height 60px
+          margin-top 8px
     .header-top
       background-color $color-primary
       max-height 100px
-      .logo
-        margin 20px 0
-        height 60px
       ul
         margin-top 40px
         float right
@@ -94,26 +100,39 @@ export default {
     list-style none
     margin-left -5px
 
-  .menu
-    display table
-    margin 0
-    width 100%
-    margin-left 0
-    position relative
-    height 56px
-    li
-      display table-cell
-      float none
-      padding 0
-      a
-        text-align center
-        text-decoration none
-        color $color-primary
+  @media screen and (max-width: 767px), screen and (max-device-width: 767px)
+    .menu
+      li
         display block
-        font-weight 700
-        padding 1em
-        &:hover
-          color $color-secondary
+        a
+          text-align center
+          text-decoration none
+          color $color-primary
+          display block
+          font-weight 700
+          padding 1em
+          &:hover
+            color $color-secondary
 
-
+  @media screen and (min-width: 768px) and (min-device-width: 768px)
+    .menu
+      display table
+      margin 0
+      width 100%
+      margin-left 0
+      position relative
+      height 56px
+      li
+        display table-cell
+        float none
+        padding 0
+        a
+          text-align center
+          text-decoration none
+          color $color-primary
+          display block
+          font-weight 700
+          padding 1em
+          &:hover
+            color $color-secondary
 </style>
