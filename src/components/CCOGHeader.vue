@@ -156,4 +156,6 @@ export default {
         &:hover
           color $color-secondary
 
+  .spacer
+    height 40px
 </style>

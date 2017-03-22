@@ -25,4 +25,7 @@ export default {
 </script>
 
 <style lang="stylus">
+  footer
+    img
+      padding 15px
 </style>

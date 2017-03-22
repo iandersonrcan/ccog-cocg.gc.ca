@@ -4,7 +4,7 @@
     .container-fluid
       .row
         .col-xs-12
-          .banner.welcome
+          .banner
             .well
               h1 Welcome
               p.lead
@@ -59,14 +59,13 @@
             p Canadian Council on Geomatics members come from the Provinces, Territories and Federal Government Departments.
             p 
               router-link.btn.btn-primary(to='members') Council Members
-			 
-    .well.bg-topography
-      .container
-        .row
-          .col-md-12
+    .container-fluid
+      .row.bg-topography
+        .col-md-12
+          .well
             h3 Did you know?
-            strong GIS (Geographic Information Systems) was invented in Canada in the 1960s, 
-            | leading to rapid innovation in the use and application of geospatial data.
+            p.lead GIS (Geographic Information Systems) was invented in Canada in the 1960s, leading to rapid innovation in the use and application of geospatial data.
+
     main#accord.container-fluid
       .container
         .row
@@ -105,9 +104,10 @@ export default {
 </script>
 
 <style lang="stylus">
-  @font-face 
-    font-family Bitter
-    src url("/static/fonts/Bitter-Regular.otf") format("opentype")
+  $color-primary = #252839
+  $color-secondary = #00afd8
+  $sans-serif = 'Open Sans', sans-serif
+  $serif = 'Bree Serif', serif
 
   h1,h2,h3
     font-family Bitter
@@ -117,22 +117,6 @@ export default {
 
   main.container-fluid
     padding 0
-
-  .mask
-    width 100%
-    background white
-    height 60px
-    border-radius 100% 100%
-    position relative
-
-  .top
-    top -71px
-    clip-path inset(50% 0% 0% 0%)
-
-  .bottom
-    top 521px
-    background white
-    clip-path inset(0% 0% 50% 0%)
 
   #vision
     background #E9AF30
@@ -175,11 +159,45 @@ export default {
     font-family Georgia, "Times New Roman", Times, serif
     quotes "\201C""\201D""\2018""\2019"
 
-  .bg-topography
-    h3
-      font-size 40px
-    font-size 22px
-    height 220px
+  .banner
+    background $color-primary url('/static/img/akimiski_island.jpg') no-repeat center center
 
+    .well
+      background rgba(255,255,255,.4)
+      color $color-primary
+      z-index 9999
+      min-width 50%
+      max-width 80%
+      margin 10% 10%
+      text-align center
+      h1
+        font-size 3em
+        font-family $sans-serif
+        font-weight 300
+        margin-top 0
+      p.lead
+        font-size 2em
+        font-family $serif
+
+
+  .bg-topography
+    overflow auto
+    background $color-secondary url('/static/img/bg-topography.png') repeat-y center center fixed
+    margin-bottom 20px
+    min-height 250px
+
+    .well
+      background transparent
+      color white
+      border 0
+      min-width 50%
+      max-width 80%
+      margin 0 10%
+      text-align center
+      h3
+        font-size 2.5em
+      p.lead
+        font-size 1.5em
+        font-family $serif
 </style>
 

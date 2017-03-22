@@ -1,7 +1,7 @@
 <template lang="pug">
   div
     CCOGHeader
-    main.container(role='main', property='mainContentOfPage')
+    .container(role='main', property='mainContentOfPage')
       h1 What We Do
 
       .row
@@ -24,17 +24,18 @@
             | &copy; 
             a(href='http://www.asc-csa.gc.ca/eng/search/images/watch.asp?id=785&search=radar') Canadian Space Agency
       
-    .well
-      .container
+    .container-fluid.cooperation
+      .well
         .row
           .col-md-12
             h2 We promote cooperation and the exchange of geomatics data
             p The council promotes cooperation and the exchange of geomatics data to reduce duplication of effort and to facilitate easy access to and use of geographical information by all Canadians. This is done through the promotion of standards and the development of Canada’s geospatial data infrastructure.
             p The council develops, promotes and spreads national and international geomatics standards. Standards are necessary to facilitate open sharing of spatial data between platforms, especially in a varied network of computers that are managing a diverse range of spatial data stores and data types. 
             p The council works to support Canada’s geospatial data infrastructure (CGDI), a web-based knowledge infrastructure that improves the efficient access, sharing and use of geospatial data. The CGDI consists of:
+        .row
           .col-md-6
             ul
-              li Operational policies, covering areas such as intellectual property, data sharing and privacy, governing the use and re-use of the geospatial data
+              li Operational policies covering areas such as intellectual property, data sharing and privacy, governing the use and re-use of the geospatial data
               li Technology tools to enable the search, discovery, viewing, downloading and transformation of geospatial data
           .col-md-6
             ul
@@ -43,7 +44,7 @@
 
     .container
       h2 We support government decision making and service delivery
-      p The council supports government decision making, and service delivery to citizens in many areas including:
+      p The council supports government decision making, and service delivery to citizens in many areas, including:
 
       ul
         li Sustainable development and environment
@@ -78,6 +79,13 @@ export default {
 
   .photo
     float right
+
+  .cooperation
+    background #66cee7
+    .well
+      margin 0 auto
+      border 0
+      text-align left
 
   #montreal
     height 20em

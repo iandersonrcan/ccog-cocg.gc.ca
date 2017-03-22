@@ -56,13 +56,11 @@ export default {
     padding 0
 
   .banner
-    background $color-primary url('/static/img/akimiski_island.jpg') no-repeat center center
+    min-height 250px;
     background-size cover
     position relative
     overflow hidden
-    padding-bottom 20%
-    margin-top -15px
-    min-height 200px
+    margin 10px 0
     &::before, &::after
       content ""
       border-radius 50%
@@ -78,27 +76,20 @@ export default {
     &::after
       bottom 0
       -webkit-transform translateY(80%)
-    &.welcome
-      padding-bottom 0
-      min-height 650px
 
-      .well
-        background rgba(255,255,255,.4)
-        color $color-primary
-        z-index 9999
-        position absolute
-        min-width 50%
-        max-width 80%
-        margin 10% 10%
-        text-align center
-        h1
-          font-size 3em
-          font-family $sans-serif
-          font-weight 300
-          margin-top 0
-        p.lead
-          font-size 2em
-          font-family $serif
+  .well
+    min-width 50%
+    max-width 80%
+    margin 10% 10%
+    text-align center
+    h1
+      font-size 3em
+      font-family $sans-serif
+      font-weight 300
+      margin-top 0
+    p.lead
+      font-size 2em
+      font-family $serif
 
   .quote
     .col-md-4,.col-md-8
@@ -140,11 +131,6 @@ export default {
     color white
     h2
       color white
-    &.bg-topography
-      background $color-secondary url('/static/img/bg-topography.png') repeat-y center center fixed
-      background-size cover
-      .row
-        background transparent
 
   footer
     >.container 

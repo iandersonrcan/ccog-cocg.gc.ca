@@ -157,12 +157,6 @@ export default {
     font-family Georgia, "Times New Roman", Times, serif
     quotes "\201C""\201D""\2018""\2019"
 
-  .bg-topography
-    h3
-      font-size 40px
-    font-size 22px
-    height 220px
-
   #accord
     text-align center
 </style>
