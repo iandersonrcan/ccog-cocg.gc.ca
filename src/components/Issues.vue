@@ -120,5 +120,7 @@ export default {
 
   #clearwater
     float right
-    padding-bottom 20px
+
+  summary
+    text-decoration underline
 </style>

@@ -109,7 +109,7 @@
     .container
       h2 Federal Government Members:
       .row
-        .col-md-5
+        .col-md-6
           strong Agriculture and Agri-Food Canada
           ul
             li
@@ -135,7 +135,7 @@
             li
               | 
               a(href='http://www.dfo-mpo.gc.ca/') http://www.dfo-mpo.gc.ca/
-        .col-md-5
+        .col-md-6
           strong National Defence and the Canadian Armed Forces
           ul
             li
@@ -161,8 +161,14 @@
             li
               | 
               a(href='http://www.statcan.gc.ca/') http://www.statcan.gc.ca/
-        .col-md-2
+      .row
+        .col-md-12.text-center
           img#canada(src='/static/img/canada.jpg')
+          .caption
+            | Mosaic of Canada
+            br
+            | &copy; 
+            a(href='http://www.asc-csa.gc.ca/eng/search/images/watch.asp?id=2603&search=radar') CSA
 
     CCOGFooter
 </template>
@@ -193,8 +199,6 @@ export default {
     padding-bottom 20px
 
   #canada
-    width 350px
-    height 300px
     padding-bottom 20px
 
 </style>

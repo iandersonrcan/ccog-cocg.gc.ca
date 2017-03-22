@@ -13,7 +13,7 @@
             |  K1S 5K2
             br
           |  
-          a(href='mailto:NRCan.ccog-cocg-ccog-cocg.RNCan@canada.ca') Email CCOG
+          a(href='mailto:NRCan.ccog-cocg-ccog-cocg.RNCan@canada.ca') Email
         .col-md-4
           img.img-responsive(src='/static/img/ccog-ccdg.png')
 </template>

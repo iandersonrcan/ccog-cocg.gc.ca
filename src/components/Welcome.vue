@@ -181,20 +181,5 @@ export default {
     font-size 22px
     height 220px
 
-  #accord
-    text-align center
-
-  .credit
-    font-size 12px
-    .bold
-      font-weight bold
-    z-index 1
-    position absolute
-    bottom 25px
-    left 20px
-    color white
-    a
-      color white
-      text-decoration none
 </style>
 

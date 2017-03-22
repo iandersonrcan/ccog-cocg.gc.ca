@@ -11,11 +11,11 @@
           h2 We are a consultative inter-governmental forum
           p The council provides a consultative forum for federal, provincial and territorial governments to discuss items such as:
           ul
-            li current and future geomatics programs
-            li proposed legislation 
-            li collaboration opportunities
-            li national geomatics standards
-            li achievements, new ideas, technologies and procedures that could benefit other jurisdictions.
+            li Current and future geomatics programs
+            li Proposed legislation 
+            li Collaboration opportunities
+            li National geomatics standards
+            li Achievements, new ideas, technologies and procedures that could benefit other jurisdictions.
         .col-md-6
           img#montreal(src='/static/img/radarsat_montreal.jpg')
           .caption
@@ -35,10 +35,10 @@
           .col-md-6
             ul
               li Operational policies, covering areas such as intellectual property, data sharing and privacy, governing the use and re-use of the geospatial data
-              li Technology tools to enable the search, discovery, viewing, downloading and transformation of geospatial data;
+              li Technology tools to enable the search, discovery, viewing, downloading and transformation of geospatial data
           .col-md-6
             ul
-              li Standards for the geospatial data and for the technology tools to ensure that all elements function seamlessly and efficiently with each other; and
+              li Standards for the geospatial data and for the technology tools to ensure that all elements function seamlessly and efficiently with each other
               li Geospatial data itself
 
     .container
@@ -46,13 +46,13 @@
       p The council supports government decision making, and service delivery to citizens in many areas including:
 
       ul
-        li sustainable development and environment
-        li land-use planning and land-use resources integrated management
-        li public safety and security
-        li public health and education assessment and surveillance
-        li physical and critical infrastructure planning
-        li water-use and management
-        li social service planning and delivery
+        li Sustainable development and environment
+        li Land-use planning and land-use resources integrated management
+        li Public safety and security
+        li Public health and education assessment and surveillance
+        li Physical and critical infrastructure planning
+        li Water-use and management
+        li Social service planning and delivery
     CCOGFooter
 </template>
 
@@ -82,12 +82,4 @@ export default {
   #montreal
     height 20em
     width 35em
-
-  .caption
-    font-style italic
-    text-align right
-    a
-      text-decoration none
-      color black
-
 </style>

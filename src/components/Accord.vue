@@ -8,17 +8,14 @@
         .col-md-12
           p The Canadian Geomatics Accord enables federal-provincial-territorial collaboration in geomatics. It also sets common geographical data standards and shares the cost of national data bases. The purpose of the Accord is to provide a framework for intergovernmental collaboration in geomatics, by outlining roles and responsibilities and overarching principles for intergovernmental collaboration on geomatics activities in Canada.
           p The current accord is in effect between 2014 and the end of 2019.
-          h2 History
-          p The 2014 - 2019 Canadian Geomatics Accord is the third such Accord. Prior Accords include the:
+          h2 Benefits of the Accord 
+          p Authoritative, accessible geographical information is important to Canadian citizens, businesses and researchers. Geospatial information has proven to accelerate innovation and productivity. Accurate, definitive, science based, geographical knowledge of the Canadian landmass, marine extent and air space is critical to fact based decision and policy making. 
+          p Collaborative efforts conducted under the Accord have resulted in core, nationally standardized datasets and a reduction of duplication between governments. These datasets are used in both private and public sector applications, including for agriculture, natural resource development, transportation, environmental assessment, land claims, boundary discussions, and emergency management.
+          p Sharing of data, tools and technologies permitted under the Accord are underpinning critical operations in many jurisdictions.  For example, the sharing of data and tools through the Accord has:
           ul
-            li 2001 Canadian Geomatics Accord (2001 –2006)
-            li 2007 Canadian Geomatics Accord (2007 – 2012)
-          p Through the 2001 and 2007 Accords, federal, provincial and territorial governments sought to address common needs for increased efficiency and adaptation to rapid technological change through a formal collaboration mechanism. Efficiency and adaptation to technological change remain valid considerations. However, a 2014 - 2019 Canadian Geomatics Accord was seen to be necessary due to recent circumstances, including:
-          ul 
-            li New factors and new possibilities arising from governments’ adoption of Open Government policies;
-            li The increasingly rapid pace of technological change and adoption;
-            li Changes in Canadian demographics and in the nature and structure of business stakeholders; and
-            li Budgetary constraints at every level of government.
+            li Facilitated dispatch of snow removal vehicles in the Yukon
+            li Enabled Department of National Defence planning for managing emergencies
+            li Assisted election planning and logistics across all jurisdictions
 
     .container
       .row.quote
@@ -37,18 +34,20 @@
               br
               | &copy;
               a(href='http://www.esa.int/spaceinimages/Images/2008/07/Foxe_Basin_Canada') ESA
-
     .container
       .row
         .col-md-12
-          h2 Benefits of the Accord 
-          p Authoritative, accessible geographical information is important to Canadian citizens, businesses and researchers. Geospatial information has proven to accelerate innovation and productivity. Accurate, definitive, science based, geographical knowledge of the Canadian landmass, marine extent and air space is critical to fact based decision and policy making. 
-          p Collaborative efforts conducted under the Accord have resulted in core, nationally standardized datasets and a reduction of duplication between governments. These datasets are used in both private and public sector applications, including for agriculture, natural resource development, transportation, environmental assessment, land claims, boundary discussions, and emergency management.
-          p Sharing of data, tools and technologies permitted under the Accord are underpinning critical operations in many jurisdictions.  For example, the sharing of data and tools through the Accord has:
+          h2 History
+          p The 2014 - 2019 Canadian Geomatics Accord is the third such Accord. Prior Accords include the:
           ul
-            li facilitated dispatch of snow removal vehicles in the Yukon; 
-            li enabled Department of National Defence planning for managing emergencies; and 
-            li assisted election planning and logistics across all jurisdictions.
+            li 2001 Canadian Geomatics Accord (2001 –2006)
+            li 2007 Canadian Geomatics Accord (2007 – 2012)
+          p Through the 2001 and 2007 Accords, federal, provincial and territorial governments sought to address common needs for increased efficiency and adaptation to rapid technological change through a formal collaboration mechanism. Efficiency and adaptation to technological change remain valid considerations. However, a 2014 - 2019 Canadian Geomatics Accord was seen to be necessary due to recent circumstances, including:
+          ul 
+            li New factors and new possibilities arising from governments’ adoption of Open Government policies
+            li The increasingly rapid pace of technological change and adoption
+            li Changes in Canadian demographics and in the nature and structure of business stakeholders
+            li Budgetary constraints at every level of government
 
     .well
       .container
@@ -112,12 +111,4 @@ export default {
     width 500px
     height 600px
     padding-bottom 20px
-
-  .credit-right
-    position absolute
-    right 2%
-    bottom 10%
-    color white
-    a
-      color white
 </style>

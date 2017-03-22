@@ -166,4 +166,39 @@ export default {
       background $color-primary
     &:hover, &:active
       background #333
+
+  .credit
+    padding 2px
+    background rgba(0,0,0,.4)
+    font-size 12px
+    .bold
+      font-weight bold
+    z-index 1
+    position absolute
+    bottom 25px
+    left 20px
+    color white
+    a
+      color white
+      text-decoration none
+
+  .credit-right
+    font-size 12px
+    padding 2px
+    background rgba(0,0,0,.4)
+    position absolute
+    right 2%
+    bottom 10%
+    color white
+    a
+      color white
+
+  .caption
+    padding 5px
+    font-size 12px
+    font-style italic
+    text-align right
+    a
+      text-decoration none
+      color black
 </style>
