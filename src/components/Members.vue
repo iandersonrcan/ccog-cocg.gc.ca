@@ -97,14 +97,14 @@
     .container-fluid
       .row
         .col-xs-12
-          .banner(style='background-image:url(/static/img/radarsat_vancouver.jpg)')
-          .credit-right
-            span.bold Photo Credit
-            br
-            | RADARSAT 2 Image of Vancouver
-            br
-            | &copy;
-            a(href='http://www.asc-csa.gc.ca/eng/search/images/watch.asp?id=6551&search=radar') CSA
+          .banner(style='background-image:url(/static/img/radarsat_vancouver.jpg); min-height: 300px;')
+            .credit-right
+              span.bold Photo Credit
+              br
+              | RADARSAT-2 Image of Vancouver
+              br
+              | &copy;
+              a(href='http://www.asc-csa.gc.ca/eng/search/images/watch.asp?id=6551&search=radar') CSA
             
     .container
       h2 Federal Government Members:

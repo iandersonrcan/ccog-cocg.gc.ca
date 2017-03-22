@@ -24,9 +24,9 @@
             p
               | The use of geospatial information contributed $20.7 billion of Canada’s national Gross Domestic Product and generated approximately 19,000 jobs within Canada’s economy in 2013.
     .container-fluid
-        .row
-          .col-xs-12
-            .banner(style='background-image:url(/static/img/foxe_basin.jpg)')
+      .row
+        .col-md-12
+          .banner(style='background-image:url(/static/img/foxe_basin.jpg); min-height: 320px;')
             .credit-right
               span.bold Photo Credit
               br
@@ -49,32 +49,31 @@
             li Changes in Canadian demographics and in the nature and structure of business stakeholders
             li Budgetary constraints at every level of government
 
-    .well
-      .container
+    .container-fluid.cooperation
+      .well
         .row
           .col-md-12
             h2 Principles of Collaboration 
             p In order to provide the highest quality of geographical information the federal, provincial and territorial Accord signatories agree to work within these principles: 
           .col-md-6
             ul
-              li To provide effective leadership and governance within the geomatics community in order to contribute to a vital Canadian geomatics sector;
-              li To promote and contribute to the development of best practices, pan-Canadian and international standards and policies to support geospatial information sharing and integration;
-              li To support the efficient use of resources by collaborating to reduce management and maintenance costs through the development of harmonized collection strategies and shared infrastructure for geomatics;
+              li To provide effective leadership and governance within the geomatics community in order to contribute to a vital Canadian geomatics sector
+              li To promote and contribute to the development of best practices, pan-Canadian and international standards and policies to support geospatial information sharing and integration
+              li To support the efficient use of resources by collaborating to reduce management and maintenance costs through the development of harmonized collection strategies and shared infrastructure for geomatics
           .col-md-6
             ul
-              li To promote the benefits of integrating geographic information in business processes to enrich analysis and decision making;
-              li To enhance the availability and usability of geographic information in an open government context.
+              li To promote the benefits of integrating geographic information in business processes to enrich analysis and decision making
+              li To enhance the availability and usability of geographic information in an open government context
     .container
       .row
         .col-md-6
           h2 Read the Full Accord
           p 
-          a(href='') Download the 2014-2019 Canadian Geomatics Accord 
-          | (PDF, XXXMB)
-        .col-md-6
-          .points.pull-right
-            h2 To Add to this page:
-            p a side-block that contains links to current past Geomatics Accord documents (in PDF)
+          a(href='/static/geomatics_accord_en.pdf') Download the 2014-2019 Canadian Geomatics Accord 
+          p
+            | (
+            i.fa.fa-file-pdf-o  PDF
+            | , 164KB)
     CCOGFooter
 </template>
 

@@ -16,7 +16,7 @@
           h2 Vision
           p
             | Our vision is that Canadians and governments can access the best available geographic information to support informed decision making through interoperable systems and data that are maintained in an efficient and effective manner by all Canadian jurisdictions.
-    .banner(style='background-image:url(/static/img/banner_02.jpg)')
+    .banner(style='background-image:url(/static/img/la_tuque.jpg)')
     .container
       .row
         .col-md-6

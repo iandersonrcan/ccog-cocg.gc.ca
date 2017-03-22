@@ -57,7 +57,7 @@ export default {
 
   .banner
     min-height 250px;
-    background-size cover
+    background-size cover !important
     position relative
     overflow hidden
     margin 10px 0
