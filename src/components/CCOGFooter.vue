@@ -6,16 +6,14 @@
           h2 Contact Us
         .col-md-8
           p
-            | 06A-646Q 615 Booth Street,
+            | 560 Rochester Street
             br
-            |  Ottawa, ON
+            |  Ottawa, Ontario
             br
-            |  Telephone: (613) 947-7653
-            br
-            |  Fax: (613) 947-2410
+            |  K1S 5K2
             br
           |  
-          a(href='mailto:info@ccog-cocg.ca') info@ccog-cocg.ca
+          a(href='mailto:NRCan.ccog-cocg-ccog-cocg.RNCan@canada.ca') Email CCOG
         .col-md-4
           img.img-responsive(src='/static/img/ccog-ccdg.png')
 </template>
