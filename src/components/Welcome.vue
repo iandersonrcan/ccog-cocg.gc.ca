@@ -46,12 +46,12 @@
             p 
               router-link.btn.btn-primary(to='about') About The Council	          
 
-          .col-md-4(v-on:click='go("issues")')
+          .col-md-4(v-on:click='go("topics")')
             img(src='/static/img/clearwater.jpg')
-            h3 Issues of Interest
+            h3 Topics of Interest
             p The Canadian Council on Geomatics is involved with all aspects of geomatics in Canada.
             p
-              router-link.btn.btn-primary(to='issues') Explore Issues of Interest 
+              router-link.btn.btn-primary(to='topics') Explore Topics of Interest 
 
           .col-md-4(v-on:click='go("members")')
             img(src='/static/img/radarsat_vancouver.jpg')

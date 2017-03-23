@@ -33,7 +33,7 @@
           li
             router-link(to='about') What We Do
           li
-            router-link(to='issues') Issues of Interest
+            router-link(to='topics') Topics of Interest
           li
             router-link(to='members') Member Organizations
           li
@@ -51,7 +51,7 @@
           li
             router-link(to='about') What We Do
           li
-            router-link(to='issues') Issues of Interest
+            router-link(to='topics') Topics of Interest
           li
             router-link(to='members') Member Organizations
           li
