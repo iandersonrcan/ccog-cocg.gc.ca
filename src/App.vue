@@ -73,9 +73,11 @@ export default {
     &::before
       top 0
       -webkit-transform translateY(-80%)
+      -ms-transform translateY(-80%)
     &::after
       bottom 0
       -webkit-transform translateY(80%)
+      -ms-transform translateY(80%)
 
   .well
     min-width 50%
