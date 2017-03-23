@@ -2,11 +2,11 @@
   div
     CCOGHeader
     main.container(role='main', property='mainContentOfPage')
-      h1 Issues of Interest
+      h1 Topics of Interest
       
       .row
         .col-md-6
-          p The Canadian Council on Geomatics is involved with all aspects of geomatics in Canada, including the following issues of interest. 
+          p The Canadian Council on Geomatics is involved with all aspects of geomatics in Canada, including the following topics of interest. 
           
           h2 Data Policies
                 
