@@ -107,6 +107,9 @@ export default {
   components: {
     CCOGHeader,
     CCOGFooter
+  },
+  mounted () {
+    this.$children.querySelector('summary').trigger('wb-init.wb-details')
   }
 }
 </script>
