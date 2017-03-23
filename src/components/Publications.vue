@@ -44,7 +44,7 @@
         p 
           | The 
           a(href='https://www.nrcan.gc.ca/earth-sciences/geomatics/canadas-spatial-data-infrastructure/8904') CGDI Resource Centre 
-          | summarizes potentially relevant publications that are available on GeoScan.
+          | summarizes potentially relevant publications that are available on GEOSCAN.
         a 
     CCOGFooter
 </template>
