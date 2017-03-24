@@ -12,87 +12,71 @@
           strong Alberta
           ul
             li
-              | Geospatial Data Portal: 
               a(href='http://geodiscover.alberta.ca' target='_blank') GeoDiscover Alberta
             li
-              | Open Data Portal: 
               a(href='http://open.alberta.ca/' target='_blank') Alberta Open Government
                    
           strong British Columbia	
           ul
             li
-              | Geospatial Data Portal: 
               a(href='http://geobc.gov.bc.ca/' target='_blank') GeoBC
              
           strong Manitoba	            
           ul
             li
-              | Geospatial Data Portal: 
               a(href='http://mli2.gov.mb.ca/' target='_blank') Manitoba Land Initiative
 
           strong New Brunswick	
           ul
             li
-              | Geospatial Data Portal: 
               a(href='http://www.snb.ca/geonb1/' target='_blank') GeoNB
 
           strong Newfoundland and Labrador	
           ul
             li
-              | Open Data Portal: 
               a(href='http://opendata.gov.nl.ca/' target='_blank') Newfoundland and Labrador Open Data
           strong Northwest Territories	
           ul
             li
-              | Geospatial Data Portal: 
               a(href='http://www.geomatics.gov.nt.ca/' target='_blank') Northwest Territories Centre for Geomatics
             li
-              | Open Data Portal: 
               a(href='http://nwtdiscoveryportal.enr.gov.nt.ca/' target='_blank') NWT Discovery Portal
 
           strong Nova Scotia		
           ul
             li
-              | Geospatial Data Portal: 
               a(href='http://gov.ns.ca/geonova/home/default.asp' target='_blank') GeoNova
         .col-md-6
           strong Nunavut
           ul
             li
-              | Geospatial Data Portal: 
               a(href='http://cngo.ca/' target='_blank') Canada-Nunavut Geoscience Office
           
           strong Ontario
           ul
             li
-              | Open Data Portal: 
-              a(href='http://www.ontario.ca/government/government-ontario-open-data' target='_blank') Ontario open data website
+              a(href='http://www.ontario.ca/government/government-ontario-open-data' target='_blank') Ontario Open Data
 
           strong Prince Edward Island	
           ul
             li
-              | GIS Data Portal: 
               a(href='http://www.gov.pe.ca/gis/' target='_blank') GIS Data Layers
           
           strong Quebec
           ul
             li
-              | Geospatial Data Portal: 
               a(href='http://www.quebecgeographique.gouv.qc.ca/' target='_blank') Québec géographique
             li
-              | Open Data Portal: 
               a(href='https://www.donneesquebec.ca/fr/' target='_blank') Données ouvertes
           
           strong Saskatchewan
           ul
             li
-              | Open Data Portal: 
-              a(href='http://gis.saskatchewan.ca') GIS.saskatchewan.ca
+              a(href='http://gis.saskatchewan.ca') GIS Saskatchewan
           
           strong Yukon
           ul
             li
-              | Geospatial Data Portal: 
               a(href='http://www.geomaticsyukon.ca/') Geomatics Yukon
     .container-fluid
       .row
@@ -107,7 +91,7 @@
               a(href='http://www.asc-csa.gc.ca/eng/search/images/watch.asp?id=6551&search=radar') CSA
             
     .container
-      h2 Federal Government Members:
+      h2 Federal Government Members
       .row
         .col-md-6
           strong Agriculture and Agri-Food Canada
