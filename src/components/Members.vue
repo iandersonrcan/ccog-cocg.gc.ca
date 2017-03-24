@@ -18,8 +18,8 @@
           strong British Columbia	
           ul
             li
-              | Open Data Portal: 
-              a(href='https://data.gov.bc.ca/' target='_blank') DataBC
+              | Geospatial Data Portal: 
+              a(href='http://geobc.gov.bc.ca/' target='_blank') GeoBC
              
           strong Manitoba	            
           ul
