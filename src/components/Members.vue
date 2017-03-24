@@ -12,8 +12,11 @@
           strong Alberta
           ul
             li
+              | Geospatial Data Portal: 
+              a(href='http://geodiscover.alberta.ca' target='_blank') GeoDiscover Alberta
+            li
               | Open Data Portal: 
-              a(href='http://open.alberta.ca/' target='_blank') Alberta Open Government Portal
+              a(href='http://open.alberta.ca/' target='_blank') Alberta Open Government
                    
           strong British Columbia	
           ul
