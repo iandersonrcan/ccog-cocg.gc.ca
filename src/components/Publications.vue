@@ -8,7 +8,11 @@
 
       .row
         .col-md-4
-          img#nunavut(src='/static/img/mistastin_lake.jpg')
+          img(src='/static/img/mistastin_lake.jpg', alt='Mistastin Lake')
+          .caption
+            | Mistastin Lake
+            br
+            | &copy; USGS
         .col-md-8
           h2 Canadian Geomatics Environmental Scan and Value Study
           p The Canadian Geomatics Environmental Scan and Value Study report is meant to provide a new perspective on the value of geospatial information in Canada, including the state of the geomatics sector in Canada, global trends involving geospatial information and Canada’s position relative to those trends, the significance and value of the geomatics sector and of geospatial information to the Canadian economy, and current and emerging roles of government, industry and academia in supporting and using geospatial information.
@@ -16,7 +20,11 @@
 
       .row
         .col-md-4
-          img#nunavut(src='/static/img/nova_scotia.jpg')
+          img(src='/static/img/nova_scotia.jpg', alt='Envisat captures the Canadian province of Nova Scotia')
+          .caption
+            | Envisat captures the Canadian province of Nova Scotia
+            br
+            | &copy; ESA
         .col-md-8
           h2 Environmental scan on the operational use of Remotely Piloted Aircraft Systems (RPAS) for geomatics applications in Canada
           p Remotely-piloted Aircraft Systems, or drones, have emerged as an excellent tool to monitor small sites of interest. They play an increasingly important role within organizations by providing a less costly, higher detailed, and more flexible method to collect information compared to conventional methods. This report helps organizations determine whether drones are a suitable alternative and how to implement drones within their operations. The report provides an overview of proven applications and highlights the ready-to-fly equipment that is currently available in North America. 
@@ -25,27 +33,25 @@
 
       .row
         .col-md-4
-          img#nunavut(src='/static/img/nunavut.jpg')
+          img(src='/static/img/nunavut.jpg', alt='Canadian Land of Lakes')
+          .caption
+            | Canadian Land of Lakes
+            | &copy; 
+            br
+            a(href='https://earthobservatory.nasa.gov/IOTD/view.php?id=78527') NASA
         .col-md-8
-          h2 The Floodplain Guidelines
-          p Content to be determined.
-          a.btn.btn-primary(href='http://geoscan.nrcan.gc.ca/starweb/geoscan/servlet.starweb?path=geoscan/fulle.web&search1=R=299120') View on GEOSCAN
+          h2 Federal Floodplain Mapping Framework
+          p The purpose of this document is to introduce the Federal Floodplain Mapping Guidelines Series documents and to provide a framework for how each fits into the overall floodplain mapping life cycle. Specifically, this document will provide a brief history of past and present floodplain mapping efforts in Canada, a brief summary of floodplain mapping roles and responsibilities and an overview of the contents of the suite of documents that make up the Federal Floodplain Mapping Guidelines Series.
+          a.btn.btn-primary(href='http://geoscan.nrcan.gc.ca/starweb/geoscan/servlet.starweb?path=geoscan/shorte.web&search1=R=299806') View on GEOSCAN
 
       .row
-        .col-md-4
-          img#nunavut(src='/static/img/vancouver_lidar.png')
-        .col-md-8
-          h2 Lidar Acquisition
-          p Content to be determined.
-          a.btn.btn-primary(href='http://geoscan.nrcan.gc.ca/starweb/geoscan/servlet.starweb?path=geoscan/fulle.web&search1=R=299120') View on GEOSCAN
-
-      .row
-        h2 Other Publications
-        p 
-          | The 
-          a(href='https://www.nrcan.gc.ca/earth-sciences/geomatics/canadas-spatial-data-infrastructure/8904') CGDI Resource Centre 
-          | summarizes potentially relevant publications that are available on GEOSCAN.
-        a 
+        .col-md-12
+          h2 Other Publications
+          p 
+            | The 
+            a(href='https://www.nrcan.gc.ca/earth-sciences/geomatics/canadas-spatial-data-infrastructure/8904') CGDI Resource Centre 
+            | summarizes potentially relevant publications that are available on GEOSCAN.
+          a 
     CCOGFooter
 </template>
 
@@ -63,15 +69,7 @@ export default {
 </script>
 
 <style lang="stylus">
-  body
-    background none
-
-  td
-    max-width 200px
-
-  #nunavut
-    float left
-    width 400px
-    height 300px
-    padding 30px
+  .col-md-4
+    img
+      padding-top 30px
 </style>
