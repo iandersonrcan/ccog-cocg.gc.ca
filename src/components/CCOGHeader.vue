@@ -21,9 +21,22 @@
                 a(lang='fr', href='https://fileexchange.nrcan.gc.ca') Sign In
               li
                 router-link(to='/fr/bienvenue') Fran&ccedil;ais
-
-
-    nav(v-if='show', role='navigation')
+    nav.visible-md.visible-lg(role='navigation')
+      .container
+        ul.list-inline.menu
+          li
+            router-link(to='welcome') {{Welcome}}
+          li
+            router-link(to='about') What We Do
+          li
+            router-link(to='topics') Topics of Interest
+          li
+            router-link(to='members') Member Organizations
+          li
+            router-link(to='accord') Geomatics Accord
+          li
+            router-link(to='publications') Publications
+    nav#mb-pnl(v-if='show', role='navigation')
       .container
         ul.list-inline.mobile
           li
@@ -42,24 +55,6 @@
             router-link(to='publications') Publications
           li
             a(lang='fr', href='https://fileexchange.nrcan.gc.ca') Sign In
-
-    nav.visible-md.visible-lg(role='navigation')
-      .container
-        ul.list-inline.menu
-          li
-            router-link(to='welcome') {{Welcome}}
-          li
-            router-link(to='about') What We Do
-          li
-            router-link(to='topics') Topics of Interest
-          li
-            router-link(to='members') Member Organizations
-          li
-            router-link(to='accord') Geomatics Accord
-          li
-            router-link(to='publications') Publications
-
-    #mb-pnl
 </template>
 
 <script>
@@ -80,9 +75,6 @@ export default {
   $color-secondary = #00afd8
   $sans-serif = 'Open Sans', sans-serif
   $serif = 'Bree Serif', serif
-
-  #wb-glb-mn
-
 
   header
     .brand
@@ -158,4 +150,7 @@ export default {
 
   .spacer
     height 40px
+
+  #mb-pnl
+    background white
 </style>
