@@ -55,6 +55,10 @@ export default {
   .container-fluid
     padding 0
 
+  .container
+    img
+      max-width 100%
+
   .banner
     min-height 250px;
     background-size cover !important
