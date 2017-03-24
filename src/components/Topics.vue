@@ -86,12 +86,12 @@
             summary Big Data analytics
             | The growing availability of geospatial data represents a unique opportunity for science, while also posing a major challenge to achieve its full potential in terms of scientific exploitation. To analyze and manage large and growing geospatial datasets, copying and moving data is found to be inefficient. Big Geospatial Data Analytics systems are of interest to CCOG members to bring the user and processing power to the data rather than moving the data to the user thus expanding the analytics possible.
         .col-md-6
-          img#clearwater(src='/static/img/clearwater.jpg')
+          img#clearwater(src='/static/img/clearwater.jpg', alt='Clearwater Crater', title='Clearwater Crater')
           .caption
             | Clearwater Crater
             br
             | &copy; 
-            a(href='http://www.asc-csa.gc.ca/eng/search/images/watch.asp?id=5948&search=north') Canadian Space Agency
+            a(href='http://www.asc-csa.gc.ca/eng/search/images/watch.asp?id=5948&search=north') CSA
 
 
       p &nbsp; 

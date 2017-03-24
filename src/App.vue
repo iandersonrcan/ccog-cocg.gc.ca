@@ -155,7 +155,7 @@ export default {
     &:link, &:visited
       background $color-primary
     &:hover, &:active
-      background #333
+      background $color-secondary
 
   .credit
     padding 2px

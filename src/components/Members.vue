@@ -160,7 +160,7 @@
               a(href='http://www.statcan.gc.ca/') http://www.statcan.gc.ca/
       .row
         .col-md-12.text-center
-          img#canada(src='/static/img/canada.jpg')
+          img#canada(src='/static/img/canada.jpg', alt='Mosaic of Canada', title='Mosaic of Canada')
           .caption
             | Mosaic of Canada
             br

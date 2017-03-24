@@ -39,22 +39,22 @@
     main#accord.container-fluid
       .container
         .row
-          .col-md-4(v-on:click='go("about")')
-            img(src='/static/img/radarsat_montreal.jpg')
+          .col-md-4(v-on:click='go("about")', style='cursor: pointer')
+            img(src='/static/img/radarsat_montreal.jpg', alt='RADARSAT-1 Mosaic of Montreal')
             h3 What We Do 
             p The Canadian Council on Geomatics works to advance geomatics activities between federal, provincial and territorial governments.
             p 
               router-link.btn.btn-primary(to='about') About The Council	          
 
-          .col-md-4(v-on:click='go("topics")')
-            img(src='/static/img/clearwater.jpg')
+          .col-md-4(v-on:click='go("topics")', style='cursor: pointer')
+            img(src='/static/img/clearwater.jpg', alt='Clearwater Crater')
             h3 Topics of Interest
             p The Canadian Council on Geomatics is involved with all aspects of geomatics in Canada.
             p
               router-link.btn.btn-primary(to='topics') Explore Topics of Interest 
 
-          .col-md-4(v-on:click='go("members")')
-            img(src='/static/img/radarsat_vancouver.jpg')
+          .col-md-4(v-on:click='go("members")', style='cursor: pointer')
+            img(src='/static/img/radarsat_vancouver.jpg', alt='RADARSAT-2 Image of Vancouver', title='RADARSAT-2 Image of Vancouver')
             h3 Member Organizations
             p Canadian Council on Geomatics members come from the Provinces, Territories and Federal Government Departments.
             p 
@@ -69,15 +69,15 @@
     main#accord.container-fluid
       .container
         .row
-          .col-md-6(v-on:click='go("accord")')
-            img(src='/static/img/foxe_basin.jpg')
+          .col-md-6(v-on:click='go("accord")', style='cursor: pointer')
+            img(src='/static/img/foxe_basin.jpg', alt='Foxe Basin', title='Foxe Basin')
             h3 Geomatics Accord
             p The Canadian Geomatics Accord enables federal-provincial-territorial collaboration in geomatics.
             p 
               router-link.btn.btn-primary(to='accord') Read About the Canadian Geomatics Accord
 			 
-          .col-md-6(v-on:click='go("publications")')
-            img(src='/static/img/mistastin_lake.jpg')
+          .col-md-6(v-on:click='go("publications")', style='cursor: pointer')
+            img(src='/static/img/mistastin_lake.jpg', alt='Mistastin Lake', title='Mistastin Lake')
             h3 Publications
             p The Canadian Council on Geomatics has supported the development of a number of publications on topics in the field of Geomatics.
             p 

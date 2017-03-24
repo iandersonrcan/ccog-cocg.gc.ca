@@ -24,7 +24,8 @@
           .caption
             | Envisat captures the Canadian province of Nova Scotia
             br
-            | &copy; ESA
+            | &copy; 
+            a(href='http://www.esa.int/spaceinimages/Images/2007/11/Envisat_captures_the_Canadian_province_of_Nova_Scotia') ESA
         .col-md-8
           h2 Environmental scan on the operational use of Remotely Piloted Aircraft Systems (RPAS) for geomatics applications in Canada
           p Remotely-piloted Aircraft Systems, or drones, have emerged as an excellent tool to monitor small sites of interest. They play an increasingly important role within organizations by providing a less costly, higher detailed, and more flexible method to collect information compared to conventional methods. This report helps organizations determine whether drones are a suitable alternative and how to implement drones within their operations. The report provides an overview of proven applications and highlights the ready-to-fly equipment that is currently available in North America. 
@@ -36,8 +37,8 @@
           img(src='/static/img/nunavut.jpg', alt='Canadian Land of Lakes')
           .caption
             | Canadian Land of Lakes
-            | &copy; 
             br
+            | &copy; 
             a(href='https://earthobservatory.nasa.gov/IOTD/view.php?id=78527') NASA
         .col-md-8
           h2 Federal Floodplain Mapping Framework

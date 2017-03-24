@@ -17,12 +17,12 @@
             li National geomatics standards
             li Achievements, new ideas, technologies and procedures that could benefit other jurisdictions.
         .col-md-6
-          img#montreal(src='/static/img/radarsat_montreal.jpg')
+          img#montreal(src='/static/img/radarsat_montreal.jpg', alt='Lidar Point Cloud of Montreal', title='Lidar Point Cloud of Montreal')
           .caption
             | Lidar Point Cloud of Montreal
             br
             | &copy; 
-            a(href='http://www.asc-csa.gc.ca/eng/search/images/watch.asp?id=785&search=radar') Canadian Space Agency
+            a(href='http://www.asc-csa.gc.ca/eng/search/images/watch.asp?id=785&search=radar') CSA
       
     .container-fluid.cooperation
       .well
