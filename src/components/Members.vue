@@ -50,9 +50,6 @@
           strong Nova Scotia		
           ul
             li
-              | Open Data Portal: 
-              a(href='https://data.novascotia.ca/' target='_blank') Nova Scotia Open Data Portal
-            li
               | Geospatial Data Portal: 
               a(href='http://gov.ns.ca/geonova/home/default.asp' target='_blank') GeoNova
         .col-md-6
