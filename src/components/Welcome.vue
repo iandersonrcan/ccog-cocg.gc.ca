@@ -110,7 +110,7 @@ export default {
   $serif = 'Bree Serif', serif
 
   h1,h2,h3
-    font-family Bitter
+    font-family $serif
 
   body
     background none

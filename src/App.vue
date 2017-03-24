@@ -9,8 +9,6 @@ export default {
 </script>
 
 <style lang="stylus">
-  @import url('https://fonts.googleapis.com/css?family=Bree+Serif|Open+Sans:300,400,400i,700')
-
   $color-primary = #252839
   $color-secondary = #00afd8
   $sans-serif = 'Open Sans', sans-serif
