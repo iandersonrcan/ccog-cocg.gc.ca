@@ -18,8 +18,6 @@
           .col-md-6.visible-md.visible-lg
             ul.list-inline
               li
-                a(lang='fr', href='https://fileexchange.nrcan.gc.ca') Sign In
-              li
                 router-link(to='/fr/bienvenue') Fran&ccedil;ais
     nav.visible-md.visible-lg(role='navigation')
       .container

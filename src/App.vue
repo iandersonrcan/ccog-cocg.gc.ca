@@ -35,9 +35,6 @@ export default {
   p
     margin 0 0 15px
     
-  .img-responsive
-    width 100%
-
   .container, .row
     &::after, &::before
       content " "

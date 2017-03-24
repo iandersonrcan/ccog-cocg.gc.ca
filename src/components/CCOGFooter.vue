@@ -2,9 +2,8 @@
   footer
     .container
       .row
-        .col-md-12
-          h2 Contact Us
         .col-md-8
+          h2 Contact Us
           p
             | 560 Rochester Street
             br
@@ -13,9 +12,13 @@
             |  K1S 5K2
             br
           |  
-          a(href='mailto:NRCan.ccog-cocg-ccog-cocg.RNCan@canada.ca') Email
+          ul
+            li 
+              a(href='mailto:NRCan.ccog-cocg-ccog-cocg.RNCan@canada.ca') Email Us
+            li
+              a(lang='fr', href='https://fileexchange.nrcan.gc.ca') Members Login
         .col-md-4
-          img.img-responsive(src='/static/img/ccog-ccdg.png')
+          img(src='/static/img/ccog-ccdg.png')
 </template>
 
 <script>
@@ -26,6 +29,13 @@ export default {
 
 <style lang="stylus">
   footer
-    img
-      padding 15px
+    ul
+      padding 0
+      li
+        float left
+        list-style none
+        padding 0 10px
+        border-right 1px solid white
+        &:last-child
+          border none
 </style>
