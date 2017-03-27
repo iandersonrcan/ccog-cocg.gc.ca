@@ -18,7 +18,7 @@
             li
               a(lang='fr', href='https://fileexchange.nrcan.gc.ca') Members Login
         .col-md-4
-          img(src='/static/img/ccog-ccdg.png')
+          img(src='/static/img/ccog-ccdg.png', alt='Canadian Council on Geomatics - Conseil canadien de g&eacute;omatique', title='Canadian Council on Geomatics - Conseil canadien de g&eacute;omatique')
 </template>
 
 <script>

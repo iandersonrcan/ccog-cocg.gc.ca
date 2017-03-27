@@ -39,7 +39,7 @@
               | &copy; Natural Resources Canada
 
       .mask(style='top: -11px')
-    main#accord.container-fluid
+    main.container-fluid.thumbs
       .container
         .row
           .col-md-4(v-on:click='go("about")', style='cursor: pointer')
@@ -69,7 +69,7 @@
             h3 Did you know?
             p.lead GIS (Geographic Information Systems) was invented in Canada in the 1960s, leading to rapid innovation in the use and application of geospatial data.
 
-    main#accord.container-fluid
+    main.container-fluid.thumbs
       .container
         .row
           .col-md-6(v-on:click='go("accord")', style='cursor: pointer')
@@ -142,7 +142,7 @@ export default {
       color black
       background-color rgba(242,182,50,0.8)
 
-  #accord
+  .thumbs
     img
       width 300px
       height 200px

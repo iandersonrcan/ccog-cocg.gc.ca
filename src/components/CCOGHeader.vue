@@ -5,7 +5,7 @@
         .row
           .brand.col-xs-8.col-md-6
             router-link(to='/splash.html')
-              img(src='/static/img/ccog-ccdg.png', alt='Canadian Council on Geomatics - Conseil canadien de geomatique')
+              img(src='/static/img/ccog-ccdg.png', alt='Canadian Council on Geomatics - Conseil canadien de g&eacute;omatique', title='Canadian Council on Geomatics - Conseil canadien de g&eacute;omatique')
           .col-xs-4
             #wb-glb-mn.wb-mb-links.visible-sm.visible-xs
               h2 Menu
