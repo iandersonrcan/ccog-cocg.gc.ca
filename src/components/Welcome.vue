@@ -1,7 +1,7 @@
 <template lang="pug">
   div
     CCOGHeader
-    .container-fluid
+    .container-fluid#wb-cont
       .row
         .col-xs-12
           .banner

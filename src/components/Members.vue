@@ -55,6 +55,8 @@
           strong Ontario
           ul
             li
+              a(href='https://www.ontario.ca/page/land-information-ontario' target='_blank') Land Information Ontario
+            li
               a(href='http://www.ontario.ca/government/government-ontario-open-data' target='_blank') Ontario Open Data
 
           strong Prince Edward Island	
