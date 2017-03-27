@@ -54,12 +54,19 @@ export default {
     img
       max-width 100%
 
+  .mask
+    position relative
+    background white
+    height 1px
+    font-height 1px
+    z-index 1
+
   .banner
     min-height 250px;
     background-size cover !important
     position relative
-    overflow hidden
     margin 10px 0
+    overflow hidden
     &::before, &::after
       content ""
       border-radius 50%

@@ -81,6 +81,7 @@
     .container-fluid
       .row
         .col-xs-12
+          .mask(style='top: 11px')
           .banner(style='background-image:url(/static/img/radarsat_vancouver.jpg); min-height: 300px;')
             .credit-right
               span.bold Photo Credit

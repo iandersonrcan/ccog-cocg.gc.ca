@@ -27,6 +27,7 @@
           p
             | Our vision is that Canadians and governments can access the best available geographic information to support informed decision making through interoperable systems and data that are maintained in an efficient and effective manner by all Canadian jurisdictions.
     .container-fluid
+      .mask(style='top: 11px')
       .row
         .col-md-12
           .banner(style='background-image:url(/static/img/la_tuque.jpg)')
@@ -36,6 +37,8 @@
               | La Tuque Point Cloud
               br
               | &copy; Natural Resources Canada
+
+      .mask(style='top: -11px')
     main#accord.container-fluid
       .container
         .row

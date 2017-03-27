@@ -34,6 +34,7 @@
               br
               | &copy;
               a(href='http://www.esa.int/spaceinimages/Images/2008/07/Foxe_Basin_Canada') ESA
+      .mask(style='top: -11px')
     .container
       .row
         .col-md-12
