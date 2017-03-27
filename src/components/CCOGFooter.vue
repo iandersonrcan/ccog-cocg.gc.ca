@@ -28,6 +28,11 @@ export default {
 </script>
 
 <style lang="stylus">
+  $color-primary = #252839
+  $color-secondary = #00afd8
+  $sans-serif = 'Open Sans', sans-serif
+  $serif = 'Bree Serif', serif
+
   footer
     ul
       padding 0
@@ -38,4 +43,8 @@ export default {
         border-right 1px solid white
         &:last-child
           border none
+        a:link,a:visited
+          color white
+        a:hover,a:active
+          color $color-secondary
 </style>
