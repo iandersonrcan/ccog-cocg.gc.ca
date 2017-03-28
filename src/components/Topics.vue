@@ -20,7 +20,7 @@
           h3 Open geospatial data
           p Access to trusted, high quality geospatial data is essential for effective government decision making, a robust economy, and improved well-being for all Canadians. Open geospatial data has been shown to make governments more effective and to increase efficiency. CCOG members work actively to set the standards for open geospatial data and to open further datasets for use. 
           h3 Point Addressing
-          p Standardized addressing helps ensure that locations are named uniquely, and so that postal mail is delivered to the correct point location.  Further, the land has always been alive with names for all places of any significance to First Nations, Métis and Inuit. As such, naming of locations is of interest to all CCOG members.
+          p Point Addressing brings a new level of accuracy & utility to previous addressing methodologies such as block addresses.  Todays apps, tools, devices and customers require addresses at the point level to add quality to analytics. As such, point addressing is of interest to all CCOG members.
           
         .col-md-4
           img#clearwater(src='/static/img/clearwater.jpg', alt='Clearwater Crater', title='Clearwater Crater')
@@ -28,7 +28,7 @@
             | Clearwater Crater
             br
             | &copy; 
-            a(href='http://www.asc-csa.gc.ca/eng/search/images/watch.asp?id=5948&search=north') CSA
+            a(href='http://www.asc-csa.gc.ca/eng/search/images/watch.asp?id=5948&search=north' target='_blank') CSA
 
       .row
         .col-md-8
@@ -44,19 +44,19 @@
           h3 High Resolution optical imagery acquisition
           p High resolution optical imagery, (either satellite or aerial) is used by all CCOG jurisdictions. CCOG pursues costs savings by coordinating acquisitions. 
           h3 Elevation and LiDAR data acquisition
-          p Elevation and LiDAR data are used extensively across Canada and is used for forestry management, flood modelling, pollution modelling, urban planning, mapping and cartography, coastline management, transport planning, oil and gas exploration, archaeology and many other disciplines. CCOG pursues costs savings by coordinating acquisitions.
+          p Elevation and LiDAR data are used extensively across Canada and is used for forestry management, flood modelling, pollution modelling, urban planning, mapping and cartography, coastline management, transport planning, oil and gas exploration, archaeology and many other disciplines. CCOG pursues costs savings by coordinating acquisitions, pursuing unrestricted licencing, and creation of clusters of infrastructure to enhance discovery and analysis of products.
           h3 Remotely Piloted Aircraft Systems (drones)
-          p Remotely Piloted Aircraft Systems (drones) are actively being used in Canada for infrastructure and environmental monitoring, emergency response, forest management and agriculture. As RPAS provide an growing source of geographic information, the CCOG has published a report titled "#[a(href="#/publications") Environmental Scan on the Operational Use of Remotely Piloted Aircraft Systems (RPAS) for Geomatics Applications in Canada]".
+          p Remotely Piloted Aircraft Systems (drones) are actively being used in Canada for infrastructure and environmental monitoring, emergency response, forest management and agriculture. As RPAS provide a growing source of geographic information, the CCOG published a report in 2016 titled "#[a(href="#/publications") Environmental Scan on the Operational Use of Remotely Piloted Aircraft Systems (RPAS) for Geomatics Applications in Canada]".
           
           h3 GeoBase Layers
-          p GeoBase is a federal, provincial and territorial government initiative that is overseen by the Canadian Council on Geomatics (CCOG). It is undertaken to ensure the provision of, and access to, a common, up-to-date and maintained base of quality geospatial data for all of Canada.  Through the GeoBase initiative, users with an interest in the field of geomatics can access quality geospatial information at no cost and with unrestricted use. GeoBase was one of the world's first examples of open data and is now available on the #[a(href='http://geogratis.gc.ca/api/en/nrcan-rncan/ess-sst/$categories?scheme=urn%3Aiso%3Aseries&q=GeoBase') GeoGratis website].
+          p GeoBase is a federal, provincial and territorial government initiative that is overseen by the Canadian Council on Geomatics (CCOG). It is undertaken to ensure the provision of, and access to, a common, up-to-date and maintained base of quality geospatial data for all of Canada.  Through the GeoBase initiative, users with an interest in the field of geomatics can access quality geospatial information at no cost and with unrestricted use. GeoBase was one of the world's first examples of open data and is now available on the #[a(href='http://geogratis.gc.ca/api/en/nrcan-rncan/ess-sst/$categories?scheme=urn%3Aiso%3Aseries&q=GeoBase' target='_blank') GeoGratis website].
       .row
         .col-md-8
           h2 Public Safety
           h3 Security and public safety
           p Geomatics supports the five pillars of emergency management: mitigation, prevention, preparedness, response and recovery. Through the work of the CCOG in the realms of security and public safety, Canadians can access location-based information to support these five pillars and improve public safety by reducing the effects of an emergency by getting a better understanding of the situation and by recovering more rapidly from disasters.
           h3 Emergency geomatics services
-          p Following a natural disaster there is typically limited comprehensive information on what the impact of the disaster has been, including the scale and severity. At the same time, key decisions are being made on how to respond. CCOG members work on geospatial information that is critical to all the pillars of emergency management: mitigation, prevention, preparedness, response and recovery.
+          p Following a natural disaster there is typically limited comprehensive information on what the impact of the disaster has been, including the scale and severity. At the same time, key decisions are being made on how to respond. CCOG members work on geospatial information that is critical to all the pillars of emergency management: mitigation, prevention, preparedness, response and recovery. Further, through an extension of the #[a(href="#/accord") Geomatics Accord] , CCOG members facing a disaster are able to exchange geospatial data seamlessly, thereby ensuring a common operating envrionment across jurisdictions and traditional silos.  
           
           h2 Thematic Concerns
           h3 Water management
@@ -64,9 +64,9 @@
           h3 Climate change              
           p All the elements of climate change adaptation and mitigation are spatial in nature. Geospatial data can provide critical information on climate vulnerability, adaptation and mitigation and are thus of importance to CCOG members.   
           h3 Natural Disasters
-          p Following a natural disaster there is typically limited comprehensive information on what the impact of the disaster has been, including the scale and severity. At the same time, key decisions are being made on how to respond. CCOG members work on geospatial information that is critical to all the pillars of emergency management: mitigation, prevention, preparedness, response and recovery.
+          p Following a natural disaster there is typically limited comprehensive information on what the impact of the disaster has been, including the scale and severity. At the same time, key decisions are being made on how to respond. CCOG members work on geospatial information that is critical to all the pillars of emergency management: mitigation, prevention, preparedness, response and recovery. Through an extension of the #[a(href="#/accord") Geomatics Accord] , CCOG members facing a natural disaster are able to exchange geospatial data seamlessly, thereby ensuring a common operating envrionment across jurisdictions and traditional silos.
           h3 Floodplain Mapping
-          p Undeveloped floodplain land provides many natural resources and functions of considerable economic, social, and environmental value. Floodplains often contain wetlands and other important ecological areas as part of a total functioning system that impacts directly on the quality of the local environment. As such, mapping and understanding floodplains is of importance to CCOG members.
+          p CCOG members are responsible to update or produce floodplain maps for risk prone areas for their jurisdictions. Up to date flood maps inform communities about flood mitigation and land-use planning. Floodplain maps can be used by communities to inform mitigation measures and raise awareness of risks of development in flood zones.
             
           h2 Geospatial Analysis
           h3 Geoanalytics
