@@ -18,20 +18,20 @@
           .col-md-6.visible-md.visible-lg
             ul.list-inline
               li
-                router-link(to='/fr/bienvenue') Fran&ccedil;ais
+                router-link(:to='toggle') English
     nav.visible-md.visible-lg(role='navigation')
       .container
         ul.list-inline.menu
           li
-            router-link(to='welcome') {{Welcome}}
+            router-link(to='bienvenue') Bienvenue
           li
-            router-link(to='about') What We Do
+            router-link(to='faisons') Ce que nous faisons
           li
-            router-link(to='topics') Topics of Interest
+            router-link(to='sujets') Sujets d'int&eacute;r&ecirc;t
           li
-            router-link(to='members') Member Organizations
+            router-link(to='membres') Organisations membres
           li
-            router-link(to='accord') Geomatics Accord
+            router-link(to='accord') Accord g&eacute;omatique
           li
             router-link(to='publications') Publications
     nav#mb-pnl(v-if='show', role='navigation')
@@ -40,29 +40,42 @@
           li
             router-link(to='/fr/bienvenue') Fran&ccedil;ais
           li
-            router-link(to='welcome') {{Welcome}}
+            router-link(to='bienvenue') Bienvenue
           li
-            router-link(to='about') What We Do
+            router-link(to='faisons') Ce que nous faisons
           li
-            router-link(to='topics') Topics of Interest
+            router-link(to='sujets') Sujets d'int&eacute;r&ecirc;t
           li
-            router-link(to='members') Member Organizations
+            router-link(to='membres') Organisations membres
           li
-            router-link(to='accord') Geomatics Accord
+            router-link(to='accord') Accord g&eacute;omatique
           li
             router-link(to='publications') Publications
           li
-            a(lang='fr', href='https://fileexchange.nrcan.gc.ca') Sign In
+            a(lang='fr', href='https://fileexchange.nrcan.gc.ca') Connexion du membre
 </template>
 
 <script>
+const translate = {
+  'bienvenue': 'welcome',
+  'faisons': 'about',
+  'sujets': 'topics',
+  'membres': 'members',
+  'accord': 'accord',
+  'publications': 'publications'
+}
+
 export default {
-  name: 'CCOGHeader',
+  name: 'Header',
   data () {
     return {
-      Welcome: 'Welcome',
-      show: false
+      show: false,
+      toggle: ''
     }
+  },
+  mounted () {
+    const path = window.location.pathname.split('/')
+    this.toggle = '/en/' + translate[path[path.length - 1]]
   }
 }
 

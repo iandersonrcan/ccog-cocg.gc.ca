@@ -76,8 +76,8 @@
 </template>
 
 <script>
-import CCOGHeader from '../CCOGHeader'
-import CCOGFooter from '../CCOGFooter'
+import CCOGHeader from './Header'
+import CCOGFooter from './Footer'
 
 export default {
   name: 'Landing',
