@@ -82,8 +82,6 @@ export default {
       inner: 'Canadian Council on Geomatics - Conseil canadien de g&eacute;omatique'
     },
     meta: [
-      { charset: 'utf-8' },
-      { content: 'width=device-width,initial-scale=1', name: 'viewport' },
       { name: 'description', content: 'The Canadian Council on Geomatics is the major federal-provincial-territorial consultative body for geomatics.' },
       { name: 'keywords', content: 'Canadian Council on Geomatics,High Resolution optical imagery acquisition,Elevation and LiDAR data acquisition,Water management,Climate change,GeoBase Layers,Remotely Piloted Aircraft Systems,Security and public safety,National Disaster,Floodplain Mapping,Point Addressing,Geodetic,Geoanalytics,Land Title,Cadastral,Big Data analytics,Canadian Geospatial Data Infrastructure,Open geospatial data,Emergency geomatics services' },
       { name: 'dc.creator', content: 'Canadian Council on Geomatics' },

@@ -82,8 +82,6 @@ export default {
       inner: 'Conseil canadien de géomatique - Canadian Council on Geomatics'
     },
     meta: [
-      { charset: 'utf-8' },
-      { content: 'width=device-width,initial-scale=1', name: 'viewport' },
       { name: 'description', content: 'Le Conseil canadien de géomatique (COCG) est le principal organe consultatif des organismes fédéraux, provinciaux en gestion d’information géospatiale.' },
       { name: 'keywords', content: 'Le Conseil canadien de géomatique, Acquisition d’images optiques haute résolution, Élévation et acquisition de données LiDAR, Gestion de l’eau, Changement climatique, Systèmes d’aéronef télépiloté, Sécurité et protection publique, Catastrophe naturelle, Cartographie des plaines inondables, Adressage par point, Titre foncier, Cadastre, Analyse des mégadonnées, Infrastructure canadienne de données géospatiales,, Données géospatiales ouvertes, Services de géomatique d’urgence' },
       { name: 'dc.creator', content: 'Conseil canadien de géomatique' },
