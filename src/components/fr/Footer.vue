@@ -3,9 +3,9 @@
     .container
       .row
         .col-md-8
-          h2 Contact Us
+          h2 Contactez-nous
           p
-            | 560 Rochester Street
+            | 560, rue Rochester
             br
             |  Ottawa, Ontario
             br
@@ -14,9 +14,9 @@
           |  
           ul
             li 
-              a(href='mailto:NRCan.ccog-cocg-ccog-cocg.RNCan@canada.ca') Email Us
+              a(href='mailto:NRCan.ccog-cocg-ccog-cocg.RNCan@canada.ca') Envoyez-nous un email
             li
-              a(lang='fr', href='https://fileexchange.nrcan.gc.ca') Members Login
+              a(lang='fr', href='https://fileexchange.nrcan.gc.ca') Connexion des membres
         .col-md-4
           img(src='/static/img/ccog-ccdg.png', alt='Canadian Council on Geomatics - Conseil canadien de g&eacute;omatique', title='Canadian Council on Geomatics - Conseil canadien de g&eacute;omatique')
 </template>

@@ -36,7 +36,7 @@
               br
               | La Tuque Point Cloud
               br
-              | &copy; Natural Resources Canada
+              | &copy; NRCan
 
       .mask(style='top: -11px')
     main.container-fluid.thumbs
