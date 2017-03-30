@@ -2,6 +2,10 @@
 
 This website is a static website utilizing HTML, JavaScript and CSS.  It was built using the VueJS framework and vue-webpack template.
 
+# Dependencies
+
+NodeJS and NPM
+
 ## Install
 
     git clone https://github.com/ccog-cocg/ccog-cocg.gc.ca/ ccog
