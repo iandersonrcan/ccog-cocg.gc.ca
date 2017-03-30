@@ -25,7 +25,7 @@
         .col-md-6
           h2 Vision
           p
-            | Our vision is that Canadians and governments can access the best available geographic information to support informed decision making through interoperable systems and data that are maintained in an efficient and effective manner by all Canadian jurisdictions.
+            | Our test vision is that Canadians and governments can access the best available geographic information to support informed decision making through interoperable systems and data that are maintained in an efficient and effective manner by all Canadian jurisdictions.
     .container-fluid
       .mask(style='top: 11px')
       .row
