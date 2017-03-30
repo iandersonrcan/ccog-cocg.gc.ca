@@ -3,6 +3,7 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import VueResource from 'vue-resource'
+import VueHead from 'vue-head'
 import App from './App'
 
 import Welcome from './components/en/Welcome'
@@ -57,6 +58,7 @@ const router = new VueRouter({
   }
 })
 
+Vue.use(VueHead)
 Vue.use(VueRouter)
 Vue.use(VueResource)
 

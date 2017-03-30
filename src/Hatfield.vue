@@ -232,7 +232,7 @@ export default {
 }
 </script>
 
-<style lang="stylus">
+<style lang="stylus" scoped>
   .photos
     img
       width 200px

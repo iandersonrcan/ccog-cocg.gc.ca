@@ -27,7 +27,7 @@ export default {
 }
 </script>
 
-<style lang="stylus">
+<style lang="stylus" scoped>
   $color-primary = #252839
   $color-secondary = #00afd8
   $sans-serif = 'Open Sans', sans-serif

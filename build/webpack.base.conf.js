@@ -64,8 +64,5 @@ module.exports = {
         }
       }
     ]
-  },
-  externals: {
-    jquery: '$'
   }
 }

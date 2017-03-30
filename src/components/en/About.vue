@@ -70,7 +70,7 @@ export default {
 }
 </script>
 
-<style lang="stylus">
+<style lang="stylus" scoped>
   body
     background none
 
@@ -79,13 +79,6 @@ export default {
 
   .photo
     float right
-
-  .cooperation
-    background #66cee7
-    .well
-      margin 0 auto
-      border 0
-      text-align left
 
   #montreal
     height 20em

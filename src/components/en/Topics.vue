@@ -80,21 +80,17 @@
 <script>
 import CCOGHeader from './Header'
 import CCOGFooter from './Footer'
-import $ from 'jquery'
-window.$ = $
 
 export default {
   name: 'Landing',
   components: {
     CCOGHeader,
     CCOGFooter
-  },
-  mounted () {
   }
 }
 </script>
 
-<style lang="stylus">
+<style lang="stylus" scoped>
   body
     background none
 

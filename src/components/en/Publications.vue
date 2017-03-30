@@ -69,7 +69,7 @@ export default {
 }
 </script>
 
-<style lang="stylus">
+<style lang="stylus" scoped>
   .col-md-4
     img
       padding-top 30px

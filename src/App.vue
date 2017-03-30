@@ -1,10 +1,32 @@
-<template>
-  <router-view></router-view>
+<template lang="pug">
+  router-view
 </template>
 
 <script>
 export default {
-  name: 'App'
+  name: 'App',
+  head: {
+    title: {
+      inner: 'Canadian Council on Geomatics - Conseil canadien de g&eacute;omatique'
+    },
+    meta: [
+      { charset: 'utf-8' },
+      { content: 'width=device-width,initial-scale=1', name: 'viewport' },
+      { name: 'description', content: 'The Canadian Council on Geomatics is the major federal-provincial-territorial consultative body for geomatics.' },
+      { name: 'keywords', content: 'Canadian Council on Geomatics,High Resolution optical imagery acquisition,Elevation and LiDAR data acquisition,Water management,Climate change,GeoBase Layers,Remotely Piloted Aircraft Systems,Security and public safety,National Disaster,Floodplain Mapping,Point Addressing,Geodetic,Geoanalytics,Land Title,Cadastral,Big Data analytics,Canadian Geospatial Data Infrastructure,Open geospatial data,Emergency geomatics services' },
+      { name: 'dc.creator', content: 'Canadian Council on Geomatics' },
+      { name: 'dc.creator', lang: 'fr', content: 'Conseil canadien de géomatique' },
+      { name: 'robots', content: 'noindex, nofollow, noarchive' },
+      { name: 'dc.title', content: 'Canadian Council on Geomatics' },
+      { name: 'dc.title', lang: 'fr', content: 'Canadian Council on Geomatics' },
+      { name: 'dc.issued', title: 'W3CDTF', content: '2017-03-31' },
+      { name: 'dc.modified', title: 'W3CDTF', content: '2017-03-31' },
+      { name: 'dc.subject', content: 'Canadian Council on Geomatics' },
+      { name: 'dc.subject', lang: 'fr', content: 'Conseil canadien de géomatique' },
+      { name: 'dc.language', title: 'ISO639-2', content: 'eng' },
+      { name: 'dc.language', lang: 'fr', title: 'ISO639-2', content: 'fra' }
+    ]
+  }
 }
 </script>
 
@@ -19,6 +41,7 @@ export default {
     box-sizing border-box
     font-family $sans-serif
     color $color-primary
+    background white
 
   h1, h2, h3, h4, h5, h6
     font-family $serif
@@ -107,6 +130,13 @@ export default {
     img
       border-left 10px solid $color-secondary
       margin-left -10px
+
+  .cooperation
+    background #66cee7
+    .well
+      margin 0 auto
+      border 0
+      text-align left
 
   blockquote
     //background #f9f9f9

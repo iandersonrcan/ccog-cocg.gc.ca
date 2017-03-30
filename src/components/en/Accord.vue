@@ -88,7 +88,7 @@ export default {
 }
 </script>
 
-<style lang="stylus">
+<style lang="stylus" scoped>
   .points
     width 600px
 
