@@ -6,33 +6,33 @@
         .col-xs-12
           .banner
             .well
-              h1 Welcome
+              h1 Bienvenue
               p.lead
-                | The Canadian Council on Geomatics is the major federal-provincial-territorial consultative body for geomatics.
+                | Le Conseil canadien de g&eacute;omatique est le principal organe consultatif des organismes f&eacute;d&eacute;raux, provinciaux en gestion d’information g&eacute;ospatiale.
             .credit
-              span.bold Photo Credit
+              span.bold Crédit photo
               br
               | Akimiski Island
               br
               | &copy; 
-              a(href='https://earthobservatory.nasa.gov/IOTD/view.php?id=8657') NASA Earth Observatory
+              a(href='https://earthobservatory.nasa.gov/IOTD/view.php?id=8657') NASA
     .container
       .row
         .col-md-6
-          h2 Who We Are
+          h2 Qui nous sommes
           p
-            | Council members come from the governments of Canada, the provinces and the territories. Council members usually represent their government&rsquo;s major geomatics organizations. The council&rsquo;s key objective is to advance geomatics activities between jurisdictions.
+            | Les membres du Conseil viennent des gouvernements du Canada, des provinces et des territoires. Les membres du Conseil repr&eacute;sentent habituellement les organisations g&eacute;omatiques principales de leur gouvernement. L’objectif principal du conseil est de faire progresser les activit&eacute;s g&eacute;omatiques entre les administrations.
         .col-md-6
           h2 Vision
           p
-            | Our vision is that Canadians and governments can access the best available geographic information to support informed decision making through interoperable systems and data that are maintained in an efficient and effective manner by all Canadian jurisdictions.
+            | Notre vision est que les Canadiens et les gouvernements puissent avoir acc&egrave;s &agrave; la meilleure information g&eacute;ographique disponible pour appuyer la prise de d&eacute;cisions &eacute;clair&eacute;es par l'entremise de syst&egrave;mes et de donn&eacute;es interop&eacute;rables qui sont maintenus efficacement par toutes les administrations canadiennes.
     .container-fluid
       .mask(style='top: 11px')
       .row
         .col-md-12
           .banner(style='background-image:url(/static/img/la_tuque.jpg)')
             .credit
-              span.bold Photo Credit
+              span.bold Crédit photo
               br
               | La Tuque Point Cloud
               br
@@ -42,49 +42,49 @@
     main.container-fluid.thumbs
       .container
         .row
-          .col-md-4(v-on:click='go("about")', style='cursor: pointer')
+          .col-md-4(v-on:click='go("faisons")', style='cursor: pointer')
             img(src='/static/img/radarsat_montreal.jpg', alt='RADARSAT-1 Mosaic of Montreal')
-            h3 What We Do 
-            p The Canadian Council on Geomatics works to advance geomatics activities between federal, provincial and territorial governments.
+            h3 Ce que nous faisons
+            p Le Conseil canadien de g&eacute;omatique s’emploie &agrave; faire valoir les activit&eacute;s de g&eacute;omatique entre les gouvernements f&eacute;d&eacute;ral, provinciaux et territoriaux.
             p 
-              router-link.btn.btn-primary(to='about') About The Council	          
+              router-link.btn.btn-primary(to='faisons') À propos du Conseil
 
-          .col-md-4(v-on:click='go("topics")', style='cursor: pointer')
+          .col-md-4(v-on:click='go("sujets")', style='cursor: pointer')
             img(src='/static/img/clearwater.jpg', alt='Clearwater Crater')
-            h3 Topics of Interest
-            p The Canadian Council on Geomatics is involved with all aspects of geomatics in Canada.
+            h3 Sujets d’int&eacute;r&ecirc;t
+            p Le Conseil canadien de g&eacute;omatique s’occupe de tous les aspects de la g&eacute;omatique au Canada.
             p
-              router-link.btn.btn-primary(to='topics') Explore Topics of Interest 
+              router-link.btn.btn-primary(to='sujets') Explorer les sujets d’int&eacute;r&ecirc;t
 
-          .col-md-4(v-on:click='go("members")', style='cursor: pointer')
+          .col-md-4(v-on:click='go("membres")', style='cursor: pointer')
             img(src='/static/img/radarsat_vancouver.jpg', alt='RADARSAT-2 Image of Vancouver', title='RADARSAT-2 Image of Vancouver')
-            h3 Member Organizations
-            p Canadian Council on Geomatics members come from the Provinces, Territories and Federal Government Departments.
+            h3 L’organisations des membres
+            p Les membres du Conseil canadien de la g&eacute;omatique viennent des provinces, des territoires et des minist&egrave;res f&eacute;d&eacute;raux.
             p 
-              router-link.btn.btn-primary(to='members') Council Members
+              router-link.btn.btn-primary(to='membres') Membres du Conseil
     .container-fluid
       .row.bg-topography
         .col-md-12
           .well
-            h3 Did you know?
-            p.lead GIS (Geographic Information Systems) was invented in Canada in the 1960s, leading to rapid innovation in the use and application of geospatial data.
+            h3 Le saviez-vous?
+            p.lead Les syst&egrave;mes d'information g&eacute;ographique (GIS) ont &eacute;t&eacute; invent&eacute;s au Canada dans les ann&eacute;es 60, ce qui a permis une innovation rapide dans l'utilisation et l'application des donn&eacute;es g&eacute;ospatiales.
 
     main.container-fluid.thumbs
       .container
         .row
           .col-md-6(v-on:click='go("accord")', style='cursor: pointer')
             img(src='/static/img/foxe_basin.jpg', alt='Foxe Basin', title='Foxe Basin')
-            h3 Geomatics Accord
-            p The Canadian Geomatics Accord enables federal-provincial-territorial collaboration in geomatics.
+            h3 L’Accord de g&eacute;omatique
+            p L’Accord canadien sur la g&eacute;omatique permet une collaboration f&eacute;d&eacute;rale-provinciale-territoriale en g&eacute;omatique.
             p 
-              router-link.btn.btn-primary(to='accord') Read About the Canadian Geomatics Accord
+              router-link.btn.btn-primary(to='accord') Pour en savoir plus sur l’Accord canadien sur la g&eacute;omatique
 			 
           .col-md-6(v-on:click='go("publications")', style='cursor: pointer')
             img(src='/static/img/mistastin_lake.jpg', alt='Mistastin Lake', title='Mistastin Lake')
             h3 Publications
-            p The Canadian Council on Geomatics has supported the development of a number of publications on topics in the field of Geomatics.
+            p Le Conseil canadien de g&eacute;omatique a soutenu le d&eacute;veloppement d'un certain nombre de publications sur des sujets dans le domaine de la g&eacute;omatique.
             p 
-              router-link.btn.btn-primary(to='publications') Publications from the Council			
+              router-link.btn.btn-primary(to='publications') Publications du Conseil
     CCOGFooter
 </template>
 
