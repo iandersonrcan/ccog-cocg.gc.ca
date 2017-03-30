@@ -5,7 +5,7 @@
         .row
           .brand.col-xs-8.col-md-6
             router-link(to='/splash.html')
-              img(src='/static/img/ccog-ccdg.png', alt='Canadian Council on Geomatics - Conseil canadien de g&eacute;omatique', title='Canadian Council on Geomatics - Conseil canadien de g&eacute;omatique')
+              img(src='/static/img/ccog-ccdg.png', alt='Canadian Council on Geomatics - Conseil canadien de géomatique', title='Canadian Council on Geomatics - Conseil canadien de géomatique')
           .col-xs-4
             #wb-glb-mn.wb-mb-links.visible-sm.visible-xs
               h2 Menu
@@ -27,28 +27,28 @@
           li
             router-link(to='faisons') Ce que nous faisons
           li
-            router-link(to='sujets') Sujets d'int&eacute;r&ecirc;t
+            router-link(to='sujets') Sujets d'intérêt
           li
             router-link(to='membres') Organisations membres
           li
-            router-link(to='accord') Accord g&eacute;omatique
+            router-link(to='accord') Accord géomatique
           li
             router-link(to='publications') Publications
     nav#mb-pnl(v-if='show', role='navigation')
       .container
         ul.list-inline.mobile
           li
-            router-link(to='/fr/bienvenue') Fran&ccedil;ais
+            router-link(to='/fr/bienvenue') Français
           li
             router-link(to='bienvenue') Bienvenue
           li
             router-link(to='faisons') Ce que nous faisons
           li
-            router-link(to='sujets') Sujets d'int&eacute;r&ecirc;t
+            router-link(to='sujets') Sujets d'intérêt
           li
             router-link(to='membres') Organisations membres
           li
-            router-link(to='accord') Accord g&eacute;omatique
+            router-link(to='accord') Accord géomatique
           li
             router-link(to='publications') Publications
           li
