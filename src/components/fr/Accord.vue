@@ -2,27 +2,27 @@
   div
     CCOGHeader
     main.container(role='main', property='mainContentOfPage')
-      h1 Canadian Geomatics Accord
+      h1 L’Accord canadien de géomatique
 
       .row
         .col-md-12
-          p The Canadian Geomatics Accord enables federal-provincial-territorial collaboration in geomatics. It also sets common geographical data standards and shares the cost of national data bases. The purpose of the Accord is to provide a framework for intergovernmental collaboration in geomatics, by outlining roles and responsibilities and overarching principles for intergovernmental collaboration on geomatics activities in Canada.
-          p The current accord is in effect between 2014 and the end of 2019.
-          h2 Benefits of the Accord 
-          p Authoritative, accessible geographical information is important to Canadian citizens, businesses and researchers. Geospatial information has proven to accelerate innovation and productivity. Accurate, definitive, science based, geographical knowledge of the Canadian landmass, marine extent and air space is critical to fact based decision and policy making. 
-          p Collaborative efforts conducted under the Accord have resulted in core, nationally standardized datasets and a reduction of duplication between governments. These datasets are used in both private and public sector applications, including for agriculture, natural resource development, transportation, environmental assessment, land claims, boundary discussions, and emergency management.
-          p Sharing of data, tools and technologies permitted under the Accord are underpinning critical operations in many jurisdictions.  For example, the sharing of data and tools through the Accord has:
-          ul
-            li Facilitated dispatch of snow removal vehicles in the Yukon
-            li Enabled Department of National Defence planning for managing emergencies
-            li Assisted election planning and logistics across all jurisdictions
+          p L'Accord canadien sur la géomatique permet une collaboration fédérale-provinciale-territoriale en géomatique. Il définit également des normes de données géographiques communes et partage le coût des bases de données nationales. Le but de l'Accord est de fournir un cadre pour la collaboration intergouvernementale en géomatique, en décrivant les rôles et les responsabilités et les principes généraux de la collaboration intergouvernementale sur les activités de géomatique au Canada.
+          p L'accord actuel est en vigueur depuis 2014 et prend fin en 2019.
+
+          h2 Avantages de l’Accord
+          p Des informations géographiques crédibles et accessibles sont importantes pour les citoyens, les entreprises et les chercheurs canadiens. L'information géospatiale s'est révélée utile pour accélérer l'innovation et la productivité. Une connaissance précise, définitive et scientifique de la masse continentale canadienne, de l'étendue marine et de l'espace aérien est essentielle à la prise de décisions et à l'élaboration de politiques.
+          p Les efforts de collaboration menés dans le cadre de l'Accord ont permis la création de bases de données nationales normalisées et une réduction de dédoublement entre les gouvernements. Ces ensembles de données sont utilisés dans les secteurs privé et public, y compris pour l'agriculture, le développement des ressources naturelles, le transport, l'évaluation environnementale, les revendications territoriales, les discussions sur les limites territoriales et la gestion des urgences.
+          p Le partage des données, des outils et des technologies autorisés par l'Accord sous-tend des opérations essentielles dans de nombreuses juridictions. Par exemple, le partage de données et d'outils à travers l'Accord a:
+          ul 
+            li facilitée les expéditions sans délai de véhicules de déneigement au Yukon
+            li permis au ministère de la Défense nationale de planifier pour la gestion des urgences
+            li assistée à la planification et logistique électorale dans toutes les juridictions
 
     .container
       .row.quote
         .col-md-12
           blockquote
-            p
-              | The use of geospatial information contributed $20.7 billion of Canada’s national Gross Domestic Product and generated approximately 19,000 jobs within Canada’s economy in 2013.
+            p L'utilisation de l'information géospatiale a contribué pour 20,7 milliards de dollars du produit intérieur brut du Canada et a généré environ 19 000 emplois dans l'économie canadienne en 2013.
     .container-fluid
       .row
         .col-md-12
@@ -30,7 +30,7 @@
             .credit-right
               span.bold Photo Credit
               br
-              | Foxe Basin
+              | Bassin Foxe
               br
               | &copy;
               a(href='http://www.esa.int/spaceinimages/Images/2008/07/Foxe_Basin_Canada') ESA
@@ -38,39 +38,38 @@
     .container
       .row
         .col-md-12
-          h2 History
-          p The 2014 - 2019 Canadian Geomatics Accord is the third such Accord. Prior Accords include the:
+          h2 Histoire
+          p L'Accord canadien de géomatique de 2014 à 2019 est le troisième de ces accords. Les accords antérieurs incluent:
           ul
-            li 2001 Canadian Geomatics Accord (2001 –2006)
-            li 2007 Canadian Geomatics Accord (2007 – 2012)
-          p Through the 2001 and 2007 Accords, federal, provincial and territorial governments sought to address common needs for increased efficiency and adaptation to rapid technological change through a formal collaboration mechanism. Efficiency and adaptation to technological change remain valid considerations. However, a 2014 - 2019 Canadian Geomatics Accord was seen to be necessary due to recent circumstances, including:
-          ul 
-            li New factors and new possibilities arising from governments’ adoption of Open Government policies
-            li The increasingly rapid pace of technological change and adoption
-            li Changes in Canadian demographics and in the nature and structure of business stakeholders
-            li Budgetary constraints at every level of government
-
+            li L’Accord canadien sur la géomatique de 2001 (2001-2006)
+            li L’Accord canadien sur la géomatique de 2007 (2007 - 2012)
+          p Dans le cadre des Accords de 2001 et de 2007, les gouvernements fédéral, provinciaux et territoriaux ont cherché à répondre aux besoins communs pour une efficacité accrue et une adaptation aux changements technologiques rapides grâce à un mécanisme formel de collaboration. L'efficacité et l'adaptation aux changements technologiques demeurent des considérations valables. Cependant, un Accord canadien sur la géomatique de 2014 à 2019 a été jugé nécessaire en raison de circonstances récentes, notamment:
+          ul
+            li Les nouveaux facteurs et nouvelles possibilités découlant de l'adoption par les gouvernements de politiques du gouvernement ouvert
+            li Le rythme de plus en plus rapide des changements technologiques et de l'adoption de technologies
+            li L’évolution de la démographie canadienne et de la nature et structure des intervenants
+            li Les contraintes budgétaires à tous les paliers de gouvernement
     .container-fluid.cooperation
       .well
         .row
           .col-md-12
-            h2 Principles of Collaboration 
-            p In order to provide the highest quality of geographical information the federal, provincial and territorial Accord signatories agree to work within these principles: 
+            h2 Les principes de collaboration
+            p Afin de fournir la plus haute qualité d'information géographique, les signataires de l'Accord fédéral, provincial et territorial acceptent de travailler dans le respect de ces principes:
           .col-md-6
             ul
-              li To provide effective leadership and governance within the geomatics community in order to contribute to a vital Canadian geomatics sector
-              li To promote and contribute to the development of best practices, pan-Canadian and international standards and policies to support geospatial information sharing and integration
-              li To support the efficient use of resources by collaborating to reduce management and maintenance costs through the development of harmonized collection strategies and shared infrastructure for geomatics
+              li Fournir un leadership et une gouvernance efficaces au sein de la communauté géomatique afin de contribuer à un secteur vital de la géomatique canadienne
+              li Promouvoir et contribuer au développement de meilleures pratiques, de normes et de politiques pancanadiennes et internationales pour soutenir le partage et l'intégration d'informations géospatiales
+              li Soutenir l'utilisation efficace des ressources en collaborant pour réduire les coûts de gestion et d’entretien grâce à l'élaboration de stratégies de collectes harmonisées et d'infrastructures partagées pour la géomatique
           .col-md-6
             ul
-              li To promote the benefits of integrating geographic information in business processes to enrich analysis and decision making
-              li To enhance the availability and usability of geographic information in an open government context
+              li Promouvoir les avantages de l'intégration de l'information géographique dans la démarche commerciale pour enrichir l'analyse et la prise de décision
+              li Améliorer la disponibilité et la facilité d'utilisation de l'information géographique dans un contexte de gouvernement ouvert
     .container
       .row
         .col-md-6
-          h2 Read the Full Accord
+          h2 Lire l’Accord complet
           p 
-          a(href='/static/geomatics_accord_en.pdf') Download the 2014-2019 Canadian Geomatics Accord 
+          a(href='/static/geomatics_accord_fr.pdf') Téléchargez l’Accord canadien de géomatique 2014-2105
           p (PDF, 164KB)
     CCOGFooter
 </template>

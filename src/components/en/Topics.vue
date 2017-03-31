@@ -45,7 +45,7 @@
           p High resolution optical imagery, (either satellite or aerial) is used by all CCOG jurisdictions. CCOG pursues costs savings by coordinating acquisitions. 
           h3 Elevation and LiDAR data acquisition
           p Elevation and LiDAR data are used extensively across Canada and is used for forestry management, flood modelling, pollution modelling, urban planning, mapping and cartography, coastline management, transport planning, oil and gas exploration, archaeology and many other disciplines. CCOG pursues costs savings by coordinating acquisitions, pursuing unrestricted licencing, and creation of clusters of infrastructure to enhance discovery and analysis of products.
-          h3 Remotely Piloted Aircraft Systems (drones)
+          h3 Remotely Piloted Aircraft Systems (RPAS)
           p Remotely Piloted Aircraft Systems (drones) are actively being used in Canada for infrastructure and environmental monitoring, emergency response, forest management and agriculture. As RPAS provide a growing source of geographic information, the CCOG published a report in 2016 titled "#[a(href="#/publications") Environmental Scan on the Operational Use of Remotely Piloted Aircraft Systems (RPAS) for Geomatics Applications in Canada]".
           
           h3 GeoBase Layers

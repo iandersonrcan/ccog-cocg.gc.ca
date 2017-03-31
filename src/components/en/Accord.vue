@@ -71,7 +71,7 @@
           h2 Read the Full Accord
           p 
           a(href='/static/geomatics_accord_en.pdf') Download the 2014-2019 Canadian Geomatics Accord 
-          p (PDF, 164KB)
+          p (PDF, 161KB)
     CCOGFooter
 </template>
 
