@@ -32,11 +32,6 @@ module.exports = merge(baseWebpackConfig, {
       chunks: ['index']
     }),
     new HtmlWebpackPlugin({
-      filename: 'splash.html',
-      template: 'splash.html',
-      chunks: []
-    }),
-    new HtmlWebpackPlugin({
       filename: 'ccog.html',
       template: 'ccog.html',
       inject: true,

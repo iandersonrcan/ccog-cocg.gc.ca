@@ -9,7 +9,6 @@ function resolve (dir) {
 
 module.exports = {
   entry: {
-    index: './src/index.js',
     ccog: './src/ccog.js'
   },
   output: {

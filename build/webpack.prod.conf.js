@@ -66,22 +66,6 @@ var webpackConfig = merge(baseWebpackConfig, {
     }),
     new HtmlWebpackPlugin({
       filename: process.env.NODE_ENV === 'testing'
-        ? 'splash.html'
-        : config.build.splash,
-      template: 'splash.html',
-      minify: {
-        removeComments: true,
-        collapseWhitespace: true,
-        removeAttributeQuotes: true
-        // more options:
-        // https://github.com/kangax/html-minifier#options-quick-reference
-      },
-      // necessary to consistently work with multiple chunks via CommonsChunkPlugin
-      chunksSortMode: 'dependency',
-      excludeChunks: ['ccog', 'index']
-    }),
-    new HtmlWebpackPlugin({
-      filename: process.env.NODE_ENV === 'testing'
         ? 'ccog.html'
         : config.build.ccog,
       template: 'ccog.html',
