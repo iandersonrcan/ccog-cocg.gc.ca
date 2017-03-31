@@ -74,7 +74,7 @@ export default {
     }
   },
   mounted () {
-    const path = window.location.pathname.split('/')
+    const path = window.location.hash ? window.location.hash.split('/') : window.location.pathname.split('/')
     this.toggle = '/fr/' + translate[path[path.length - 1]]
   },
   head: {
