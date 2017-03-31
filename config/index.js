@@ -6,7 +6,6 @@ module.exports = {
     env: require('./prod.env'),
     index: path.resolve(__dirname, '../dist/index.html'),
     ccog: path.resolve(__dirname, '../dist/ccog.html'),
-    splash: path.resolve(__dirname, '../dist/splash.html'),
     assetsRoot: path.resolve(__dirname, '../dist'),
     assetsSubDirectory: 'static',
     assetsPublicPath: '/',
