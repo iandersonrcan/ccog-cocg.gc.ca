@@ -2,24 +2,24 @@
   div
     CCOGHeader
     .container(role='main', property='mainContentOfPage')
-      h1 What We Do
+      h1 Ce que nous faisons
 
       .row
         .col-md-6
-          p The Canadian Council on Geomatics works to advance geomatics activities between federal, provincial and territorial governments. The council’s goal is to reduce duplication of effort between government bodies and to facilitate easy access of geospatial information for the benefit of Canadians. 
+          p Le Conseil canadien de géomatique s’emploie à faire valoir les activités de géomatique entre les gouvernements fédéral, provinciaux et territoriaux. L'objectif du conseil est de réduire la duplication des efforts entre les organismes gouvernementaux et de faciliter l'accès à l'information géospatiale pour le bénéfice de tous les Canadiens.
           
-          h2 We are a consultative inter-governmental forum
-          p The council provides a consultative forum for federal, provincial and territorial governments to discuss items such as:
+          h2 Nous sommes un forum consultatif intergouvernemental
+          p Le conseil offre un forum consultatif aux gouvernements fédéral, provinciaux et territoriaux pour discuter de thèmes tels que:
           ul
-            li Current and future geomatics programs
-            li Proposed legislation 
-            li Collaboration opportunities
-            li National geomatics standards
-            li Achievements, new ideas, technologies and procedures that could benefit other jurisdictions.
+            li Les programmes géomatiques actuels et futurs
+            li Les propositions législatives
+            li Les possibilités de collaboration
+            li Les normes nationales en géomatique
+            li Les réussites, nouvelles idées, technologies et procédures qui pourraient profiter à d'autres administrations
         .col-md-6
           img#montreal(src='/static/img/radarsat_montreal.jpg', alt='Lidar Point Cloud of Montreal', title='Lidar Point Cloud of Montreal')
           .caption
-            | Lidar Point Cloud of Montreal
+            | Lidar Point Cloud de Montréal
             br
             | &copy; 
             a(href='http://www.asc-csa.gc.ca/eng/search/images/watch.asp?id=785&search=radar') CSA
@@ -28,32 +28,31 @@
       .well
         .row
           .col-md-12
-            h2 We promote cooperation and the exchange of geomatics data
-            p The council promotes cooperation and the exchange of geomatics data to reduce duplication of effort and to facilitate easy access to and use of geographical information by all Canadians. This is done through the promotion of standards and the development of Canada’s geospatial data infrastructure.
-            p The council develops, promotes and spreads national and international geomatics standards. Standards are necessary to facilitate open sharing of spatial data between platforms, especially in a varied network of computers that are managing a diverse range of spatial data stores and data types. 
-            p The council works to support Canada’s geospatial data infrastructure (CGDI), a web-based knowledge infrastructure that improves the efficient access, sharing and use of geospatial data. The CGDI consists of:
+            h2 Nous encourageons la coopération et l'échange de données géomatiques
+            p Le conseil favorise la coopération et l'échange de données géomatiques afin de réduire le dédoublement des efforts et de faciliter l'accès et l'utilisation de l'information géographique par tous les Canadiens. Cela se fait par la promotion de normes et le développement de l'infrastructure de données géospatiales du Canada.
+            p Le conseil a le mandat d’élaborer, de promouvoir et de diffuser les normes nationales et internationales en géomatique. Des normes sont nécessaires pour faciliter le partage ouvert de données spatiales entre plates-formes, en particulier dans un réseau varié d'ordinateurs qui gèrent une grande diversité de banques de données spatiales et de types de données.
+            p Le conseil supporte l'infrastructure canadienne de données géospatiales (ICDG), une ressource en ligne qui améliore l'accès, le partage et l'utilisation efficaces des données géospatiales. L'ICDG comprend:
         .row
           .col-md-6
             ul
-              li Operational policies covering areas such as intellectual property, data sharing and privacy, governing the use and re-use of the geospatial data
-              li Technology tools to enable the search, discovery, viewing, downloading and transformation of geospatial data
+              li Des politiques opérationnelles couvrant des domaines tels que la propriété intellectuelle, le partage des données et la protection de la vie privée, régissant l'utilisation et la réutilisation des données géospatiales
+              li Des outils technologiques permettant la recherche, la découverte, l'affichage, le téléchargement et la transformation de données géospatiales
           .col-md-6
             ul
-              li Standards for the geospatial data and for the technology tools to ensure that all elements function seamlessly and efficiently with each other
-              li Geospatial data itself
-
+              li Des normes pour les données géospatiales et les outils technologiques qui s'assure que tous les éléments fonctionnent de façon transparente et efficace entre eux
+              li Des données géospatiales 
     .container
-      h2 We support government decision making and service delivery
-      p The council supports government decision making, and service delivery to citizens in many areas, including:
+      h2 Nous supportons la prise de décisions gouvernementales et la prestation de services 
+      p Le conseil appuie la prise de décisions gouvernementales et la prestation de services aux citoyens dans de nombreux domaines, y compris:
 
       ul
-        li Sustainable development and environment
-        li Land-use planning and land-use resources integrated management
-        li Public safety and security
-        li Public health and education assessment and surveillance
-        li Physical and critical infrastructure planning
-        li Water-use and management
-        li Social service planning and delivery
+        li Le développement durable et l’environnement
+        li L’aménagement du territoire et la gestion intégrée de l'utilisation des ressources naturelles.
+        li La sécurité publique
+        li L’évaluation et surveillance de la santé publique et de l'éducation
+        li La planification des infrastructures physiques et critiques
+        li La gestion de l'eau et l’utilisation
+        li La planification des réseaux de services sociaux
     CCOGFooter
 </template>
 

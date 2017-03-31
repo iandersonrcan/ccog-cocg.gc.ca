@@ -48,7 +48,7 @@
 
       ul
         li Sustainable development and environment
-        li Land-use planning and land-use resources integrated management
+        li Land-use planning and natural resources integrated management
         li Public safety and security
         li Public health and education assessment and surveillance
         li Physical and critical infrastructure planning
