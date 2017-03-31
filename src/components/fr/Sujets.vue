@@ -2,78 +2,89 @@
   div
     CCOGHeader
     main.container(role='main', property='mainContentOfPage')
-      h1 Topics of Interest
+      h1 Les sujets d’intérêt
       
       .row
         .col-md-8
-          p The Canadian Council on Geomatics is involved with all aspects of geomatics in Canada, including the following topics of interest. 
-          
-          h2 Data Policies
-          h3 Canadian Geospatial Data Infrastructure (CGDI)
-          p The CCOG works to support Canada’s geospatial data infrastructure (CGDI), a web-based knowledge infrastructure that improves the efficient access, sharing and use of geospatial data. The CGDI consists of:
-          ul
-            li Operational policies, covering areas such as intellectual property, data sharing and privacy, governing the use and re-use of the geospatial data
-            li Technology tools to enable the search, discovery, viewing, downloading and transformation of geospatial data;
-            li Standards for the geospatial data and for the technology tools to ensure that all elements function seamlessly and efficiently with each other; and
-            li Geospatial data itself
+          p Le Conseil canadien de géomatique est impliqué dans tous les aspects de la géomatique au Canada.
 
-          h3 Open geospatial data
-          p Access to trusted, high quality geospatial data is essential for effective government decision making, a robust economy, and improved well-being for all Canadians. Open geospatial data has been shown to make governments more effective and to increase efficiency. CCOG members work actively to set the standards for open geospatial data and to open further datasets for use. 
-          h3 Point Addressing
-          p Point Addressing brings a new level of accuracy & utility to previous addressing methodologies such as block addresses.  Todays apps, tools, devices and customers require addresses at the point level to add quality to analytics. As such, point addressing is of interest to all CCOG members.
-          
+          h2 Politiques des données
+
+          h3 Infrastructure canadienne de données géospatiales (ICDG)
+          p Le Conseil canadien de géomatique (COCG) appuie l’Infrastructure canadienne de données géospatiales (ICDG), une infrastructure fondée sur une base de connaissances du réseau Internet qui améliore l'accès, le partage et l'utilisation efficaces des données géospatiales. L'ICDG comprend:
+          ul
+            li Des politiques opérationnelles couvrant des domaines tels que la propriété intellectuelle, le partage des données et la protection de la vie privée, régissant l'utilisation et la réutilisation des données géospatiales
+            li Des outils technologiques permettant la recherche, la découverte, l'affichage, le téléchargement et la transformation de données géospatiales
+            li Des normes pour les données géospatiales et les outils technologiques qui s'assure que tous les éléments fonctionnent de façon transparente et efficace entre eux
+            li Des données géospatiales 
+
+          h3 Données géospatiales ouvertes
+          p L'accès à des données géospatiales fiables et de haute qualité est essentiel pour une prise de décision efficace du gouvernement, une économie robuste et un bien-être amélioré pour tous les Canadiens. Il a été démontré que les données géospatiales ouvertes rendent les gouvernements plus efficaces. Les membres du COCG travaillent activement à établir les normes pour les données géospatiales ouvertes et à rendre d'autres ensembles de données disponibles.
+
+          h3 Adressage par points
+          p L’adressage par points apporte un nouveau niveau d’exactitude et d'utilité aux méthodes d'adressage précédentes telles que les adresses de bloc. Les applications, les outils, les appareils et les clients d'aujourd'hui nécessitent des adresses au niveau des points pour améliorer la qualité des analyses. À ce titre, l'adressage par points est intéressant pour tous les membres du COCG.
+
         .col-md-4
-          img#clearwater(src='/static/img/clearwater.jpg', alt='Clearwater Crater', title='Clearwater Crater')
+          img#clearwater(src='/static/img/clearwater.jpg', alt='Cratère Clearwater', title='Cratère Clearwater')
           .caption
-            | Clearwater Crater
+            | Cratère Clearwater
             br
             | &copy; 
             a(href='http://www.asc-csa.gc.ca/eng/search/images/watch.asp?id=5948&search=north' target='_blank') CSA
 
       .row
         .col-md-8
-          h2 Land Data
-          h3 Geodetic Reference Systems
-          p Geodetic reference systems come from the need to provide a consistent and integrated reference surface for data analysis. Applications include surveying, mapping, navigation, remote sensing and mineral exploration amongst others. The geodetic reference system is of interest to all CCOG members as it underpins all spatial measurements. 
-          h3 Land Title
-          p A land title is an official record of who owns a piece of land. It can also include information about mortgages, covenants, caveats and easements. Land title information systems and the interoperability of land title data is of interest to CCOG members. 
+          h2 Données foncières
+
+          h3 Systèmes de reference géodésiques
+          p Les systèmes de référence géodésiques proviennent de la nécessité de fournir une surface de référence cohérente et intégrée pour l'analyse des données. Les applications comprennent l'arpentage, la cartographie, la navigation, la télédétection et l'exploration minière, entre autres. Le système de référence géodésique est intéressant pour tous les membres du COCG car il supporte toutes les mesures spatiales.
+
+          h3 Titre foncier
+          p Un titre foncier est un registre officiel de propriétaire d’une parcelle de terrain. Il peut également inclure des informations sur les hypothèques, les conventions, et les servitudes. Les systèmes d'information sur les titres fonciers et l'interopérabilité des données foncières intéressent les membres du COCG.
+
           h3 Cadastre
-          p The cadastre, a register of real estate boundaries, is important to all CCOG jurisdictions as it forms the foundation of knowledge on land ownership.
-            
-          h2 Data Platforms
-          h3 High Resolution optical imagery acquisition
-          p High resolution optical imagery, (either satellite or aerial) is used by all CCOG jurisdictions. CCOG pursues costs savings by coordinating acquisitions. 
-          h3 Elevation and LiDAR data acquisition
-          p Elevation and LiDAR data are used extensively across Canada and is used for forestry management, flood modelling, pollution modelling, urban planning, mapping and cartography, coastline management, transport planning, oil and gas exploration, archaeology and many other disciplines. CCOG pursues costs savings by coordinating acquisitions, pursuing unrestricted licencing, and creation of clusters of infrastructure to enhance discovery and analysis of products.
-          h3 Remotely Piloted Aircraft Systems (drones)
-          p Remotely Piloted Aircraft Systems (drones) are actively being used in Canada for infrastructure and environmental monitoring, emergency response, forest management and agriculture. As RPAS provide a growing source of geographic information, the CCOG published a report in 2016 titled "#[a(href="#/publications") Environmental Scan on the Operational Use of Remotely Piloted Aircraft Systems (RPAS) for Geomatics Applications in Canada]".
-          
-          h3 GeoBase Layers
-          p GeoBase is a federal, provincial and territorial government initiative that is overseen by the Canadian Council on Geomatics (CCOG). It is undertaken to ensure the provision of, and access to, a common, up-to-date and maintained base of quality geospatial data for all of Canada.  Through the GeoBase initiative, users with an interest in the field of geomatics can access quality geospatial information at no cost and with unrestricted use. GeoBase was one of the world's first examples of open data and is now available on the #[a(href='http://geogratis.gc.ca/api/en/nrcan-rncan/ess-sst/$categories?scheme=urn%3Aiso%3Aseries&q=GeoBase' target='_blank') GeoGratis website].
+          p Le cadastre, un registre des limites des propriétés, est important pour toutes les juridictions du COCG car il constitue le fondement des connaissances sur la propriété foncière.
+
+          h2 Plattes-formes de données
+          h3 Acquisition d’images optiques haute résolution 
+          p Les images optiques à haute résolution (satellite ou aérienne) sont utilisées par toutes les juridictions du COCG. Le COCG réalise des économies de coûts en coordonnant les acquisitions.
+
+          h3 Élévation et acquisition de données LiDAR 
+          p Les données d'élévation et de données LiDAR sont largement utilisées à l'échelle du Canada et sont utilisées pour la gestion forestière, la modélisation des inondations, la modélisation de la pollution, l'urbanisme, la cartographie, la gestion du littoral, la planification des transports, l'exploration pétrolière et gazière, l'archéologie et bien d'autres disciplines. Le COCG réalise des économies de coûts en coordonnant les acquisitions, en cherchant des données libres d’accès, et en créant des regroupements d'infrastructure pour améliorer la découverte et l'analyse des produits.
+          h3 Systèmes d’aéronef télépiloté (drones)
+          p Les systèmes d’aéronef télépiloté (drones) sont activement utilisés au Canada pour la surveillance des infrastructures et de l'environnement, les interventions d'urgence, la gestion des forêts et de l'agriculture. Comme le RPAS fournit une source croissante d'information géographique, le COCG a publié en 2016 un rapport intitulé «Analyse du contexte de l'utilisation des systèmes d'aéronefs télépilotés (drones) en géomatique au Canada».
+
+          h3 Couches GéoBase
+          p GéoBase est une initiative des gouvernements fédéral, provinciaux et territoriaux parrainée par le Conseil canadien de la géomatique (COCG). Cette initiative a pour but d'assurer l'accès à une base commune de données géospatiales de qualité, à jour et actualisée pour tout le Canada. Grâce à l’initiative GéoBase, les utilisateurs du domaine de la géomatique ont accès à de l'information géospatiale de qualité sans frais et sans restriction d'utilisation. GéoBase a été l'un des premiers exemples de données ouvertes au monde et est maintenant disponible sur le site Web de GéoGratis.
+
       .row
         .col-md-8
-          h2 Public Safety
-          h3 Security and public safety
-          p Geomatics supports the five pillars of emergency management: mitigation, prevention, preparedness, response and recovery. Through the work of the CCOG in the realms of security and public safety, Canadians can access location-based information to support these five pillars and improve public safety by reducing the effects of an emergency by getting a better understanding of the situation and by recovering more rapidly from disasters.
-          h3 Emergency geomatics services
-          p Following a natural disaster there is typically limited comprehensive information on what the impact of the disaster has been, including the scale and severity. At the same time, key decisions are being made on how to respond. CCOG members work on geospatial information that is critical to all the pillars of emergency management: mitigation, prevention, preparedness, response and recovery. Further, through an extension of the #[a(href="#/accord") Geomatics Accord] , CCOG members facing a disaster are able to exchange geospatial data seamlessly, thereby ensuring a common operating envrionment across jurisdictions and traditional silos.  
-          
+          h2 Sécurité publique
+          h3 Sécurité et protection publique
+          p La géomatique appuie les cinq piliers de la gestion des urgences: atténuation, prévention, préparation, intervention et rétablissement. Grâce au travail du COCG dans les domaines de la sécurité et protection publique, les Canadiens peuvent avoir accès à de l'information géospatiale situationnelle pour appuyer ces cinq piliers et améliorer la sécurité publique en réduisant les effets d'une situation d'urgence en assurant une meilleure compréhension de la situation et en se remettant plus rapidement des catastrophes.
+
+          h3 Services de geomatics d’urgence
+          p À la suite d'une catastrophe naturelle, les informations détaillées sur l’impact de la catastrophe, y compris sur l'ampleur et la gravité, sont généralement limitées. Parallèlement, des décisions clés sont prises quant à la façon de réagir. Les membres du COCG travaillent sur l'information géospatiale qui est essentielle à tous les piliers de la gestion des urgences: atténuation, prévention, préparation, intervention et rétablissement. De plus, grâce à une extension de #[router-link(to="/fr/accord") l'Accord sur la géomatique], les membres du COCG confrontés à une catastrophe sont en mesure d'échanger des données géospatiales sans difficulté, assurant ainsi un environnement de fonctionnement commun entre les juridictions et les cloisonnements traditionnels.
+
           h2 Thematic Concerns
-          h3 Water management
-          p Freshwater covers almost 9% of Canada's total area, and is found in lakes and rivers, ice and snow, and groundwater. CCOG members use mapping tools, remote sensing techniques and earth observation data to reach a better understanding of the dynamics of this important resource. 
-          h3 Climate change              
-          p All the elements of climate change adaptation and mitigation are spatial in nature. Geospatial data can provide critical information on climate vulnerability, adaptation and mitigation and are thus of importance to CCOG members.   
-          h3 Natural Disasters
-          p Following a natural disaster there is typically limited comprehensive information on what the impact of the disaster has been, including the scale and severity. At the same time, key decisions are being made on how to respond. CCOG members work on geospatial information that is critical to all the pillars of emergency management: mitigation, prevention, preparedness, response and recovery. Through an extension of the #[a(href="#/accord") Geomatics Accord] , CCOG members facing a natural disaster are able to exchange geospatial data seamlessly, thereby ensuring a common operating envrionment across jurisdictions and traditional silos.
-          h3 Floodplain Mapping
-          p CCOG members are responsible to update or produce floodplain maps for risk prone areas for their jurisdictions. Up to date flood maps inform communities about flood mitigation and land-use planning. Floodplain maps can be used by communities to inform mitigation measures and raise awareness of risks of development in flood zones.
-            
-          h2 Geospatial Analysis
-          h3 Geoanalytics
-          p Location-based data, combined with powerful analytics, puts a wealth of information at your fingertips. Geoanalytics techniques and tools are of interest to CCOG members to improve efficiencies and to improve decision-making.
-          h3 Big Data analytics
-          p The growing availability of geospatial data represents a unique opportunity for science, while also posing a major challenge to achieve its full potential in terms of scientific exploitation. To analyze and manage large and growing geospatial datasets, copying and moving data is found to be inefficient. Big Geospatial Data Analytics systems are of interest to CCOG members to bring the user and processing power to the data rather than moving the data to the user thus expanding the analytics possible.
-      p &nbsp; 
+          h3 Gestion de l’eau
+          p L'eau douce couvre près de 9% de la superficie totale du Canada et se trouve dans les lacs et les rivières, la glace et la neige et les eaux souterraines. Les membres du COCG utilisent des outils de cartographie, des techniques de télédétection et des données d'observation de la Terre pour mieux comprendre la dynamique de cette ressource importante.
+
+          h3 Changement climatique
+          p Tous les éléments de l'adaptation au changement climatique et de l'atténuation sont de nature spatiale. Les données géospatiales peuvent fournir des informations cruciales sur la vulnérabilité du climat, l'adaptation et l'atténuation, et sont donc importantes pour les membres du COCG.
+
+          h3 Catastrophe naturelle
+          p À la suite d'une catastrophe naturelle, les informations détaillées sur l’impact de la catastrophe, y compris sur l'ampleur et la gravité, sont généralement limitées. Parallèlement, des décisions clés sont prises quant à la façon de réagir. Les membres du COCG travaillent sur l'information géospatiale qui est essentielle à tous les piliers de la gestion des urgences: atténuation, prévention, préparation, intervention et rétablissement. De plus, grâce à une extension de #[router-link(to="/fr/accord") l'Accord sur la géomatique], les membres du COCG confrontés à une catastrophe sont en mesure d'échanger des données géospatiales sans difficulté, assurant ainsi un environnement de fonctionnement commun entre les juridictions et les cloisonnements traditionnels.
+
+          h3 Cartographie des plaines inondables
+          p Les membres du COCG ont la responsabilité de mettre à jour ou de produire des cartes des plaines d'inondation pour les zones à risque dans leur juridiction. Des cartes d'inondation à jour informent les communautés sur l'atténuation des inondations et l'aménagement du territoire. Les cartes des plaines d'inondation peuvent être utilisées par les communautés pour les informer des mesures d'atténuation et sensibiliser la population aux risques de développement dans les zones inondables.
+
+          h2 Analyse géospatiale
+          h3 Géoanalytiques
+          p Les données géoréférencées, combinées à des analyses puissantes, mettent à votre portée une mine d'information. Les techniques et les outils de géoanalyse sont intéressants pour les membres du COCG afin d'améliorer l'efficacité et la prise de décision.
+
+          h3 L’analyse des mégadonnées
+          p La disponibilité croissante de données géospatiales représente une opportunité unique pour la science, tout en posant un défi majeur pour réaliser son plein potentiel en termes d'exploitation scientifique. Pour analyser et gérer des ensembles de données géospatiales de grande envergure, copier et déplacé des données se révèlent inefficace. L’analyse des mégadonnées géospatiales est intéressante pour les membres du COCG afin d’amener l'utilisateur et la puissance de traitement aux données plutôt que de déplacer les données à l'utilisateur élargissant ainsi l'analyse possible.
     CCOGFooter
 </template>
 
