@@ -164,6 +164,8 @@ export default {
 
   .banner
     background $color-primary url('/static/img/akimiski_island.jpg') no-repeat center center
+    @media screen and (min-width: 480px)
+      margin-top -20px
 
     .well
       background rgba(255,255,255,.4)
