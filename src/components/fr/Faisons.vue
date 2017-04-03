@@ -22,7 +22,7 @@
             | Lidar Point Cloud de Montréal
             br
             | &copy; 
-            a(href='http://www.asc-csa.gc.ca/eng/search/images/watch.asp?id=785&search=radar') CSA
+            a(href='http://www.asc-csa.gc.ca/eng/search/images/watch.asp?id=785&search=radar') ASC
       
     .container-fluid.cooperation
       .well

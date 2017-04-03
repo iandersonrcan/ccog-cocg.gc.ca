@@ -2,11 +2,11 @@
   div
     CCOGHeader
     main.container(role='main', property='mainContentOfPage')
-      h1 Member Organizations
+      h1 Organisations membres
 
-      p Canadian Council on Geomatics members come from the Provinces, Territories and Federal Government Departments:
+      p Les membres du Conseil canadien de géomatique proviennent des provinces, des territoires et des ministères fédéraux:
       
-      h2 Provincial and Territorial Members
+      h2 Membres provinciaux et territoriaux
       .row
         .col-md-6
           strong Alberta
@@ -14,9 +14,9 @@
             li
               a(href='http://geodiscover.alberta.ca' target='_blank') GeoDiscover Alberta
             li
-              a(href='http://open.alberta.ca/' target='_blank') Alberta Open Government
+              a(href='http://open.alberta.ca/' target='_blank') Government ouvert Alberta
                    
-          strong British Columbia	
+          strong Colombie britannique
           ul
             li
               a(href='http://geobc.gov.bc.ca/' target='_blank') GeoBC
@@ -24,25 +24,25 @@
           strong Manitoba	            
           ul
             li
-              a(href='http://mli2.gov.mb.ca/' target='_blank') Manitoba Land Initiative
+              a(href='http://mli2.gov.mb.ca/' target='_blank') Initiative des terres Manitoba
 
-          strong New Brunswick	
+          strong Nouveau-Brunswick
           ul
             li
               a(href='http://www.snb.ca/geonb1/' target='_blank') GeoNB
 
-          strong Newfoundland and Labrador	
+          strong Terre-Neuve-et-Labrador
           ul
             li
-              a(href='http://opendata.gov.nl.ca/' target='_blank') Newfoundland and Labrador Open Data
-          strong Northwest Territories	
+              a(href='http://opendata.gov.nl.ca/' target='_blank') Ouvrir des données Terre-Neuve-et-Labrador
+          strong Territoires du nord-ouest
           ul
             li
-              a(href='http://www.geomatics.gov.nt.ca/' target='_blank') Northwest Territories Centre for Geomatics
+              a(href='http://www.geomatics.gov.nt.ca/' target='_blank') Territoires du nord-ouest centre pour la géomatique
             li
-              a(href='http://nwtdiscoveryportal.enr.gov.nt.ca/' target='_blank') NWT Discovery Portal
+              a(href='http://nwtdiscoveryportal.enr.gov.nt.ca/' target='_blank') Portail de découverte de TNO
 
-          strong Nova Scotia		
+          strong Nouvelle-Écosse
           ul
             li
               a(href='http://gov.ns.ca/geonova/home/default.asp' target='_blank') GeoNova
@@ -50,21 +50,21 @@
           strong Nunavut
           ul
             li
-              a(href='http://cngo.ca/' target='_blank') Canada-Nunavut Geoscience Office
+              a(href='http://cngo.ca/' target='_blank') Bureau géoscientifique Canada-Nunavut
           
           strong Ontario
           ul
             li
-              a(href='https://www.ontario.ca/page/land-information-ontario' target='_blank') Land Information Ontario
+              a(href='https://www.ontario.ca/page/land-information-ontario' target='_blank') Informations sur les terres Ontario
             li
-              a(href='http://www.ontario.ca/government/government-ontario-open-data' target='_blank') Ontario Open Data
+              a(href='http://www.ontario.ca/government/government-ontario-open-data' target='_blank') Ouvrir des données Ontario
 
-          strong Prince Edward Island	
+          strong Île-du-Prince-Édouard
           ul
             li
-              a(href='http://www.gov.pe.ca/gis/' target='_blank') GIS Data Layers
+              a(href='http://www.gov.pe.ca/gis/' target='_blank') Couches de données SIG
           
-          strong Quebec
+          strong Québec
           ul
             li
               a(href='http://www.quebecgeographique.gouv.qc.ca/' target='_blank') Québec géographique
@@ -74,12 +74,12 @@
           strong Saskatchewan
           ul
             li
-              a(href='http://gis.saskatchewan.ca') GIS Saskatchewan
+              a(href='http://gis.saskatchewan.ca') Saskatchewan SIG
           
           strong Yukon
           ul
             li
-              a(href='http://www.geomaticsyukon.ca/') Geomatics Yukon
+              a(href='http://www.geomaticsyukon.ca/') Yukon Géomatique
     .container-fluid
       .row
         .col-xs-12
@@ -94,68 +94,68 @@
               a(href='http://www.asc-csa.gc.ca/eng/search/images/watch.asp?id=6551&search=radar') CSA
             
     .container
-      h2 Federal Government Members
+      h2 Membres du gouvernement fédéral
       .row
         .col-md-6
-          strong Agriculture and Agri-Food Canada
+          strong Agriculture et Agroalimentaire Canada
           ul
             li
               | 
               a(href='http://www.agr.gc.ca/') http://www.agr.gc.ca/
-          strong Canadian Space Agency
+          strong Agence spatiale canadienne
           ul
             li
               | 
               a(href='http://www.asc-csa.gc.ca/') http://www.asc-csa.gc.ca/
-          strong Elections Canada
+          strong Élections Canada 
           ul
             li
               | 
               a(href='http://www.elections.ca/') http://www.elections.ca/
-          strong Environment and Climate Change Canada        
+          strong Environnement et Changement climatique Canada
           ul
             li
               | 
               a(href='https://www.ec.gc.ca/') https://www.ec.gc.ca/
-          strong Fisheries and Oceans
+          strong Pêches et Océans Canada
           ul
             li
               | 
               a(href='http://www.dfo-mpo.gc.ca/') http://www.dfo-mpo.gc.ca/
         .col-md-6
-          strong National Defence and the Canadian Armed Forces
+          strong Défense nationale et les Forces armées canadiennes
           ul
             li
               | 
               a(href='http://www.forces.gc.ca/') http://www.forces.gc.ca/
-          strong Polar Knowledge Canada
+          strong Savoir polaire Canada
           ul
             li
               | 
               a(href='https://www.canada.ca/en/polar-knowledge.html') https://www.canada.ca/en/polar-knowledge.html
-          strong Public Services and Procurement Canada
+          strong Services publics et Approvisionnement Canada
           ul
             li
               | 
               a(href='http://www.pspc-spac.gc.ca/') http://www.pspc-spac.gc.ca/
-          strong Public Safety Canada
+          strong Sécurité publique Canada
           ul
             li
               | 
               a(href='https://www.publicsafety.gc.ca/') https://www.publicsafety.gc.ca/
-          strong Statistics Canada
+          strong Statistique Canada
           ul
             li
               | 
               a(href='http://www.statcan.gc.ca/') http://www.statcan.gc.ca/
       .row
         .col-md-12.text-center
-          img#canada(src='/static/img/canada.jpg', alt='Mosaic of Canada', title='Mosaic of Canada')
+          img#canada(src='/static/img/canada.jpg', alt='Mosaïque du Canada', title='Mosaïque du Canada')
           .caption
-            | Mosaic of Canada
+            | Mosaïque du Canada
             br
             | &copy; 
-            a(href='http://www.asc-csa.gc.ca/eng/search/images/watch.asp?id=2603&search=radar') CSA
+            a(href='http://www.asc-csa.gc.ca/eng/search/images/watch.asp?id=2603&search=radar') ASC
 
     CCOGFooter
 </template>

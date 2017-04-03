@@ -30,7 +30,7 @@
             | Cratère Clearwater
             br
             | &copy; 
-            a(href='http://www.asc-csa.gc.ca/eng/search/images/watch.asp?id=5948&search=north' target='_blank') CSA
+            a(href='http://www.asc-csa.gc.ca/eng/search/images/watch.asp?id=5948&search=north' target='_blank') ASC
 
       .row
         .col-md-8
