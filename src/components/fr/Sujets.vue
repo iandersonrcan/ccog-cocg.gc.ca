@@ -66,7 +66,7 @@
           h3 Services de geomatics d’urgence
           p À la suite d'une catastrophe naturelle, les informations détaillées sur l’impact de la catastrophe, y compris sur l'ampleur et la gravité, sont généralement limitées. Parallèlement, des décisions clés sont prises quant à la façon de réagir. Les membres du COCG travaillent sur l'information géospatiale qui est essentielle à tous les piliers de la gestion des urgences: atténuation, prévention, préparation, intervention et rétablissement. De plus, grâce à une extension de #[router-link(to="/fr/accord") l'Accord sur la géomatique], les membres du COCG confrontés à une catastrophe sont en mesure d'échanger des données géospatiales sans difficulté entre eux et avec d'autres ministères fédéraux, assurant ainsi un environnement de fonctionnement commun entre les juridictions et les cloisonnements traditionnels.
 
-          h2 Thematic Concerns
+          h2 Préoccupations thématiques
           h3 Gestion de l’eau
           p L'eau douce couvre près de 9% de la superficie totale du Canada et se trouve dans les lacs et les rivières, la glace et la neige et les eaux souterraines. Les membres du COCG utilisent des outils de cartographie, des techniques de télédétection et des données d'observation de la Terre pour mieux comprendre la dynamique de cette ressource importante.
 
