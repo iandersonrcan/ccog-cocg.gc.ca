@@ -119,7 +119,7 @@ export default {
           margin-top 8px
     .header-top
       background-color $color-primary
-      max-height 100px
+      padding 12px 0
       ul
         margin-top 40px
         float right
