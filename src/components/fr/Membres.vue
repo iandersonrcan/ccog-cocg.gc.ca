@@ -122,6 +122,11 @@
             li
               | 
               a(href='http://www.dfo-mpo.gc.ca/') http://www.dfo-mpo.gc.ca/
+              strong Ressources naturelles Canada
+          ul
+            li
+              | 
+              a(href='http://www.rncan.gc.ca/') http://www.rncan.gc.ca/
         .col-md-6
           strong Défense nationale et les Forces armées canadiennes
           ul
